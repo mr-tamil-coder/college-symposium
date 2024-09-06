@@ -5,9 +5,7 @@ import RandomEvents from "./RandomEvents";
 import randomColor from "randomcolor";
 import "../text.css"
 const EventContainer = () => {
-  console.log(events);
   var color = randomColor();
-  console.log(color);
   
   const randomEventName = RandomEvents();
   return (
