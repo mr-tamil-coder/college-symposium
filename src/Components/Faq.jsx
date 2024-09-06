@@ -8,7 +8,7 @@ const Faq = () => {
       {questions.map((question) => (
         <div key={question.id}>
           <details className="bg-gray-100 rounded p-4 mb-4 border border-gray-200 transition duration-300 ease-in-out text-black text-lg">
-            <summary class="cursor-pointer">{question.question}</summary>
+            <summary className="cursor-pointer">{question.question}</summary>
             <p className="p-2 text-lg">{question.answer}</p>
           </details>
         </div>
