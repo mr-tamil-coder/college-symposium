@@ -8,6 +8,7 @@ const EventCard = () => {
         <div className="m-5 h-[400px] rounded-lg shadow-2xl bg-red-500">
           <h2>Event name</h2>
           <img src="" alt="" />
+          <button>Register Now</button>
         </div>
       </div>
     </div>

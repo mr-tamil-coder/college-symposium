@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faUser,
@@ -7,55 +7,108 @@ import {
   faHouse,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+
 const Header = () => {
+  // State to manage the menu toggle
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  // Function to handle menu toggle
+  const handleToggle = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <>
-      <div className="bg-black md:flex md:justify-between md:items-center fixed inset-x-0 bottom-0 md:top-0 md:bottom-auto z-10 w-full h-20 bg-gradient-to-r  via-gray-800 to-gray-900 text-white border-t md:border-b border-gray-600 shadow-lg">
-        <div className="logo hidden md:block ml-4">
-          <h2 className="text-2xl font-bold tracking-wide text-black">
-            MyLogo
-          </h2>
-        </div>
-        <div className="grid h-full max-w-lg grid-cols-4 mx-auto md:mx-0 md:justify-end font-semibold bg-white text-black shadow-lg">
-         <button
-              type="button"
-              className=""
+      <nav className="bg-white border-gray-200 dark:bg-gray-900">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <a
+            href="#"
+            className="flex items-center space-x-3 rtl:space-x-reverse"
+          >
+            <img
+              src="https://flowbite.com/docs/images/logo.svg"
+              className="h-8"
+              alt="Logo"
+            />
+            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              Logo
+            </span>
+          </a>
+          <button
+            onClick={handleToggle} // Handle click to toggle the menu
+            type="button"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-default"
+            aria-expanded={isMenuOpen}
+          >
+            <span className="sr-only">Open main menu</span>
+            <svg
+              className="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
             >
-              <Link to="/" className="inline-flex flex-col items-center justify-center px-5 transition duration-300 hover:bg-gray-600 rounded-md ">
-              <FontAwesomeIcon className="text-xl my-1 md:hidden" icon={faHouse} />
-              <span className="text-sm ">Home</span>
-              </Link>
-            </button>
-          <button
-            type="button"
-            
-          >
-           <Link to={"/about"} className="inline-flex flex-col items-center justify-center px-5 transition duration-300 hover:bg-gray-600 rounded-md ">
-           <FontAwesomeIcon className="text-xl my-1 md:hidden" icon={faUser} />
-           <span className="text-sm">About</span>
-           </Link>
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
           </button>
-          <button
-            type="button"
-            
+          <div
+            className={`${
+              isMenuOpen ? "block" : "hidden"
+            } w-full md:block md:w-auto`}
+            id="navbar-default"
           >
-           <Link to={"/events"} className="inline-flex flex-col items-center justify-center px-5 transition duration-300 hover:bg-gray-600 rounded-md">
-           <FontAwesomeIcon className="text-xl my-1 md:hidden" icon={faCalendarDays} />
-           <span className="text-sm">Events</span>
-           </Link>
-          </button>
-
-          <button
-            type="button"
-           
-          >
-            <Link to={"/contact"}  className="inline-flex flex-col items-center justify-center px-5 transition duration-300 hover:bg-gray-600 rounded-md">
-            <FontAwesomeIcon className="text-xl my-1 md:hidden" icon={faPhone} />
-            <span className="text-sm">Contact</span>
-            </Link>
-          </button>
+            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+              <li>
+                <Link to={'/'}
+                  className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                  aria-current="page"
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >
+                  About
+                </a>
+              </li>
+              <li>
+                <Link to={'/events'}
+                  href="#"
+                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >
+                  Events
+                </Link>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >
+                  Pricing
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </nav>
     </>
   );
 };
