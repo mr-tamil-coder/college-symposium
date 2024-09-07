@@ -1,5 +1,7 @@
 import React from "react";
 import Faq from "./Faq";
+import CountdownTimer from "./CountDown";
+import Footer from "./Footer"
 const Body = () => {
   return (
     <div>
@@ -8,10 +10,8 @@ const Body = () => {
         <h2>Symbosium</h2>
       </div>
       {/* symbosium will start */}
-      <div className="event-timer">
-        <h3>Event will Commence in </h3>
-        <h3>00 : 00 : 00</h3>
-      </div>
+      
+      <CountdownTimer />
 
       {/* About cse dept */}
       <div>
@@ -65,15 +65,7 @@ const Body = () => {
       <div className="">
         <Faq />
       </div>
-      <div className="faq">
-        <h3>Frequetly Asked Questions</h3>
-        <div className="accordian">
-          <div className="question">
-            <h3>question</h3>
-            <p>answer</p>
-          </div>
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 };
