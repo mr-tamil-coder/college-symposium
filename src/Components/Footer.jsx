@@ -1,18 +1,16 @@
 import React from 'react';
-import fb from "../utils/Img/svg/fb.svg"
-import insta from "../utils/Img/svg/instagram.svg"
-import linkedIn from "../utils/Img/svg/linkedin.svg"
-import wb from "../utils/Img/svg/whatsapp.svg"
+import fb from "../utils/Img/svg/fb.svg";
+import insta from "../utils/Img/svg/instagram.svg";
+import linkedIn from "../utils/Img/svg/linkedin.svg";
+
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-10 px-4">
-      <div className="flex flex-col md:flex-row md:justify-between w-full md:w-3/4  mx-auto">
+      <div className="flex flex-col md:flex-row md:justify-between w-full md:w-3/4 mx-auto">
         {/* Locate Section */}
         <div className="flex flex-col items-center mb-8 md:mb-0 md:w-1/2">
-          <div className=" mb-4 w-full">
-            <div className="p-2 text-xl md:text-2xl px-2">
-              Locate
-            </div>
+          <div className="mb-4 w-full">
+            <div className="p-2 text-xl md:text-2xl px-2">Locate</div>
             <div className="flex flex-col justify-center py-6 px-4">
               <iframe
                 className="w-full"
@@ -23,25 +21,23 @@ const Footer = () => {
                 loading="lazy"
               ></iframe>
             </div>
-                <div className="pt-2 px-4 text-sm">
-                  <p>Jerusalem College of Engineering (JCE), </p>
-                  <p>Pallikarnai <br />Chennai 600028</p>
-                </div>
+            <div className="pt-2 px-4 text-sm text-gray-300">
+              <p>Jerusalem College of Engineering (JCE),</p>
+              <p>Pallikarnai <br /> Chennai 600028</p>
+            </div>
           </div>
-
-          
         </div>
-        <div className="text-center">
-            <h3 className="text-sm md:text-xl mb-2">For Queries:</h3>
-            <a
-              href="tel:+123456789"
-              className="bg-gray-700/60 text-sm hover:bg-gray-800/80 transition-all border border-gray-400/60 px-5 py-1 rounded-2xl inline-block"
-            >
-              +91 123456789
-            </a>
 
-            
-          <div className="text-center mt-4 text-sm">
+        {/* Queries Section */}
+        <div className="flex flex-col items-center text-center">
+          <h3 className="text-sm md:text-xl mb-2">For Queries:</h3>
+          <a
+            href="tel:+123456789"
+            className="bg-gray-700/60 text-sm hover:bg-gray-800/80 transition-all border border-gray-400/60 px-5 py-1 rounded-2xl inline-block"
+          >
+            +91 123456789
+          </a>
+          <div className="mt-4 text-sm">
             <h3 className="text-sm md:text-xl mb-2">Reach Us On:</h3>
             <a
               href="mailto:email2@gmail.com"
@@ -50,34 +46,35 @@ const Footer = () => {
               email2@gmail.com
             </a>
           </div>
-          </div>
-
+        </div>
 
         {/* Media Section */}
-        <div className="text-center md:w-1/2 flex flex-col items-center">
+        <div className="flex flex-col items-center md:w-1/2">
           <p className="text-lg mt-4 md:text-2xl mb-4">Media</p>
           <div className="flex justify-center gap-4 text-[#ABB2BF]">
             <a
               href="https://www.instagram.com/#/"
               target="_blank"
-              className="hover:text-pink-500 transition-all text-2xl"
+              rel="noopener noreferrer"
+              className="hover:scale-105 transform transition-all text-2xl"
             >
-              {/* Replace the i tag with your provided icons */}
-              <img src={insta} alt="Instagram" />
+              <img src={insta} alt="Instagram" className="w-8 h-8" />
             </a>
             <a
               href="https://www.facebook.com/#"
               target="_blank"
-              className="hover:text-blue-500 transition-all text-2xl"
+              rel="noopener noreferrer"
+              className="hover:scale-105 transform transition-all text-2xl"
             >
-              <img src={fb} alt="Facebook" />
+              <img src={fb} alt="Facebook" className="w-8 h-8" />
             </a>
             <a
               href="https://www.linkedin.com/company/#"
               target="_blank"
-              className="hover:text-blue-800 transition-all text-2xl"
+              rel="noopener noreferrer"
+              className="hover:scale-105 transform transition-all text-2xl"
             >
-              <img src={linkedIn} alt="LinkedIn" />
+              <img src={linkedIn} alt="LinkedIn" className="w-8 h-8" />
             </a>
           </div>
         </div>

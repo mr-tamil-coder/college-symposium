@@ -11,14 +11,13 @@ const Body = () => {
   return (
     <div>
       {/* Symbosium name  */}
-      <div className="symbo-name mb-4">
-        <h1 className="text-3xl">Welcome to NCSE symbosium 2024</h1>
-      </div>
+   
+
       {/* symbosium will start */}
 
       <CountdownTimer />
       {/* <Highlight /> */}
-
+      <About />
       {/*  Event Details to redirect event page */}
       <HomeEventDetails />
 
