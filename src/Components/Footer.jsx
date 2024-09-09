@@ -1,5 +1,8 @@
 import React from 'react';
-
+import fb from "../utils/Img/svg/fb.svg"
+import insta from "../utils/Img/svg/instagram.svg"
+import linkedIn from "../utils/Img/svg/linkedin.svg"
+import wb from "../utils/Img/svg/whatsapp.svg"
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-10 px-4">
@@ -60,21 +63,21 @@ const Footer = () => {
               className="hover:text-pink-500 transition-all text-2xl"
             >
               {/* Replace the i tag with your provided icons */}
-              <img src="/path-to-instagram-icon.svg" alt="Instagram" />
+              <img src={insta} alt="Instagram" />
             </a>
             <a
               href="https://www.facebook.com/#"
               target="_blank"
               className="hover:text-blue-500 transition-all text-2xl"
             >
-              <img src="/path-to-facebook-icon.svg" alt="Facebook" />
+              <img src={fb} alt="Facebook" />
             </a>
             <a
               href="https://www.linkedin.com/company/#"
               target="_blank"
               className="hover:text-blue-800 transition-all text-2xl"
             >
-              <img src="/path-to-linkedin-icon.svg" alt="LinkedIn" />
+              <img src={linkedIn} alt="LinkedIn" />
             </a>
           </div>
         </div>

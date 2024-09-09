@@ -5,6 +5,8 @@ import CountdownTimer from "./CountDown";
 import Footer from "./Footer";
 import Highlight from "./Highlight";
 import TeamCarousel from "./TeamCarousel";
+import InfoSections from "./InfoSections";
+import HomeEventDetails from "./HomeEventDetails";
 const Body = () => {
   return (
     <div>
@@ -17,25 +19,11 @@ const Body = () => {
       <CountdownTimer />
       {/* <Highlight /> */}
 
-      {/* Click Event */}
-      <div>
-        <button>Click Here</button>
-      </div>
+      {/*  Event Details to redirect event page */}
+      <HomeEventDetails />
 
       {/* Event Details */}
-      <div>
-        <div className="college">
-          <p>Jerusalem College</p>
-          <p>Address</p>
-        </div>
-        <div className="timing">
-          <p>Timing</p>
-          <p>Time</p>
-        </div>
-        <div className="food">
-          <p>Food</p>
-        </div>
-      </div>
+      <InfoSections />
       <TeamCarousel />
       <Faq />
       <Footer />
