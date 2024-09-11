@@ -19,8 +19,8 @@ const HomeEventDetails = () => {
             play
             style={{ width: 250, height: 250 }}
           />
-          <p className="text-xl font-semibold text-white mt-4">Cash Prize</p>
-          <p className="text-md text-gray-300 text-center mt-2">
+          
+          <p className="text-3xl font-semibold text-gray-300 text-center mt-2">
             Exciting cash prizes and certificates for the winners!
           </p>
         </div>

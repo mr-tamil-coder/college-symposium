@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "../text.css";
 import vinoth from "../utils/Img/vinoth.jpg";
 import shifan from "../utils/Img/shifan.jpg";
 const teamMembers = [
@@ -110,7 +111,7 @@ const TeamCarousel = () => {
 
   return (
     <div className=" py-10 relative">
-      <h2 className="text-center">Developers</h2>
+      <h2 className="text-center roboto-slab-500 text-3xl tracking-widest">Developers</h2>
       <Slider {...settings}>
         {teamMembers.map((member, index) => (
           <div key={index} className="p-4">

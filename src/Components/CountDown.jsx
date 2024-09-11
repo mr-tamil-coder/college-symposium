@@ -40,24 +40,24 @@ const CountdownTimer = () => {
   }, []);
 
   return (
-    <div className="bg-blue-500 h- flex flex-col justify-center  bg-gray-900 text-white">
+    <div className=" flex flex-col justify-center  bg-gray-900 text-white">
       <h1 className="text-4xl font-bold py-3 ">Event will start at </h1>
       <div className="grid grid-cols-4 gap-4 text-center m-3">
         <div className="bg-gray-800  rounded-lg shadow-lg">
-          <p className="text-3xl px-4 font-semibold">{timeLeft.days}</p>
-          <p className="mt-2 text-xs px-4 uppercase">Days</p>
+          <p className="text-3xl px-4 pt-2 font-semibold">{timeLeft.days}</p>
+          <p className="mt-2 text-xs px-4 pb-2 uppercase">Days</p>
         </div>
         <div className="bg-gray-800  rounded-lg shadow-lg">
-          <p className="text-3xl px-4 font-semibold">{timeLeft.hours}</p>
-          <p className="mt-2 text-xs px-4 uppercase">Hours</p>
+          <p className="text-3xl px-4 pt-2 font-semibold">{timeLeft.hours}</p>
+          <p className="mt-2 text-xs px-4 pb-2 uppercase">Hours</p>
         </div>
         <div className="bg-gray-800  rounded-lg shadow-lg">
-          <p className="text-3xl px-4 font-semibold">{timeLeft.minutes}</p>
-          <p className="mt-2 text-xs px-4 uppercase">Minutes</p>
+          <p className="text-3xl px-4 pt-2 font-semibold">{timeLeft.minutes}</p>
+          <p className="mt-2 text-xs px-4 pb-2 uppercase">Minutes</p>
         </div>
         <div className="bg-gray-800  rounded-lg shadow-lg">
-          <p className="text-3xl px-4 font-semibold">{timeLeft.seconds}</p>
-          <p className="mt-2 text-xs px-4 uppercase">Seconds</p>
+          <p className="text-3xl px-4 pt-2 font-semibold">{timeLeft.seconds}</p>
+          <p className="mt-2 text-xs px-4 pb-2 uppercase">Seconds</p>
         </div>
         
        

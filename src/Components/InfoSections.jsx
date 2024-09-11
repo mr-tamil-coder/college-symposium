@@ -2,10 +2,12 @@ import React from "react";
 
 const InfoSections = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-8 m-3 bg-gray-900">
-      <h2 className="text-3xl font-bold text-center text-white mb-6">
+    <>
+    <h2 className="text-3xl font-bold text-center text-white mb-6">
         Event Details
       </h2>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-8 m-3 bg-gray-900">
+      
 
       {/* College Section */}
       <div className="college bg-gray-800 shadow-lg rounded-lg p-6 transform hover:scale-105 transition-all duration-300">
@@ -27,7 +29,7 @@ const InfoSections = () => {
             ⏰ {/* Replace with an actual icon */}
           </div>
           <h2 className="text-xl font-semibold text-white mb-2">Timings</h2>
-          <p className="text-gray-400">Mon-Fri: 9:00 AM - 5:00 PM</p>
+          <p className="text-gray-400">September 27,28 2024</p>
         </div>
       </div>
 
@@ -44,6 +46,7 @@ const InfoSections = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

@@ -14,7 +14,7 @@ const Faq = () => {
             <summary className="cursor-pointer text-lg font-semibold text-blue-300 hover:text-blue-500 focus:text-blue-500 transition-all duration-200">
               {question.question}
             </summary>
-            <p className="p-2 text-gray-300 transition-all duration-300 ease-in-out">
+            <p className="p-2 text-lg text-gray-300 transition-all duration-300 ease-in-out">
               {question.answer}
             </p>
           </details>

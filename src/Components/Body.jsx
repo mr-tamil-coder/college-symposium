@@ -9,7 +9,7 @@ import InfoSections from "./InfoSections";
 import HomeEventDetails from "./HomeEventDetails";
 const Body = () => {
   return (
-    <div>
+    <div >
       {/* Symbosium name  */}
    
 
