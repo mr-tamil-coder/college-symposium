@@ -11,8 +11,21 @@ module.exports = {
         whitegrey: '#C5C6C7',
         neonblue: '#66FCF1',
         greenblue: '#45A29E',
+        pink: '#D83f87', // Added color from earlier changes
+        violet: '#44318D', // Added color from earlier changes
+      },
+      animation: {
+        'spin-slow': 'spin 8s linear infinite',
+        'spin-reverse-slow': 'spin-reverse 10s linear infinite',
+      },
+      keyframes: {
+        'spin-reverse': {
+          from: { transform: 'rotate(360deg)' },
+          to: { transform: 'rotate(0deg)' },
+        },
       },
     },
   },
+
   plugins: [],
 }

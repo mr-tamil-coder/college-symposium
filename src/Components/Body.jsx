@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import Loading from "./Loading"; // Import the loader
 import Faq from "./Faq";
 import About from "./About";
 import CountdownTimer from "./CountDown";
@@ -7,21 +8,29 @@ import Highlight from "./Highlight";
 import TeamCarousel from "./TeamCarousel";
 import InfoSections from "./InfoSections";
 import HomeEventDetails from "./HomeEventDetails";
+
 const Body = () => {
+  const [loading, setLoading] = useState(true);  // State to control loader visibility
+
+  useEffect(() => {
+    // Set loader timeout to 2 seconds
+    const timer = setTimeout(() => {
+      setLoading(false);  // Hide loader after 2 seconds
+    }, 2500);
+    
+    // Cleanup timeout if the component unmounts
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Loading />; // Display loader while loading is true
+  }
+
   return (
-    <div >
-      {/* Symbosium name  */}
-   
-
-      {/* symbosium will start */}
-
+    <div>
       <CountdownTimer />
-      {/* <Highlight /> */}
       <About />
-      {/*  Event Details to redirect event page */}
       <HomeEventDetails />
-
-      {/* Event Details */}
       <InfoSections />
       <TeamCarousel />
       <Faq />

@@ -32,7 +32,7 @@ const EventContainer = () => {
           >
             <div className="event-container  border border-gray-200 rounded-lg shadow-md overflow-hidden transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
               <div className="p-5">
-                <h3 className="text-2xl font-semibold text-white text-center text-gray-700 group-hover:text-blue-500">
+                <h3 className="text-2xl font-semibold text-white text-center  group-hover:text-blue-500">
                   {eventData.name}
                 </h3>
                 <hr className="my-4" />

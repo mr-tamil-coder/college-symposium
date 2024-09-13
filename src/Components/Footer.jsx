@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Locate Section */}
         <div className="flex flex-col items-center mb-8 md:mb-0 md:w-1/2">
           <div className="mb-4 w-full">
-            <div className="p-2 text-xl md:text-2xl px-2 text-white">Locate</div>
+            <div className="p-2 text-xl md:text-2xl px-2">Locate</div>
             <div className="flex flex-col justify-center py-6 px-4">
               <iframe
                 className="w-full outline outline-neonblue outline-3"
@@ -30,18 +30,18 @@ const Footer = () => {
 
         {/* Queries Section */}
         <div className="flex flex-col items-center text-center mb-8 md:mb-0 md:w-1/2">
-          <h3 className="text-sm md:text-xl mb-2">For Queries:</h3>
+          <h3 className="text-xl md:text-xl mb-2">For Queries:</h3>
           <a
             href="tel:+123456789"
-            className="bg-gray-700 text-sm hover:bg-gray-800 transition-all border border-gray-600 px-5 py-1 rounded-2xl inline-block"
+            className="bg-gray-700/60 text-lg hover:bg-gray-800/80 transition-all border border-gray-400/60 px-5 py-1 rounded-2xl inline-block"
           >
             +91 123456789
           </a>
           <div className="mt-4 text-sm">
-            <h3 className="text-sm md:text-xl mb-2">Reach Us On:</h3>
+            <h3 className="text-xl md:text-xl mb-2">Reach Us On:</h3>
             <a
               href="mailto:email2@gmail.com"
-              className="bg-gray-700 hover:bg-gray-800 transition-all border border-gray-600 px-5 py-1 rounded-2xl inline-block"
+              className="bg-gray-700/60 hover:bg-gray-800/80 transition-all border border-gray-400/60 px-5 py-1 rounded-2xl inline-block text-lg"
             >
               email2@gmail.com
             </a>
@@ -64,7 +64,7 @@ const Footer = () => {
               href="https://www.facebook.com/#"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:scale-105 transform transition-all text-neonblue text-2xl"
+              className="hover:scale-105 transform transition-all text-blue-500 text-2xl"
             >
               <img src={fb} alt="Facebook" className="w-8 h-8" />
             </a>

@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Lottie from "react-lottie-player";
-import animationData from "../assets/Price/award.json"; 
+import animationData from "../assets/Price/award.json";
 
 const HomeEventDetails = () => {
   return (
-    <div className="flex flex-col items-center bg-transparent py-10 px-4 min-h-screen">
-      <h2 className="text-4xl font-bold text-white mb-4 text-center">
+    <div className="flex flex-col items-center py-10 px-4 min-h-screen bg-black">
+      <h2 className="text-4xl font-bold text-gray-100 mb-4 text-center">
         Learn more about the event and win exciting prizes!
       </h2>
 
@@ -20,7 +20,7 @@ const HomeEventDetails = () => {
             style={{ width: 250, height: 250 }}
           />
           
-          <p className="text-3xl font-semibold text-white text-center mt-2">
+          <p className="text-3xl font-semibold text-gray-300 text-center mt-2">
             Exciting cash prizes and certificates for the winners!
           </p>
         </div>

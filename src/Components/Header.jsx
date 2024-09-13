@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser, faCalendarDays, faPhone, faHouse } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   // State to manage the menu toggle
@@ -10,6 +12,11 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  // Function to close the menu when a link is clicked
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   // Get current pathname from location
   const location = useLocation();
   const currentPath = location.pathname;
@@ -18,10 +25,7 @@ const Header = () => {
     <>
       <nav className="bg-black border-gray-700">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a
-            href="#"
-            className="flex items-center space-x-3 rtl:space-x-reverse"
-          >
+          <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
             <img
               src="https://flowbite.com/docs/images/logo.svg"
               className="h-8"
@@ -32,7 +36,7 @@ const Header = () => {
             </span>
           </a>
           <button
-            onClick={handleToggle} // Handle click to toggle the menu
+            onClick={handleToggle}
             type="button"
             className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-darkgrey focus:outline-none focus:ring-2 focus:ring-gray-600"
             aria-controls="navbar-default"
@@ -56,49 +60,52 @@ const Header = () => {
             </svg>
           </button>
           <div
-            className={`${
-              isMenuOpen ? "block" : "hidden"
-            } w-full md:block md:w-auto`}
+            className={`${isMenuOpen ? "block" : "hidden"} w-full md:block md:w-auto`}
             id="navbar-default"
           >
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-darkgrey rounded-lg bg-black md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-black dark:bg-black md:dark:bg-black dark:border-darkgrey">
               <li>
                 <Link
-                  to='/'
+                  to="/"
                   className={`block py-2 px-3 rounded md:bg-transparent md:p-0 ${currentPath === '/' ? 'text-neonblue' : 'text-white'} hover:text-neonblue`}
                   aria-current={currentPath === '/' ? 'page' : undefined}
+                  onClick={closeMenu}
                 >
                   Home
                 </Link>
               </li>
               <li>
                 <Link
-                  to='/about'
+                  to="/about"
                   className={`block py-2 px-3 rounded md:bg-transparent md:p-0 ${currentPath === '/about' ? 'text-neonblue' : 'text-white'} hover:text-neonblue`}
+                  onClick={closeMenu}
                 >
                   About
                 </Link>
               </li>
               <li>
                 <Link
-                  to='/events'
+                  to="/events"
                   className={`block py-2 px-3 rounded md:bg-transparent md:p-0 ${currentPath === '/events' ? 'text-neonblue' : 'text-white'} hover:text-neonblue`}
+                  onClick={closeMenu}
                 >
                   Events
                 </Link>
               </li>
               <li>
                 <Link
-                  to='/pricing'
+                  to="/pricing"
                   className={`block py-2 px-3 rounded md:bg-transparent md:p-0 ${currentPath === '/pricing' ? 'text-neonblue' : 'text-white'} hover:text-neonblue`}
+                  onClick={closeMenu}
                 >
                   Pricing
                 </Link>
               </li>
               <li>
                 <Link
-                  to='/contact'
+                  to="/contact"
                   className={`block py-2 px-3 rounded md:bg-transparent md:p-0 ${currentPath === '/contact' ? 'text-neonblue' : 'text-white'} hover:text-neonblue`}
+                  onClick={closeMenu}
                 >
                   Contact
                 </Link>
