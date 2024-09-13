@@ -35,7 +35,7 @@ const NextArrow = (props) => {
   const { onClick } = props;
   return (
     <div
-      className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full cursor-pointer z-10 hover:bg-gray-700"
+      className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-transparent outline outline-white outline-1 text-white p-2 rounded-full cursor-pointer z-10 hover:bg-gray-700"
       onClick={onClick}
     >
       <svg
@@ -61,7 +61,7 @@ const PrevArrow = (props) => {
   const { onClick } = props;
   return (
     <div
-      className="absolute left-3 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full cursor-pointer z-10 hover:bg-gray-700"
+      className="absolute left-3 top-1/2 transform -translate-y-1/2 bg-transparent outline outline-white outline-1 text-white p-2 rounded-full cursor-pointer z-10 hover:bg-gray-700"
       onClick={onClick}
     >
       <svg
@@ -115,7 +115,7 @@ const TeamCarousel = () => {
       <Slider {...settings}>
         {teamMembers.map((member, index) => (
           <div key={index} className="p-4">
-            <div className="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 mx-auto max-w-xs">
+            <div className="bg-transparent outline outline-white outline-1 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 mx-auto max-w-xs">
               <img
                 src={member.image}
                 alt={`${member.name}'s Avatar`}
