@@ -3,7 +3,7 @@ import { questions } from "../utils/faq";
 
 const Faq = () => {
   return (
-    <div className="max-w-3xl mx-auto p-5 font-sans bg-gray-900 text-white">
+    <div className="max-w-3xl mx-auto p-5 font-sanstext-white">
       <h1 className="text-4xl font-bold mb-6 text-center text-blue-400">
         Frequently Asked Questions
       </h1>
