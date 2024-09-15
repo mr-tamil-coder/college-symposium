@@ -40,28 +40,28 @@ const CountdownTimer = () => {
   }, []);
 
   return (
-    <div className="flex flex-col justify-center items-center  text-white ">
-      <h1 className="text-4xl font-bold py-3 animate-bounce">Event will start at </h1>
+    <div className="flex flex-col justify-center items-center text-white">
+      <h1 className="text-4xl font-bold py-3 animate-bounce">Event will start at</h1>
       <div className="grid grid-cols-4 gap-4 text-center m-3">
-        <div className="bg-gray-800 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500 ease-out">
+        <div className="bg-transparent outline outline-white outline-1 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500 ease-out">
           <p className="text-5xl px-4 pt-2 font-semibold countdown font-mono animate-pulse">
             {timeLeft.days}
           </p>
           <p className="mt-2 text-xs px-4 pb-2 uppercase">Days</p>
         </div>
-        <div className="bg-gray-800 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500 ease-out">
+        <div className="bg-transparent outline outline-white outline-1 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500 ease-out">
           <p className="text-5xl px-4 pt-2 font-semibold countdown font-mono animate-pulse">
             {timeLeft.hours}
           </p>
           <p className="mt-2 text-xs px-4 pb-2 uppercase">Hours</p>
         </div>
-        <div className="bg-gray-800 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500 ease-out">
+        <div className="bg-transparent outline outline-white outline-1 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500 ease-out">
           <p className="text-5xl px-4 pt-2 font-semibold countdown font-mono animate-pulse">
             {timeLeft.minutes}
           </p>
           <p className="mt-2 text-xs px-4 pb-2 uppercase">Minutes</p>
         </div>
-        <div className="bg-gray-800 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500 ease-out">
+        <div className="bg-transparent outline outline-white outline-1 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500 ease-out">
           <p className="text-5xl px-4 pt-2 font-semibold countdown font-mono animate-pulse">
             {timeLeft.seconds}
           </p>

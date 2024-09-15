@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import CollegeName from "./CollegeName"
 import Loading from "./Loading"; // Import the loader
 import Faq from "./Faq";
 import About from "./About";
@@ -28,6 +29,7 @@ const Body = () => {
 
   return (
     <div>
+      <CollegeName/>
       <CountdownTimer />
       <About />
       <HomeEventDetails />

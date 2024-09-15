@@ -11,7 +11,7 @@ const About = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
         whileHover={{ scale: 1.05, boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)" }}
-        className="bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform duration-500 max-w-2xl"
+        className="bg-transparent outline outline-white outline-1 rounded-lg shadow-lg overflow-hidden transition-transform duration-500 max-w-2xl"
       >
         <h2 className="text-3xl text-center text-white font-semibold p-4 border-b border-gray-700">
           About Our NCSE Symposium
@@ -24,7 +24,7 @@ const About = () => {
           whileHover={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}
         />
-
+        
         {/* Animate text when it enters the viewport */}
         <motion.div
           initial={{ x: -200, opacity: 0 }} // Start off-screen to the left

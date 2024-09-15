@@ -1,5 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&family=Nerko+One&family=Roboto+Slab:wght@100..900&display=swap');
 
+@font-face {
+    font-family: 'collegefont';
+    src: url('/fonts/Game Of Squids.woff2') format('woff2'),
+         url('/fonts/Game Of Squids.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.college-font {
+  font-family: 'collegefont', sans-serif;
+  color: #66FCF1;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+/*.college-font h1 {
+  font-size: 4rem;
+  margin: 20px 0;
+  padding: 10px 0;
+  line-height: 1.2;
+  background: linear-gradient(90deg, #66FCF1, #45A29E, #C5C6C7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.college-font h2 {
+  font-size: 2.5rem;
+  margin: 15px 0;
+  padding: 5px 0;
+  background: linear-gradient(90deg, #66FCF1, #C5C6C7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}*/
+
 .event-text {
   font-family: "Protest Guerrilla", sans-serif;
   font-weight: 400;
