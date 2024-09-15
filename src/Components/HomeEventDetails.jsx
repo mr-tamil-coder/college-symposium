@@ -5,7 +5,7 @@ import animationData from "../assets/Price/award.json";
 
 const HomeEventDetails = () => {
   return (
-    <div className="flex flex-col items-center py-10 px-4 min-h-screen bg-black">
+    <div className="flex flex-col items-center py-10 px-4 min-h-screen bg-transparent">
       <h2 className="text-4xl font-bold text-gray-100 mb-4 text-center">
         Learn more about the event and win exciting prizes!
       </h2>

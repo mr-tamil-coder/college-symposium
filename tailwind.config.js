@@ -11,8 +11,11 @@ module.exports = {
         whitegrey: '#C5C6C7',
         neonblue: '#66FCF1',
         greenblue: '#45A29E',
-        pink: '#D83f87', // Added color from earlier changes
-        violet: '#44318D', // Added color from earlier changes
+        pink: '#D83f87',
+        violet: '#44318D',
+      },
+      fontFamily: {
+        'collegefont' : ['collegefont', 'sans-serif'],
       },
       animation: {
         'spin-slow': 'spin 8s linear infinite',
