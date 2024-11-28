@@ -8,15 +8,15 @@ const CollegeName = () => {
         JERUSALEM COLLEGE OF ENGINEERING
       </h1>
       <br />
-      <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium mb-2 bg-gradient-to-r from-[#66FCF1] to-[#C5C6C7] bg-clip-text text-transparent font-collegefont">
+      {/* <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium mb-2 bg-gradient-to-r from-[#66FCF1] to-[#C5C6C7] bg-clip-text text-transparent font-collegefont">
         Department Of Computer Science Engineering
       </h2>
       <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium mb-4 bg-gradient-to-r from-[#66FCF1] to-[#C5C6C7] bg-clip-text text-transparent font-collegefont">
         Presents
-      </h2>
+      </h2> */}
       <br />
       <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-[#66FCF1] to-[#C5C6C7] bg-clip-text text-transparent font-collegefont">
-        CELESTIA '24
+        TECHNOVENZA '24
       </h1>
     </div>
   );

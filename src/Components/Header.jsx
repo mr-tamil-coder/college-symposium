@@ -32,7 +32,7 @@ const Header = () => {
               alt="Logo"
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
-              Celestia
+              Technovenza
             </span>
           </a>
           <button
