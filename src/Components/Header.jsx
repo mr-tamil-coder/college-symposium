@@ -23,14 +23,12 @@ const Header = () => {
 
   return (
     <>
-      <nav className="bg-black border-gray-700">
+      <nav className="bg-black/50 border-gray-700">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              className="h-8"
-              alt="Logo"
-            />
+          <div className="flex items-center justify-center h-8 w-8 rounded-full bg-[#fc03e3] text-black font-bold text-lg">
+              J
+            </div>
             <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
               Technovenza
             </span>
@@ -63,51 +61,51 @@ const Header = () => {
             className={`${isMenuOpen ? "block" : "hidden"} w-full md:block md:w-auto`}
             id="navbar-default"
           >
-            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-darkgrey rounded-lg bg-black md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-black dark:bg-black md:dark:bg-black dark:border-darkgrey">
+            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-darkgrey rounded-lg bg-black md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent dark:bg-transparent md:dark:bg-transparent dark:border-transparent">
               <li>
                 <Link
                   to="/"
-                  className={`block py-2 px-3 rounded md:bg-transparent md:p-0 ${currentPath === '/' ? 'text-neonblue' : 'text-white'} hover:text-neonblue`}
+                  className={`font-collegefont block py-2 px-3 rounded md:bg-transparent md:p-0 ${currentPath === '/' ? 'text-[#fc03e3]' : 'text-white'} hover:text-[#fc03e3]`}
                   aria-current={currentPath === '/' ? 'page' : undefined}
                   onClick={closeMenu}
                 >
-                  Home
+                  HOME
                 </Link>
               </li>
               <li>
                 <Link
                   to="/about"
-                  className={`block py-2 px-3 rounded md:bg-transparent md:p-0 ${currentPath === '/about' ? 'text-neonblue' : 'text-white'} hover:text-neonblue`}
+                  className={`font-collegefont block py-2 px-3 rounded md:bg-transparent md:p-0 ${currentPath === '/about' ? 'text-[#fc03e3]' : 'text-white'} hover:text-[#fc03e3]`}
                   onClick={closeMenu}
                 >
-                  About
+                  ABOUT
                 </Link>
               </li>
               <li>
                 <Link
                   to="/events"
-                  className={`block py-2 px-3 rounded md:bg-transparent md:p-0 ${currentPath === '/events' ? 'text-neonblue' : 'text-white'} hover:text-neonblue`}
+                  className={`font-collegefont block py-2 px-3 rounded md:bg-transparent md:p-0 ${currentPath === '/events' ? 'text-[#fc03e3]' : 'text-white'} hover:text-[#fc03e3]`}
                   onClick={closeMenu}
                 >
-                  Events
+                  EVENTS
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   to="/pricing"
-                  className={`block py-2 px-3 rounded md:bg-transparent md:p-0 ${currentPath === '/pricing' ? 'text-neonblue' : 'text-white'} hover:text-neonblue`}
+                  className={`block py-2 px-3 rounded md:bg-transparent md:p-0 ${currentPath === '/pricing' ? 'text-[#fc03e3]' : 'text-white'} hover:text-[#fc03e3]`}
                   onClick={closeMenu}
                 >
                   Pricing
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   to="/contact"
-                  className={`block py-2 px-3 rounded md:bg-transparent md:p-0 ${currentPath === '/contact' ? 'text-neonblue' : 'text-white'} hover:text-neonblue`}
+                  className={`font-collegefont block py-2 px-3 rounded md:bg-transparent md:p-0 ${currentPath === '/contact' ? 'text-[#fc03e3]' : 'text-white'} hover:text-[#fc03e3]`}
                   onClick={closeMenu}
                 >
-                  Contact
+                  CONTACT
                 </Link>
               </li>
             </ul>

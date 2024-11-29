@@ -9,6 +9,7 @@ import Highlight from "./Highlight";
 import TeamCarousel from "./TeamCarousel";
 import InfoSections from "./InfoSections";
 import HomeEventDetails from "./HomeEventDetails";
+import NeonButton from "./NeonButton";
 
 const Body = () => {
   const [loading, setLoading] = useState(true);  // State to control loader visibility
@@ -30,6 +31,10 @@ const Body = () => {
   return (
     <div>
       <CollegeName/>
+      <div className="flex justify-center gap-5 my-5">
+        <NeonButton label="CIRCUIT" onClick={() => alert("Circuit clicked")} />
+        <NeonButton label="CSE/IT" onClick={() => alert("Non Circuit clicked")} />
+      </div>
       <CountdownTimer />
       <About />
       <HomeEventDetails />

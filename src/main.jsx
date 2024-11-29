@@ -10,6 +10,7 @@ import TechEvent from "./Components/TechEvent.jsx";
 import EventContainer from "./Components/EventContainer.jsx";
 import EventDetails from "./Components/EventDetails.jsx";
 import Home from "./Components/Home.jsx";
+import About from "./Components/About.jsx";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -22,6 +23,10 @@ const appRouter = createBrowserRouter([
     {
       path: "/events",
       element: <EventContainer />,
+    },
+    {
+      path: "/about",
+      element: <About />,
     },
     {
       path: "/events/tech",
