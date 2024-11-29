@@ -27,101 +27,16 @@
         z-index: -1; /* Puts this behind the content */
       }
 
-      .circle {
-        position: absolute;
-        border-radius: 50%;
-        background-color: rgba(211, 3, 252, 0.9);
-        filter: blur(20px);
-        opacity: 0.8;
-        animation: blink 1.5s infinite alternate;
-      }
-
-      @keyframes blink {
-        0% {
-          opacity: 0.5;
-        }
-        100% {
-          opacity: 0.9;
-        }
-      }
-
-      /* Manually positioned non-intersecting circles */
-      .circle:nth-child(1) {
-        width: 100px;
-        height: 100px;
-        top: 5%;
-        left: 10%;
-      }
-
-      .circle:nth-child(2) {
-        width: 80px;
-        height: 100px;
-        top: 30%;
-        left: 60%;
-      }
-
-      .circle:nth-child(3) {
-        width: 150px;
-        height: 150px;
-        top: 50%;
-        left: 20%;
-      }
-
-      .circle:nth-child(4) {
-        width: 120px;
-        height: 120px;
-        top: 70%;
-        left: 90%;
-      }
-
-      .circle:nth-child(5) {
-        width: 130px;
-        height: 130px;
-        top: 30%;
-        left: 30%;
-      }
-
-      .circle:nth-child(6) {
-        width: 90px;
-        height: 90px;
-        top: 70%;
-        left: 50%;
-      }
-
-      .circle:nth-child(7) {
-        width: 150px;
-        height: 150px;
-        top: 15%;
-        left: 75%;
-      }
-
-      .circle:nth-child(8) {
-        width: 130px;
-        height: 130px;
-        top: 80%;
-        left: 10%;
-      }
-
-      .circle:nth-child(9) {
-        width: 170px;
-        height: 170px;
-        top: 70%;
-        left: 70%;
-      }
+      canvas {
+      display: block;
+    }
     </style>
   </head>
   <body>
     <!-- Background container with circles -->
     <div class="background">
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
+      <canvas id="particlesCanvas"></canvas>
+      <script src="script.js" defer></script>
     </div>
 
     <!-- Main content -->

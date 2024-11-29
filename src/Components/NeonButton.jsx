@@ -52,6 +52,25 @@ const StyledWrapper = styled.div`
       inset 0 0 30px 2px #dd00ff;
     transform: translateY(1px);
   }
+
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .btn {
+      width: 150px; /* Adjust width for smaller screens */
+      height: 40px; /* Adjust height for smaller screens */
+      font-size: 0.9em; /* Slightly smaller font size */
+      padding: 0.4em 1.5em; /* Adjust padding for better fit */
+    }
+  }
+
+  @media (max-width: 480px) {
+    .btn {
+      width: 120px; /* Adjust width for very small screens */
+      height: 35px; /* Adjust height for very small screens */
+      font-size: 0.8em; /* Smaller font size */
+      padding: 0.3em 1em; /* Adjust padding */
+    }
+  }
 `;
 
 export default NeonButton;
