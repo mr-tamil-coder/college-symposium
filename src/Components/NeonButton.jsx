@@ -19,7 +19,7 @@ const StyledWrapper = styled.div`
   letter-spacing: 0.3em;
   text-shadow: -2px 2px 5px #000000;
   background-color: transparent;
-  border: 3px solid #ffffff;
+  border: 2px solid #ffffff;
   transition: 100ms;
   cursor: pointer;
   width: 200px; /* Fixed width */
