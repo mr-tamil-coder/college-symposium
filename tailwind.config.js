@@ -16,6 +16,7 @@ module.exports = {
       },
       fontFamily: {
         'collegefont' : ['collegefont', 'sans-serif'],
+        'timerfont' : ['timerfont', 'sans-serif'],
       },
       animation: {
         'spin-slow': 'spin 8s linear infinite',

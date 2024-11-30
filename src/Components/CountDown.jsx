@@ -42,31 +42,33 @@ const CountdownTimer = () => {
   return (
     <div className="flex flex-col justify-center items-center text-white">
       <br />
-      <h1 className="text-4xl font-collegefont font-bold py-3 animate-bounce">EVENT WILL START IN....</h1>
+      <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-3xl font-collegefont font-bold py-2 sm:py-3 lg:py-4 animate-bounce text-center">
+      THE BIG MOMENT IS COMING...
+      </h1>
       <div className="grid grid-cols-4 gap-4 text-center m-3">
         <div className="bg-transparent rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500 ease-out">
-          <p className="text-5xl px-4 pt-2 font-semibold countdown font-mono animate-pulse">
+          <p className="text-5xl px-4 pt-2 font-semibold countdown font-mono animate-pulse font-timerfont">
             {timeLeft.days}
           </p>
-          <p className="mt-2 text-xs px-4 pb-2 uppercase">Days</p>
+          <p className="mt-2 text-xs px-4 pb-2 uppercase font-timerfont">Days</p>
         </div>
         <div className="bg-transparent rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500 ease-out">
-          <p className="text-5xl px-4 pt-2 font-semibold countdown font-mono animate-pulse">
+          <p className="text-5xl px-4 pt-2 font-semibold countdown font-mono animate-pulse font-timerfont">
             {timeLeft.hours}
           </p>
-          <p className="mt-2 text-xs px-4 pb-2 uppercase">Hours</p>
+          <p className="mt-2 text-xs px-4 pb-2 uppercase font-timerfont">Hours</p>
         </div>
         <div className="bg-transparent rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500 ease-out">
-          <p className="text-5xl px-4 pt-2 font-semibold countdown font-mono animate-pulse">
+          <p className="text-5xl px-4 pt-2 font-semibold countdown font-mono animate-pulse font-timerfont">
             {timeLeft.minutes}
           </p>
-          <p className="mt-2 text-xs px-4 pb-2 uppercase">Minutes</p>
+          <p className="mt-2 text-xs px-4 pb-2 uppercase font-timerfont">Minutes</p>
         </div>
         <div className="bg-transparent rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500 ease-out">
-          <p className="text-5xl px-4 pt-2 font-semibold countdown font-mono animate-pulse">
+          <p className="text-5xl px-4 pt-2 font-semibold countdown font-mono animate-pulse font-timerfont">
             {timeLeft.seconds}
           </p>
-          <p className="mt-2 text-xs px-4 pb-2 uppercase">Seconds</p>
+          <p className="mt-2 text-xs px-4 pb-2 uppercase font-timerfont">Seconds</p>
         </div>
       </div>
     </div>
