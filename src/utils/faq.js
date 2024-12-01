@@ -10,4 +10,14 @@ export const questions = [
     question: "question2",
     answer: "answer2",
   },
+  {
+    id: 3,
+    question: "question2",
+    answer: "answer2",
+  },
+  {
+    id: 4,
+    question: "question2",
+    answer: "answer2",
+  },
 ];

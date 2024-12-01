@@ -11,6 +11,7 @@ import InfoSections from "./InfoSections";
 import HomeEventDetails from "./HomeEventDetails";
 import NeonButton from "./NeonButton";
 import EventCardDesign from "./EventCardDesign";
+import 'animate.css';
 
 const Body = () => {
   const [loading, setLoading] = useState(true);  // State to control loader visibility
@@ -32,15 +33,15 @@ const Body = () => {
   return (
     <div>
       <CollegeName/>
-      <div className="flex flex-wrap justify-center gap-5 my-5">
+      <div className="flex flex-wrap justify-center gap-5 my-5 animate__animated animate__fadeInUp">
         <NeonButton label="CIRCUIT" onClick={() => alert("Circuit clicked")} />
         <NeonButton label="CSE/IT" onClick={() => alert("Non Circuit clicked")} />
       </div>
       <CountdownTimer />
       <NewAbout />
-      <HomeEventDetails />
+      {/* <HomeEventDetails />
       <InfoSections />
-      <TeamCarousel />
+      <TeamCarousel /> */}
       <Faq />
       <Footer />
     </div>
