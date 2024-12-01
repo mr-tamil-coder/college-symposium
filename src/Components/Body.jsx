@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import CollegeName from "./CollegeName"
 import Loading from "./Loading"; // Import the loader
 import Faq from "./Faq";
-import About from "./About";
+import NewAbout from "./NewAbout";
 import CountdownTimer from "./CountDown";
 import Footer from "./Footer";
 import Highlight from "./Highlight";
@@ -10,6 +10,7 @@ import TeamCarousel from "./TeamCarousel";
 import InfoSections from "./InfoSections";
 import HomeEventDetails from "./HomeEventDetails";
 import NeonButton from "./NeonButton";
+import EventCardDesign from "./EventCardDesign";
 
 const Body = () => {
   const [loading, setLoading] = useState(true);  // State to control loader visibility
@@ -36,8 +37,7 @@ const Body = () => {
         <NeonButton label="CSE/IT" onClick={() => alert("Non Circuit clicked")} />
       </div>
       <CountdownTimer />
-      <hr class="border-t-2 border-gray-400 w-3/4 mx-auto my-4"/>
-      <About />
+      <NewAbout />
       <HomeEventDetails />
       <InfoSections />
       <TeamCarousel />

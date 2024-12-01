@@ -15,6 +15,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'aboutfont';
+  src: url('/fonts/Revamped.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .college-font {
   font-family: 'collegefont', sans-serif;
