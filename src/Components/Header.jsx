@@ -29,8 +29,8 @@ const Header = () => {
           <div className="flex items-center justify-center h-8 w-8 rounded-full bg-[#fc03e3] text-black font-bold text-lg">
               T
             </div>
-            <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
-              Technovenza
+            <span className="self-center text-2xl font-semibold whitespace-nowrap font-collegefont text-white">
+              TECHNOVENZA
             </span>
           </a>
           <button
