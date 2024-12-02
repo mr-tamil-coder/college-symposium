@@ -1,5 +1,5 @@
 import React from "react";
-import "./Card.css"; // Link to the CSS file
+import "./card.css"; // Link to the CSS file
 import NeonButton from "./NeonButton";
 const Card = () => {
   return (
