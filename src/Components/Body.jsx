@@ -12,9 +12,10 @@ import HomeEventDetails from "./HomeEventDetails";
 import NeonButton from "./NeonButton";
 import EventCardDesign from "./EventCardDesign";
 import Card from "./Card";
-import { Link } from "react-router-dom";
-// import MediaSection from "./MediaSection";
-import "animate.css";
+import MediaSection from "./MediaSection";
+import ContactUs from "./ContactUs";
+import LocateMap from "./LocateMap";
+import 'animate.css';
 
 const Body = () => {
   const [loading, setLoading] = useState(true); 
@@ -46,12 +47,16 @@ const Body = () => {
       </div>
 
       <CountdownTimer />
+      <hr className="border-t-2 border-gray-400 w-3/4 mx-auto my-10" />
       <NewAbout />
+      <hr className="border-t-2 border-gray-400 w-3/4 mx-auto my-10" />
       {/* <HomeEventDetails />
       <InfoSections />
       <TeamCarousel /> */}
       <Faq />
-      {/* <MediaSection /> */}
+      {/* <MediaSection />
+      <ContactUs />
+      <LocateMap /> */}
       <Footer />
     </div>
   );

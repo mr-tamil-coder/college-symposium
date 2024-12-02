@@ -47,7 +47,6 @@ const NewAbout = () => {
           </div>
         </div>
       </div>
-      <hr className="border-t-2 border-gray-400 w-3/4 mx-auto my-10" />
     </div>
   );
 };

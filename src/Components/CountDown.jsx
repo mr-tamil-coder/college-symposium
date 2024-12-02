@@ -72,7 +72,6 @@ const CountdownTimer = () => {
           <p className="mt-2 text-xs px-4 pb-2 uppercase font-timerfont">Seconds</p>
         </div>
       </div>
-      <hr className="border-t-2 border-gray-400 w-3/4 mx-auto my-4"/>
     </div>
   );
 };
