@@ -5,7 +5,7 @@ const Card = () => {
   return (
     <main className="card-container gap-7 relative flex flex-wrap justify-center w-full ">
       {/* Card 1 */}
-      <div className="card  ">
+      <div className="card ">
         <a
          onClick={() => alert("Circuit clicked")}
         >
