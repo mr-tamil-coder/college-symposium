@@ -12,6 +12,7 @@ import EventDetails from "./Components/EventDetails.jsx";
 import Home from "./Components/Home.jsx";
 import About from "./Components/About.jsx";
 import Circuit from "./Components/Circuit.jsx";
+import NewAbout from "./Components/NewAbout.jsx";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -35,7 +36,7 @@ const appRouter = createBrowserRouter([
     },
     {
       path: "/about",
-      element: <About />,
+      element: <NewAbout />,
     },
     {
       path: "/events/tech",

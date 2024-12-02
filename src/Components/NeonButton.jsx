@@ -1,26 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 
-const NeonButton = ({ label, onClick }) => {
+const NeonButton = ({ label, onClick, tooltip }) => {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
     <StyledWrapper>
-      <button className="button" onClick={onClick}>
+      <button
+        className="button"
+        onClick={onClick}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
         <span></span>
         <span></span>
         <span></span>
         <span></span>
         {label}
       </button>
+      {isHovered && <Tooltip>{tooltip}</Tooltip>}
     </StyledWrapper>
   );
 };
 
 const StyledWrapper = styled.div`
-  /* Fixed size Neon Button */
+  position: relative;
+  display: inline-block;
+
   .button {
     cursor: pointer;
     position: relative;
-    width: 200px; /* Fixed width */
+    width: 250px; /* Fixed width */
     height: 60px; /* Fixed height */
     text-decoration: none;
     border: none;
@@ -114,6 +124,21 @@ const StyledWrapper = styled.div`
     height: 100%;
     transform: translateY(-100%);
   }
+`;
+
+const Tooltip = styled.div`
+  position: absolute;
+  bottom: 110%; /* Adjust this to ensure the tooltip is above the button */
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 0.9em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px); /* Glass-like effect */
+  border: 1px solid rgba(255, 255, 255, 0.3);
 `;
 
 export default NeonButton;

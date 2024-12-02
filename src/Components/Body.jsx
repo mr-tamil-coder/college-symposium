@@ -12,6 +12,7 @@ import HomeEventDetails from "./HomeEventDetails";
 import NeonButton from "./NeonButton";
 import EventCardDesign from "./EventCardDesign";
 import Card from "./Card";
+// import MediaSection from "./MediaSection";
 import 'animate.css';
 
 const Body = () => {
@@ -35,8 +36,8 @@ const Body = () => {
     <div>
       <CollegeName/>
       <div className="flex flex-wrap justify-center gap-5 my-5 animate__animated animate__fadeInUp">
-        <NeonButton label="CIRCUIT" onClick={() => alert("Circuit clicked")} />
-        <NeonButton label="CSE/IT" onClick={() => alert("Non Circuit clicked")} />
+        <NeonButton label="CIRCUIT" onClick={() => alert("Circuit clicked")} tooltip={"ECE/EEE/BME"} />
+        <NeonButton label="NON-CIRCUIT" onClick={() => alert("Non Circuit clicked")} tooltip={"CSE/IT"} />
       </div>
 
       
@@ -46,6 +47,7 @@ const Body = () => {
       <InfoSections />
       <TeamCarousel /> */}
       <Faq />
+      {/* <MediaSection /> */}
       <Footer />
     </div>
   );
