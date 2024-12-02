@@ -34,12 +34,11 @@ const Body = () => {
   return (
     <div>
       <CollegeName/>
-      {/* <div className="flex flex-wrap justify-center gap-5 my-5 animate__animated animate__fadeInUp">
+      <div className="flex flex-wrap justify-center gap-5 my-5 animate__animated animate__fadeInUp">
         <NeonButton label="CIRCUIT" onClick={() => alert("Circuit clicked")} />
         <NeonButton label="CSE/IT" onClick={() => alert("Non Circuit clicked")} />
-      </div> */}
+      </div>
 
-      <Card />
       
       <CountdownTimer />
       <NewAbout />
