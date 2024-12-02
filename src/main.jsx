@@ -11,6 +11,7 @@ import EventContainer from "./Components/EventContainer.jsx";
 import EventDetails from "./Components/EventDetails.jsx";
 import Home from "./Components/Home.jsx";
 import About from "./Components/About.jsx";
+import Circuit from "./Components/Circuit.jsx";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -21,6 +22,14 @@ const appRouter = createBrowserRouter([
       errorElement: <Error />,
     },
     {
+      path: "/events",
+      element: <EventContainer />,
+    }, 
+    {
+      path: "/circuit",
+      element: <Circuit />,
+    },
+     {
       path: "/events",
       element: <EventContainer />,
     },

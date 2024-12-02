@@ -11,6 +11,7 @@ import InfoSections from "./InfoSections";
 import HomeEventDetails from "./HomeEventDetails";
 import NeonButton from "./NeonButton";
 import EventCardDesign from "./EventCardDesign";
+import Card from "./Card";
 import 'animate.css';
 
 const Body = () => {
@@ -37,6 +38,8 @@ const Body = () => {
         <NeonButton label="CIRCUIT" onClick={() => alert("Circuit clicked")} />
         <NeonButton label="CSE/IT" onClick={() => alert("Non Circuit clicked")} />
       </div>
+
+      
       <CountdownTimer />
       <NewAbout />
       {/* <HomeEventDetails />
