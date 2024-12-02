@@ -19,6 +19,7 @@ module.exports = {
         'timerfont' : ['timerfont', 'sans-serif'],
         'aboutfont': ['aboutfont', 'sans-serif'],
         'faqfont' :['faqfont' , 'sans-serif'] ,
+        'otherfont' : ['otherfont', 'sans-serif'],
       },
       animation: {
         'spin-slow': 'spin 8s linear infinite',
