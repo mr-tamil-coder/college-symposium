@@ -3,7 +3,7 @@ import React from "react";
 const ContactUs = () => {
   return (
     <div className="bg-transparent text-white p-6 rounded-md max-w-lg mx-auto">
-      <h2 className="text-2xl text-left mb-4 text-white">
+      <h2 className="text-xl sm:text-1xl md:text-2xl lg:text-2xl xl:text-2xl text-left mb-4 text-white">
         Reach Out
       </h2>
       <div className="flex items-center gap-x-4 mb-4">
