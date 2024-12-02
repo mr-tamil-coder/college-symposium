@@ -16,17 +16,16 @@ import MediaSection from "./MediaSection";
 import ContactUs from "./ContactUs";
 import LocateMap from "./LocateMap";
 import 'animate.css';
+import { Link } from "react-router-dom";
 
 const Body = () => {
   const [loading, setLoading] = useState(true); 
 
   useEffect(() => {
-    // Set loader timeout to 2 seconds
     const timer = setTimeout(() => {
       setLoading(false); // Hide loader after 2 seconds
     }, 2500);
 
-    // Cleanup timeout if the component unmounts
     return () => clearTimeout(timer);
   }, []);
 
