@@ -12,28 +12,28 @@ const CircuitTec = () => {
   const circuittechnicalEvents = [
     {
       id: 1,
-      imageSrc: Image, // Replace with actual image path
+      imageSrc: Image, 
       altText: "Energia Nova",
       label: "Energia Nova",
       onClick: () => alert("Energia Nova clicked"),
     },
     {
       id: 2,
-      imageSrc: Image, // Replace with actual image path
+      imageSrc: Image, 
       altText: "Casse-dete",
       label: "Casse-dete",
       onClick: () => alert("Casse-dete clicked"),
     },
     {
       id: 3,
-      imageSrc: Image, // Replace with actual image path
+      imageSrc: Image, 
       altText: "Batallia de Robots",
       label: "Batallia de Robots",
       onClick: () => alert("Batallia de Robots clicked"),
     },
     {
       id: 4,
-      imageSrc: Image, // Replace with actual image path
+      imageSrc: Image, 
       altText: "Tescaflow",
       label: "Tescaflow",
       onClick: () => alert("Tescaflow clicked"),

@@ -12,30 +12,30 @@ const NonCircuitTec = () => {
       {
         id: 1,
         imageSrc: Image, // Replace with actual image path
-        altText: "Energia Nova",
-        label: "Energia Nova",
-        onClick: () => alert("Energia Nova clicked"),
+        altText: "Eloquence",
+        label: "Eloquence",
+        onClick: () => alert("Eloquence clicked"),
       },
       {
         id: 2,
         imageSrc: Image, // Replace with actual image path
-        altText: "Casse-dete",
-        label: "Casse-dete",
-        onClick: () => alert("Casse-dete clicked"),
+        altText: "Wizzup",
+        label: "Wizzup",
+        onClick: () => alert("Wizzup clicked"),
       },
       {
         id: 3,
         imageSrc: Image, // Replace with actual image path
-        altText: "Batallia de Robots",
-        label: "Batallia de Robots",
-        onClick: () => alert("Batallia de Robots clicked"),
+        altText: "Viz Your Way",
+        label: "Viz Your Way",
+        onClick: () => alert("Viz Your Way clicked"),
       },
       {
         id: 4,
         imageSrc: Image, // Replace with actual image path
-        altText: "Tescaflow",
-        label: "Tescaflow",
-        onClick: () => alert("Tescaflow clicked"),
+        altText: "GhostOps-CTF",
+        label: "GhostOps-CTF",
+        onClick: () => alert("GhostOps-CTF clicked"),
       },
     ];
   
