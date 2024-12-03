@@ -38,8 +38,8 @@ const Body = () => {
     <div>
       <CollegeName/>
       <div className="flex flex-wrap justify-center gap-5 my-5 animate__animated animate__fadeInUp">
-        <NeonButton label="CIRCUIT" onClick={() => alert("Circuit clicked")} tooltip={"ECE/EEE/BME"} />
-        <NeonButton label="NON-CIRCUIT" onClick={() => alert("Non Circuit clicked")} tooltip={"CSE/IT"} />
+        <NeonButton label="Track I" onClick={() => alert("Circuit clicked")} tooltip={"AIDS/AIML/CS/CSE/CSBS/IT"} />
+        <NeonButton label="Track II" onClick={() => alert("Non Circuit clicked")} tooltip={"BME/CE/ECE/EEE/MBA"} />
       </div>
 
       

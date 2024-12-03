@@ -5,7 +5,7 @@ import 'animate.css';
 const CollegeName = () => {
   return (
     <div className="text-center p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 space-y-3">
-      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold mb-0 bg-white bg-clip-text text-transparent font-otherfont animate__animated animate__fadeInUp">
+      <h1 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-0 bg-white bg-clip-text text-transparent font-otherfont animate__animated animate__fadeInUp">
         JERUSALEM COLLEGE OF ENGINEERING
       </h1>
       <br />

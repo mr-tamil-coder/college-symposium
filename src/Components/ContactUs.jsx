@@ -30,8 +30,8 @@ const ContactUs = () => {
             d="M3 8l7.894 5.308c.63.424 1.648.424 2.278 0L21 8M5 19h14c1.657 0 3-1.343 3-3V7c0-1.657-1.343-3-3-3H5C3.343 4 2 5.343 2 7v9c0 1.657 1.343 3 3 3z"
           />
         </svg>
-        <a href="mailto:example@example.com" className="text-lg hover:underline">
-          example@example.com
+        <a href="mailto:symposium2024@jerusalemengg.ac.in" className="text-lg hover:underline">
+          symposium2024@jerusalemengg.ac.in
         </a>
       </div>
     </div>

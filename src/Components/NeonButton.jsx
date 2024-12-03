@@ -128,17 +128,31 @@ const StyledWrapper = styled.div`
 
 const Tooltip = styled.div`
   position: absolute;
-  bottom: 110%; /* Adjust this to ensure the tooltip is above the button */
+  bottom: 120%; /* Adjust this to position the tooltip above the button */
   left: 50%;
   transform: translateX(-50%);
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
+  border-radius: 8px; /* Slightly rounded corners */
   padding: 10px 15px;
   color: #fff;
   font-size: 0.9em;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(5px); /* Glass-like effect */
   border: 1px solid rgba(255, 255, 255, 0.3);
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 100%; /* Position at the bottom edge of the tooltip */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid rgba(255, 255, 255, 0.1); /* Match the tooltip background */
+    z-index: 1; /* Ensure it appears above other elements */
+  }
 `;
 
 export default NeonButton;
