@@ -10,6 +10,7 @@ import TeamCarousel from "./TeamCarousel";
 import InfoSections from "./InfoSections";
 import HomeEventDetails from "./HomeEventDetails";
 import NeonButton from "./NeonButton";
+import EventButton from "./EventButton";
 import EventCardDesign from "./EventCardDesign";
 import Card from "./Card";
 import MediaSection from "./MediaSection";

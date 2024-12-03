@@ -2,6 +2,7 @@ import React from "react";
 import randomColor from "randomcolor";
 import "../text.css";
 import Card from "./Card";
+import Image from '../utils/Img/TechLogo.jpg';
 
 const NonCircuitTec = () => {
     const color = randomColor();
@@ -10,28 +11,28 @@ const NonCircuitTec = () => {
     const circuittechnicalEvents = [
       {
         id: 1,
-        imageSrc: "path/to/energia-nova.jpg", // Replace with actual image path
+        imageSrc: Image, // Replace with actual image path
         altText: "Energia Nova",
         label: "Energia Nova",
         onClick: () => alert("Energia Nova clicked"),
       },
       {
         id: 2,
-        imageSrc: "path/to/casse-dete.jpg", // Replace with actual image path
+        imageSrc: Image, // Replace with actual image path
         altText: "Casse-dete",
         label: "Casse-dete",
         onClick: () => alert("Casse-dete clicked"),
       },
       {
         id: 3,
-        imageSrc: "path/to/batallia-de-robots.jpg", // Replace with actual image path
+        imageSrc: Image, // Replace with actual image path
         altText: "Batallia de Robots",
         label: "Batallia de Robots",
         onClick: () => alert("Batallia de Robots clicked"),
       },
       {
         id: 4,
-        imageSrc: "path/to/tescaflow.jpg", // Replace with actual image path
+        imageSrc: Image, // Replace with actual image path
         altText: "Tescaflow",
         label: "Tescaflow",
         onClick: () => alert("Tescaflow clicked"),

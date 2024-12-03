@@ -1,17 +1,18 @@
 import React from "react";
 import "./card.css"; // Link to the CSS file
-import NeonButton from "./NeonButton";
+import EventButton from "./EventButton";
 
 const Card = ({ imageSrc, altText, label, onClick }) => {
+  console.log(imageSrc);
   return (
     <div className="card">
       <a onClick={onClick}>
         <div className="wrapper">
-          <img src={imageSrc} alt={altText} className="cover-image" />
+          <img src={imageSrc} alt={altText} className="cover-image w-full h-auto block" />
         </div>
       </a>
       <div className="cardButton absolute">
-        <NeonButton label={label} onClick={onClick} />
+        <EventButton label={label} onClick={onClick} />
       </div>
     </div>
   );

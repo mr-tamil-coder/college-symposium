@@ -1,37 +1,39 @@
 import React from "react";
 import randomColor from "randomcolor";
 import "../text.css";
+import Logo from '../utils/Img/TechLogo.jpg';
 import Card from "./Card";
 
 const CircuitnTech = () => {
   const color = randomColor();
+  
 
   // Events data
   const circuittechnicalEvents = [
     {
       id: 1,
-      imageSrc: "path/to/energia-nova.jpg", // Replace with actual image path
+      imageSrc: Logo, // Replace with actual image path
       altText: "Energia Nova",
       label: "Energia Nova",
       onClick: () => alert("Energia Nova clicked"),
     },
     {
       id: 2,
-      imageSrc: "path/to/casse-dete.jpg", // Replace with actual image path
+      imageSrc: Logo, // Replace with actual image path
       altText: "Casse-dete",
       label: "Casse-dete",
       onClick: () => alert("Casse-dete clicked"),
     },
     {
       id: 3,
-      imageSrc: "path/to/batallia-de-robots.jpg", // Replace with actual image path
+      imageSrc: Logo, // Replace with actual image path
       altText: "Batallia de Robots",
       label: "Batallia de Robots",
       onClick: () => alert("Batallia de Robots clicked"),
     },
     {
       id: 4,
-      imageSrc: "path/to/tescaflow.jpg", // Replace with actual image path
+      imageSrc: Logo, // Replace with actual image path
       altText: "Tescaflow",
       label: "Tescaflow",
       onClick: () => alert("Tescaflow clicked"),
