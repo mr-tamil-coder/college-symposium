@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
-
 const RandomEvents = () => {
-  const [displayText, setDisplayText] = useState('events');
+  const [displayText, setDisplayText] = useState('EVENTS');
   const [isRandom, setIsRandom] = useState(false);
-
+  
   // Function to generate random string of characters
   const generateRandomString = () => {
     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()';
@@ -43,9 +42,7 @@ const RandomEvents = () => {
   }, []);
 
   return (
-    <div>
-      <h1>{displayText}</h1>
-    </div>
+      <span>{displayText}</span>
   );
 };
 

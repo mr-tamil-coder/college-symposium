@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import CollegeName from "./CollegeName"
+import CollegeName from "./CollegeName";
 import Loading from "./Loading"; // Import the loader
 import Faq from "./Faq";
 import NewAbout from "./NewAbout";
@@ -16,17 +16,16 @@ import MediaSection from "./MediaSection";
 import ContactUs from "./ContactUs";
 import LocateMap from "./LocateMap";
 import 'animate.css';
+import { Link } from "react-router-dom";
 
 const Body = () => {
-  const [loading, setLoading] = useState(true);  // State to control loader visibility
+  const [loading, setLoading] = useState(true); 
 
   useEffect(() => {
-    // Set loader timeout to 2 seconds
     const timer = setTimeout(() => {
-      setLoading(false);  // Hide loader after 2 seconds
+      setLoading(false); // Hide loader after 2 seconds
     }, 2500);
-    
-    // Cleanup timeout if the component unmounts
+
     return () => clearTimeout(timer);
   }, []);
 
@@ -36,13 +35,16 @@ const Body = () => {
 
   return (
     <div>
-      <CollegeName/>
+      <CollegeName />
       <div className="flex flex-wrap justify-center gap-5 my-5 animate__animated animate__fadeInUp">
-        <NeonButton label="Track I" onClick={() => alert("Circuit clicked")} tooltip={"AIDS/AIML/CS/CSE/CSBS/IT"} />
-        <NeonButton label="Track II" onClick={() => alert("Non Circuit clicked")} tooltip={"BME/CE/ECE/EEE/MBA"} />
+        <Link to="/events/circuit">
+          <NeonButton label="Track I" tooltip={"AIDS/AIML/CS/CSE/CSBS/IT"} />
+        </Link>
+        <Link to="/events/non-circuit">
+          <NeonButton label="Track II" tooltip={"BME/CE/ECE/EEE/MBA"} />
+        </Link>
       </div>
 
-      
       <CountdownTimer />
       <hr className="border-t-2 border-gray-400 w-3/4 mx-auto my-10" />
       <NewAbout />
