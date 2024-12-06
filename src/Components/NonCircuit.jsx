@@ -3,23 +3,28 @@ import { events,nonCircuit } from "../utils/events";
 import { Link } from "react-router-dom";
 import RandomEvents from "./RandomEvents";
 import randomColor from "randomcolor";
-import "../text.css"
+import "../text.css";
+import NonCircuitnTech from './NonCircuitnTech';
+import NonCircuitTec from './NonCircuitTec';
 const NonCircuit = () => {
   var color = randomColor();
   
-  const randomEventName = RandomEvents();
+  // const randomEventName = RandomEvents();
   return (
     <div className="max-w-7xl mx-auto p-6">
-      <h3
+      {/* <h3
         className="text-3xl md:text-4xl font-bold text-center mb-8 text-white uppercase event-text tracking-widest "
         style={{
           textShadow: `2px 2px 15px ${color}`,
         }}
       >
         NON-CIRCUIT {randomEventName}
-      </h3>
+      </h3> */}
+      <NonCircuitnTech />
+      <NonCircuitTec />
 
-      <div className="event-header grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      {/* <div className="event-header grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {nonCircuit.map((eventData) => (
           <Link
             to={
@@ -47,7 +52,7 @@ const NonCircuit = () => {
             </div>
           </Link>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };

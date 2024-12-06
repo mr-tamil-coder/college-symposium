@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
-const RandomEvents = () => {
-  const [displayText, setDisplayText] = useState('EVENTS');
+const RandomEvents = (label) => {
+  const [displayText, setDisplayText] = useState("");
   const [isRandom, setIsRandom] = useState(false);
   
   // Function to generate random string of characters
   const generateRandomString = () => {
     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()';
     let randomString = '';
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < label.length - 5; i++) {
       randomString += characters.charAt(Math.floor(Math.random() * characters.length));
     }
     return randomString;
@@ -27,7 +27,7 @@ const RandomEvents = () => {
       setTimeout(() => {
         clearInterval(interval);
         setIsRandom(false);
-        setDisplayText('events');
+        setDisplayText(label);
       }, 1500);
     };
 

@@ -1,11 +1,26 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./animation.css"; // Import the CSS for the cubes animation
+import VanillaTilt from "vanilla-tilt";
+import Image from "../utils/Img/TechLogo.jpg";
 
 const NewAbout = () => {
+  const tiltRef = useRef(null);
+
+  useEffect(() => {
+    // Initialize VanillaTilt for the image container
+    if (tiltRef.current) {
+      VanillaTilt.init(tiltRef.current, {
+        max: 15, // Maximum tilt
+        speed: 400, // Animation speed
+        glare: false, // Add a glare effect
+      });
+    }
+  }, []);
+
   return (
-    <div className="bg-dark-grey text-white-grey flex flex-col items-center">
+    <div className="bg-dark-grey text-white-grey flex flex-col items-center py-10">
       {/* Glassmorphic Container */}
-      <div className="glassmorphic-container">
+      <div className="glassmorphic-container p-6 md:p-10 w-full max-w-5xl">
         {/* Heading Section */}
         <h1 className="text-5xl md:text-5xl text-lg mb-5 leading-relaxed text-left">
           About
@@ -19,7 +34,7 @@ const NewAbout = () => {
         {/* Content Section */}
         <div className="flex flex-col md:flex-row items-center w-full">
           {/* Text Section */}
-          <div className="md:w-[80%] w-full text-lg leading-relaxed text-justify px-4">
+          <div className="md:w-[60%] w-full text-lg leading-relaxed text-justify px-4">
             <p>
               Technovenza is the epitome of innovation and collaboration,
               designed to foster creativity, ignite ideas, and push the
@@ -34,16 +49,16 @@ const NewAbout = () => {
             </p>
           </div>
 
-          {/* Animation Section */}
-          <div className="md:w-1/2 w-full flex justify-center mt-8 md:mt-0">
-            <div className="relative loop cubes">
-              <div className="item cubes"></div>
-              <div className="item cubes"></div>
-              <div className="item cubes"></div>
-              <div className="item cubes"></div>
-              <div className="item cubes"></div>
-              <div className="item cubes"></div>
-            </div>
+          {/* Image Section */}
+          <div
+            ref={tiltRef}
+            className="md:w-[40%] w-full mt-6 md:mt-0 flex justify-center"
+          >
+            <img
+              src={Image}
+              alt="Technovenza Logo"
+              className="max-w-full md:max-w-[80%] rounded-lg shadow-lg"
+            />
           </div>
         </div>
       </div>

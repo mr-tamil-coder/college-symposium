@@ -3,9 +3,10 @@ import randomColor from "randomcolor";
 import "../text.css";
 import Card from "./Card";
 import Image from '../utils/Img/TechLogo.jpg';
+import RandomEvents from "./RandomEvents";
 const NonCircuitnTech = () => {
     const color = randomColor();
-
+    const noncircuitntech = RandomEvents("Circuit Branch - Technical Events")
     // Events data
     const circuittechnicalEvents = [
       {
@@ -46,7 +47,7 @@ const NonCircuitnTech = () => {
             textShadow: `2px 2px 15px ${color}`,
           }}
         >
-          Circuit Branch - Technical Events
+          {noncircuitntech}
         </h3>
   
         <div>

@@ -43,7 +43,7 @@ const CountdownTimer = () => {
   return (
     <div className="flex flex-col justify-center items-center text-white animate__animated animate__fadeInUp">
       <br />
-      <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-3xl font-collegefont font-bold py-2 sm:py-3 lg:py-4 animate-pulse text-center">
+      <h1 className="text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl font-otherfont font-bold py-2 sm:py-3 lg:py-4 animate-pulse text-center">
       THE BIG MOMENT IS COMING...
       </h1>
       <div className="grid grid-cols-4 gap-4 text-center m-3">
