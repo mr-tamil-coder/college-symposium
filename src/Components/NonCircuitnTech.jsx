@@ -12,30 +12,30 @@ const NonCircuitnTech = () => {
       {
         id: 1,
         imageSrc: Image, // Replace with actual image path
-        altText: "Energia Nova",
-        label: "Energia Nova",
-        onClick: () => alert("Energia Nova clicked"),
+        altText: "Cinephilia",
+        label: "Cinephilia",
+        onClick: () => alert("Cinephilia clicked"),
       },
       {
         id: 2,
         imageSrc: Image, // Replace with actual image path
-        altText: "Casse-dete",
-        label: "Casse-dete",
-        onClick: () => alert("Casse-dete clicked"),
+        altText: "Chronojive",
+        label: "Chronojive",
+        onClick: () => alert("Chronojive clicked"),
       },
       {
         id: 3,
         imageSrc: Image, // Replace with actual image path
-        altText: "Batallia de Robots",
-        label: "Batallia de Robots",
-        onClick: () => alert("Batallia de Robots clicked"),
+        altText: "BGMI",
+        label: "BGMI",
+        onClick: () => alert("BGMI clicked"),
       },
       {
         id: 4,
         imageSrc: Image, // Replace with actual image path
-        altText: "Tescaflow",
-        label: "Tescaflow",
-        onClick: () => alert("Tescaflow clicked"),
+        altText: "Free Fire",
+        label: "Free Fire",
+        onClick: () => alert("Free Fire clicked"),
       },
     ];
   
@@ -47,7 +47,7 @@ const NonCircuitnTech = () => {
             textShadow: `2px 2px 15px ${color}`,
           }}
         >
-          {noncircuitntech}
+          Non-Technical Events
         </h3>
   
         <div>

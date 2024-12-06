@@ -1,48 +1,30 @@
 import React from "react";
 import randomColor from "randomcolor";
 import "../text.css";
-import Logo from '../utils/Img/TechLogo.jpg';
+import Logo from "../utils/Img/TechLogo.jpg";
 import Card from "./Card";
 import RandomEvents from "./RandomEvents";
 
 const CircuitnTech = () => {
   const color = randomColor();
-  
 
   // Events data
   const circuittechnicalEvents = [
     {
       id: 1,
       imageSrc: Logo, // Replace with actual image path
-      altText: "Energia Nova",
-      label: "Energia Nova",
-      onClick: () => alert("Energia Nova clicked"),
+      altText: "Deadly deeds",
+      label: "Deadly deeds",
+      onClick: () => alert("Deadly deeds clicked"),
     },
     {
       id: 2,
       imageSrc: Logo, // Replace with actual image path
-      altText: "Casse-dete",
-      label: "Casse-dete",
-      onClick: () => alert("Casse-dete clicked"),
-    },
-    {
-      id: 3,
-      imageSrc: Logo, // Replace with actual image path
-      altText: "Batallia de Robots",
-      label: "Batallia de Robots",
-      onClick: () => alert("Batallia de Robots clicked"),
-    },
-    {
-      id: 4,
-      imageSrc: Logo, // Replace with actual image path
-      altText: "Tescaflow",
-      label: "Tescaflow",
-      onClick: () => alert("Tescaflow clicked"),
+      altText: "Ipl Auction",
+      label: "Ipl Auction",
+      onClick: () => alert("Ipl Auction clicked"),
     },
   ];
-
-  const CirnTech = RandomEvents("Circuit Branch - Non Technical Events");
-  
 
   return (
     <div className="max-w-7xl mx-auto p-6">
@@ -52,7 +34,7 @@ const CircuitnTech = () => {
           textShadow: `2px 2px 15px ${color}`,
         }}
       >
-        {CirnTech}
+        Non Technical Events
       </h3>
 
       <div>

@@ -3,7 +3,6 @@ import "./card.css"; // Link to the CSS file
 import EventButton from "./EventButton";
 
 const Card = ({ imageSrc, altText, label, onClick }) => {
-  console.log(imageSrc);
   return (
     <div className="card">
       <a onClick={onClick}>
