@@ -16,11 +16,11 @@ import Card from "./Card";
 import MediaSection from "./MediaSection";
 import ContactUs from "./ContactUs";
 import LocateMap from "./LocateMap";
-import 'animate.css';
+import "animate.css";
 import { Link } from "react-router-dom";
 
 const Body = () => {
-  const [loading, setLoading] = useState(true); 
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -37,12 +37,9 @@ const Body = () => {
   return (
     <div>
       <CollegeName />
-      <div className="flex flex-wrap justify-center gap-5 my-5 animate__animated animate__fadeInUp">
-        <Link to="/events/non-circuit">
-          <NeonButton label="Track I" tooltip={"AIDS/AIML/CS/CSE/CSBS/IT"} />
-        </Link>
-        <Link to="/events/circuit">
-          <NeonButton label="Track II" tooltip={"BME/CE/ECE/EEE/MBA"} />
+      <div className="flex flex-wrap justify-center gap-5 my-5 p-4 animate__animated animate__fadeInUp">
+        <Link to={"/events"}>
+          <button className="bg-slate-500 p-4 ">Explore events</button>
         </Link>
       </div>
 
