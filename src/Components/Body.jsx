@@ -39,11 +39,14 @@ const Body = () => {
       <CollegeName />
       <div className="flex flex-wrap justify-center gap-5 my-5 animate__animated animate__fadeInUp">
         <Link to="/events/circuit">
+              <EventButton label="Explore"/>
+        </Link>
+        {/* <Link to="/events/circuit">
           <NeonButton label="Track I" tooltip={"AIDS/AIML/CS/CSE/CSBS/IT"} />
         </Link>
         <Link to="/events/non-circuit">
           <NeonButton label="Track II" tooltip={"BME/CE/ECE/EEE/MBA"} />
-        </Link>
+        </Link> */}
       </div>
 
       <CountdownTimer />

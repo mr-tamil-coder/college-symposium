@@ -19,6 +19,7 @@ const CollegeName = () => {
       <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-extrabold bg-white bg-clip-text text-transparent font-aboutfont animate__animated animate__fadeInUp" style={{ textShadow: '0 0 8px white' }}>
   TECHNOVANZA 2024-'25
 </h1>
+      
 
     </div>
   );
