@@ -27,17 +27,32 @@ const NonCircuitTec = () => {
       {
         id: 3,
         imageSrc: Image, // Replace with actual image path
+        altText: "MatterMind",
+        label: "MatterMind",
+        onClick: () => alert("MatterMind clicked"),
+      },
+      {
+        id: 4,
+        imageSrc: Image, // Replace with actual image path
         altText: "Viz Your Way",
         label: "Viz Your Way",
         onClick: () => alert("Viz Your Way clicked"),
       },
       {
-        id: 4,
+        id: 5,
         imageSrc: Image, // Replace with actual image path
         altText: "GhostOps-CTF",
         label: "GhostOps-CTF",
         onClick: () => alert("GhostOps-CTF clicked"),
       },
+      {
+        id: 6,
+        imageSrc: Image, // Replace with actual image path
+        altText: "Code Sprint",
+        label: "Code Sprint",
+        onClick: () => alert("Code Sprint clicked"),
+      },
+      
     ];
   
     return (

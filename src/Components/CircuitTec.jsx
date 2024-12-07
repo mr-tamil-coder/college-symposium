@@ -39,6 +39,13 @@ const CircuitTec = () => {
       label: "Tescaflow",
       onClick: () => alert("Tescaflow clicked"),
     },
+    {
+      id: 5,
+      imageSrc: Image, 
+      altText: "BizQuest",
+      label: "BizQueset",
+      onClick: () => alert("BizQuest clicked"),
+    },
   ];
 
   return (

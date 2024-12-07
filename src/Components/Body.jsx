@@ -44,7 +44,7 @@ const Body = () => {
         {/* <Link to="/events/circuit">
           <NeonButton label="Track I" tooltip={"AIDS/AIML/CS/CSE/CSBS/IT"} />
         </Link>
-        <Link to="/events/non-circuit">
+        <Link to="/events/circuit">
           <NeonButton label="Track II" tooltip={"BME/CE/ECE/EEE/MBA"} />
         </Link> */}
       </div>
