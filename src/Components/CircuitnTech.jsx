@@ -3,6 +3,7 @@ import randomColor from "randomcolor";
 import "../text.css";
 import Logo from "../utils/Img/TechLogo.jpg";
 import Card from "./Card";
+import RandomEvents from "./RandomEvents";
 
 const CircuitnTech = () => {
   const color = randomColor();

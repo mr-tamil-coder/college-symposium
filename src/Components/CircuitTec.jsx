@@ -3,10 +3,11 @@ import randomColor from "randomcolor";
 import "../text.css";
 import Card from "./Card";
 import Image from '../utils/Img/TechLogo.jpg';
-
+import RandomEvents from "./RandomEvents";
 
 const CircuitTec = () => {
   const color = randomColor();
+  const CirTech = RandomEvents("Circuit Branch - Technical Events");
 
   // Events data
   const circuittechnicalEvents = [
