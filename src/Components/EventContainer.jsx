@@ -1,16 +1,17 @@
 import React from "react";
-import Circuit from "./Circuit";
-import NonCircuit from "./NonCircuit";
 import NeonButton from "./NeonButton";
 import { Link } from "react-router-dom";
 
 const EventContainer = () => {
   return (
-    <div>
-      <div className="h-screen  flex flex-wrap justify-center  gap-5 my-5 animate__animated animate__fadeInUp">
+    <div className="h-screen flex flex-col justify-center items-center px-4">
+      {/* Buttons Container */}
+      <div className="flex flex-col sm:flex-row justify-center items-center gap-5 w-full max-w-xl">
+        {/* Track I Button */}
         <Link to="/events/non-circuit">
           <NeonButton label="Track I" tooltip={"AIDS/AIML/CS/CSE/CSBS/IT"} />
         </Link>
+        {/* Track II Button */}
         <Link to="/events/circuit">
           <NeonButton label="Track II" tooltip={"BME/CE/ECE/EEE/MBA"} />
         </Link>
