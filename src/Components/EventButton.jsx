@@ -3,8 +3,10 @@ import './EventButton.css';
 
 const EventButton = ({label}) => {
     return (
-      <button className="eventbutton">
+      <button className="eventbutton flex justify-center items-center py-5 ">
+        <p className="font-bold ">
         {label}
+        </p>
         {Array.from({ length: 6 }).map((_, index) => (
           <div className={`star-${index + 1}`} key={index}>
             <svg

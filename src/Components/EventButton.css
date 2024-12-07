@@ -1,9 +1,9 @@
 .eventbutton {
   position: relative;
-  padding: 12px 35px;
+  /* padding: 17px 35px; */
   background: linear-gradient(to right, #ff00cc, #333399);
   /* font-size: 17px; */
-  width: 190px;
+  width: 230px;
   height: 60px;
   font-weight: 500;
   font-size: 17px;
