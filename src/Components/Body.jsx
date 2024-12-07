@@ -37,9 +37,9 @@ const Body = () => {
   return (
     <div>
       <CollegeName />
-      <div className="flex flex-wrap justify-center gap-5 my-5 p-4 animate__animated animate__fadeInUp">
-        <Link to={"/events"}>
-          <button className="bg-slate-500 p-4 ">Explore events</button>
+      <div className="flex flex-wrap justify-center gap-5 my-5 animate__animated animate__fadeInUp">
+        <Link to="/events">
+          <EventButton label="Explore" />
         </Link>
       </div>
 

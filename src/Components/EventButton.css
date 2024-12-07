@@ -1,19 +1,23 @@
-/* From Uiverse.io by MuhammadHasann */ 
 .eventbutton {
-    position: relative;
-    padding: 12px 35px;
-    background: linear-gradient(to right, #ff00cc, #333399);
-    font-size: 17px;
-    width: 190px; /* Fixed width */
-    height: 60px;
-    font-weight: 500;
-    color: #181818;
-    border: 3px solid #ff01cc;
-    border-radius: 8px;
-    box-shadow: 0 0 0 #e412e89f;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-  }
+  position: relative;
+  padding: 12px 35px;
+  background: linear-gradient(to right, #ff00cc, #333399);
+  /* font-size: 17px; */
+  width: 190px;
+  height: 60px;
+  font-weight: 500;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  letter-spacing: 4px;
+  color: #ffffff;
+  border: 3px solid #efa6ff;
+  border-radius: 5rem;
+  box-shadow: 0 0 15px #ff00cc, 0 0 30px #333399;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
   
   .star-1 {
     position: absolute;
