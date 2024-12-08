@@ -13,7 +13,7 @@ const NonCircuitnTech = () => {
       imageSrc: Image, // Replace with actual image path
       altText: "Cinephilia",
       label: "Cinephilia",
-      onClick: () => alert("Cinephilia clicked"),
+      onClick: () => alert("Cinephilia clicked "),
     },
     {
       id: 2,
