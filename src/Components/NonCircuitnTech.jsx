@@ -13,7 +13,7 @@ const NonCircuitnTech = () => {
       imageSrc: Image, // Replace with actual image path
       altText: "Cinephilia",
       label: "Cinephilia",
-      onClick: () => alert("Cinephilia clicked"),
+      onClick: () => alert("Cinephilia clicked "),
     },
     {
       id: 2,
@@ -25,17 +25,33 @@ const NonCircuitnTech = () => {
     {
       id: 3,
       imageSrc: Image, // Replace with actual image path
+      altText: "Deadly Deeds",
+      label: "Deadly Deeds",
+      onClick: () => alert("Deadly Deeds clicked"),
+    },
+    {
+      id: 4,
+      imageSrc: Image, // Replace with actual image path
+      altText: "IPL Auction",
+      label: "IPL Auction",
+      onClick: () => alert("IPL Auction clicked"),
+    },
+    {
+      id: 5,
+      imageSrc: Image, // Replace with actual image path
       altText: "BGMI",
       label: "BGMI",
       onClick: () => alert("BGMI clicked"),
     },
     {
-      id: 4,
+      id: 6,
       imageSrc: Image, // Replace with actual image path
       altText: "Free Fire",
       label: "Free Fire",
       onClick: () => alert("Free Fire clicked"),
     },
+    
+
   ];
 
   return (
