@@ -49,6 +49,10 @@ export const circuittechnicalEvents = [
 ];
 
 export const circuitnonTechnicalEvents = [
+  { label: "Cinephilia", onClick: () => alert("Cinephilia clicked") },
+  { label: "Mystery Vault", onClick: () => alert("Mystery Vault clicked") },
   { label: "Deadly Deeds", onClick: () => alert("Deadly Deeds clicked") },
   { label: "IPL Auction", onClick: () => alert("IPL Auction clicked") },
+  { label: "BGMI", onClick: () => alert("BGMI clicked") },
+  { label: "FREE FIRE", onClick: () => alert("FREE FIRE clicked") },
 ];
