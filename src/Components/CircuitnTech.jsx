@@ -13,16 +13,44 @@ const CircuitnTech = () => {
     {
       id: 1,
       imageSrc: Logo, // Replace with actual image path
-      altText: "Deadly deeds",
-      label: "Deadly deeds",
-      onClick: () => alert("Deadly deeds clicked"),
+      altText: "Cinephilia",
+      label: "Cinephilia",
+      onClick: () => alert("Cinephilia clicked "),
     },
     {
       id: 2,
       imageSrc: Logo, // Replace with actual image path
-      altText: "Ipl Auction",
-      label: "Ipl Auction",
-      onClick: () => alert("Ipl Auction clicked"),
+      altText: "Mystery Vault",
+      label: "Mystery Vault",
+      onClick: () => alert("Mystery Vault clicked"),
+    },
+    {
+      id: 3,
+      imageSrc: Logo, // Replace with actual image path
+      altText: "Deadly Deeds",
+      label: "Deadly Deeds",
+      onClick: () => alert("Deadly Deeds clicked"),
+    },
+    {
+      id: 4,
+      imageSrc: Logo, // Replace with actual image path
+      altText: "IPL Auction",
+      label: "IPL Auction",
+      onClick: () => alert("IPL Auction clicked"),
+    },
+    {
+      id: 5,
+      imageSrc: Logo, // Replace with actual image path
+      altText: "BGMI",
+      label: "BGMI",
+      onClick: () => alert("BGMI clicked"),
+    },
+    {
+      id: 6,
+      imageSrc: Logo, // Replace with actual image path
+      altText: "Free Fire",
+      label: "Free Fire",
+      onClick: () => alert("Free Fire clicked"),
     },
   ];
 
