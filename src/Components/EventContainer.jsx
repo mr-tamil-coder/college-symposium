@@ -1,10 +1,22 @@
-import React from "react";
-import Circuit from "./Circuit";
-import NonCircuit from "./NonCircuit";
-import NeonButton from "./NeonButton";
+import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import eventPoster from "../assets/symposium/eventPoster.jpg";
+import VanillaTilt from "vanilla-tilt";
+import eventPoster from "../assets/symposium/NewEventPoster.jpg";
+import EventButton from "./EventButton";
+
 const EventContainer = () => {
+  const imgRef = useRef(null);
+
+  useEffect(() => {
+    if (imgRef.current) {
+      VanillaTilt.init(imgRef.current, {
+        max: 3, // Maximum tilt rotation (degrees)
+        speed: 10, // Speed of the enter/exit transition
+        glare: false, // Disable glare effect
+      });
+    }
+  }, []);
+
   return (
     <div>
       <div className="flex justify-center mt-11 mb-20 ">
@@ -16,14 +28,10 @@ const EventContainer = () => {
       </div>
       <div className="lg:gap-10 gap-5  flex flex-col  lg:pb-20 sm:flex-row justify-center items-center animate__animated animate__fadeInUp">
         <Link to="/events/non-circuit">
-          <NeonButton
-            label="Track I"
-            tooltip={"AIDS/AIML/CS/CSE/CSBS/IT"}
-            className="bg-red-500"
-          />
+          <EventButton label="Track I" />
         </Link>
         <Link to="/events/circuit">
-          <NeonButton label="Track II" tooltip={"BME/CE/ECE/EEE/MBA"} />
+          <EventButton label="Track II" />
         </Link>
       </div>
     </div>
