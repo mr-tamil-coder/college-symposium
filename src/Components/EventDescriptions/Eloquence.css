@@ -1,0 +1,146 @@
+/* Centering the container */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1F2833; /* Dark background to enhance the glass effect */
+    margin: 0; /* Remove default margin */
+}
+
+/* Glassmorphic container */
+/* Glassmorphic container */
+/* Glassmorphic container */
+.glassmorphic-container {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    backdrop-filter: blur(10px); /* Blur background elements */
+    -webkit-backdrop-filter: blur(10px); /* Safari compatibility */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+    border-radius: 16px; /* Smooth rounded edges */
+    padding: 2rem; /* Inner padding for content */
+    margin: 1rem; /* Outer margin */
+    width: 100%; /* Ensure the container covers the entire width */
+    max-width: 1200px; /* Optional: Set a maximum width for large screens */
+    display: flex; /* Flexbox container */
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* Add a gap specifically for mobile devices */
+@media (max-width: 768px) {
+    .glassmorphic-container {
+        margin-right: 2rem; /* Add margin to the right side for mobile */
+        margin-left: 2rem; /* Add margin to the left side for symmetry */
+    }
+}
+
+
+
+/* Hover effect */
+.glassmorphic-container:hover {
+    background: rgba(255, 255, 255, 0.2); /* Slightly less transparent on hover */
+    box-shadow: 0 6px 40px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+/* Event poster styling */
+.event-poster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 40%; /* Flex property to take up 40% of the space */
+    padding: 20px;
+}
+
+.event-poster img {
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    width: 100%; /* Full width for responsive scaling */
+    max-width: 16rem; /* Limit the maximum width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Event details styling */
+.event-details {
+    flex: 1 1 60%; /* Flex property to take up 60% of the space */
+    padding: 20px;
+    background-color: transparent; /* No glass effect, just transparent */
+    border-radius: 10px;
+    overflow-y: auto; /* Scrollable content if it overflows */
+    height: 100%; /* Ensures it takes full height */
+    max-height: 500px; /* Matches the image's max height */
+}
+
+/* Event title */
+.event-details h1 {
+    color: #66FCF1; /* Neon blue */
+}
+
+/* Event descriptions */
+.event-info p,
+.event-description p,
+.rules-and-regulations li,
+.enquiry p {
+    color: #C5C6C7; /* White grey */
+    margin-bottom: 10px;
+}
+
+/* Event section headers */
+.event-description h2,
+.rules-and-regulations h2,
+.enquiry h2 {
+    color: #45A29E; /* Green blue */
+    margin-top: 10px;
+}
+
+/* Rules and Regulations */
+.rules-and-regulations h3 {
+    color: #66FCF1; /* Neon blue */
+    margin-top: 15px;
+}
+
+/* Enquiry section */
+.enquiry h2 {
+    color: #45A29E; /* Green blue */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .glassmorphic-container {
+        flex-direction: column; /* Stack image and details vertically */
+        padding: 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .event-poster,
+    .event-details {
+        flex: 1 1 100%; /* Full width for both image and details */
+        max-width: 100%; /* Full width */
+    }
+
+    .event-details {
+        max-height: none; /* Remove max height restriction */
+        overflow-y: visible; /* No scroll on smaller screens */
+    }
+
+    .event-poster img {
+        width: 100%; /* Ensures the image does not overflow */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+@media (max-width: 480px) {
+    .glassmorphic-container {
+        padding: 0.5rem; /* Reduce padding for very small screens */
+    }
+
+    .event-details {
+        padding: 10px; /* Adjust padding */
+        max-height: none; /* Remove max height restriction for mobile */
+    }
+
+    .event-poster img {
+        width: 100%; /* Ensures the image does not overflow */
+        height: auto; /* Maintain aspect ratio */
+    }
+}

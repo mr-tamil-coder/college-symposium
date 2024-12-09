@@ -7,12 +7,12 @@ const Card = ({ imageSrc, altText, label, onClick }) => {
     <div className="card">
       <a onClick={onClick}>
         <div className="wrapper">
-          <img src={imageSrc} alt={altText} className="cover-image w-full h-auto block" />
+          <img src={imageSrc} alt={altText} />
         </div>
       </a>
-      <div className="cardButton absolute">
+      {/* <div className="cardButton absolute">
         <EventButton label={label} onClick={onClick} />
-      </div>
+      </div> */}
     </div>
   );
 };
