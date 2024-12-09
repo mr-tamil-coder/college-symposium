@@ -19,6 +19,7 @@ import NonCircuitnTech from "./Components/NonCircuitnTech.jsx";
 import NonCircuit from "./Components/NonCircuit.jsx";
 import NewAbout from "./Components/NewAbout.jsx";
 import Tracks from "./Components/Tracks.jsx";
+import EventDescription from "./Components/EventDescription.jsx";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -60,6 +61,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/events/non-circuit-non-tech",
         element: <NonCircuitnTech />,
+      },
+      {
+        path: "/event/paper",
+        element: <EventDescription />,
       },
 
       {
