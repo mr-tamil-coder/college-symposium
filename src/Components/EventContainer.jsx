@@ -18,19 +18,15 @@ const EventContainer = () => {
   }, []);
 
   return (
-    <div className="w-full flex flex-col items-center">
-      {/* Event Poster */}
-      <div className="flex justify-center mt-11 mb-20 w-full px-5 sm:px-10">
+    <div>
+      <div className="flex justify-center mt-11 mb-20 ">
         <img
-          ref={imgRef}
           src={eventPoster}
+          className="lg:h-[460px] sm:m-3"
           alt="Event Poster"
-          className="max-w-full h-auto sm:max-w-[80%] md:max-w-[60%] lg:max-w-[50%] rounded-lg shadow-lg"
         />
       </div>
-
-      {/* Buttons Section */}
-      <div className="flex flex-col sm:flex-row justify-center items-center gap-5 sm:gap-10 px-5 pb-10 animate__animated animate__fadeInUp">
+      <div className="lg:gap-10 gap-5  flex flex-col  lg:pb-20 sm:flex-row justify-center items-center animate__animated animate__fadeInUp">
         <Link to="/events/non-circuit">
           <EventButton label="Track I" />
         </Link>
