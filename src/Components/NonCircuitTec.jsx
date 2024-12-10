@@ -3,6 +3,7 @@ import randomColor from "randomcolor";
 import "../text.css";
 import Card from "./Card";
 import Image from "../utils/Img/TechLogo.jpg";
+import elo from "../assets/symposium/Paperpresentation.png";
 import RandomEvents from "./RandomEvents";
 import { Link } from "react-router-dom";
 
@@ -14,10 +15,11 @@ const NonCircuitTec = () => {
   const circuittechnicalEvents = [
     {
       id: 1,
-      imageSrc: Image, // Replace with actual image path
+      imageSrc: elo, // Replace with actual image path
       altText: "Eloquence",
       label: "Eloquence",
-      onClick: () => alert("Eloquence clicked"),
+      path: "/eloquence",
+      // onClick: () => alert("Eloquence clicked"),
     },
     {
       id: 2,
@@ -71,24 +73,24 @@ const NonCircuitTec = () => {
         <main className="card-container gap-10 relative flex flex-wrap justify-center w-full">
           {/* Loop through each event and render a Card */}
           {circuittechnicalEvents.map((card) => (
-            card.id === 1 ? (
-              <Link to="/event/paper" key={card.id}>
+            // card.id === 1 ? (
+              <Link to={card.path} key={card.id}>
                 <Card
                   imageSrc={card.imageSrc}
                   altText={card.altText}
-                  label={card.label}
-                  onClick={card.onClick}
+                  // label={card.label}
+                  // onClick={card.onClick}
                 />
               </Link>
-            ) : (
-              <Card
-                key={card.id}
-                imageSrc={card.imageSrc}
-                altText={card.altText}
-                label={card.label}
-                onClick={card.onClick}
-              />
-            )
+            // ) : (
+            //   <Card
+            //     key={card.id}
+            //     imageSrc={card.imageSrc}
+            //     altText={card.altText}
+            //     label={card.label}
+            //     onClick={card.onClick}
+            //   />
+            // )
           ))}
         </main>
       </div>

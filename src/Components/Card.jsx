@@ -10,9 +10,9 @@ const Card = ({ imageSrc, altText, label, onClick }) => {
           <img src={imageSrc} alt={altText} className="cover-image w-full h-auto block" />
         </div>
       </a>
-      <div className="cardButton absolute">
+      {/* <div className="cardButton absolute">
         <EventButton label={label} onClick={onClick} />
-      </div>
+      </div> */}
     </div>
   );
 };

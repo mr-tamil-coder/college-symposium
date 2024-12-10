@@ -1,0 +1,29 @@
+.custom-scrollbar {
+    padding-right: 14px; /* Creates space between the content and scrollbar */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #ffffff; /* Neon Blue */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #e893f7; /* Green Blue for hover effect */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #1f2833; /* Dark Grey for the track */
+  }
+
+  .gradient-text {
+    background: linear-gradient(90deg, #ff00cc, #333399);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  

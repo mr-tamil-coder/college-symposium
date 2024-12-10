@@ -20,6 +20,7 @@ import NonCircuit from "./Components/NonCircuit.jsx";
 import NewAbout from "./Components/NewAbout.jsx";
 import Tracks from "./Components/Tracks.jsx";
 import EventDescription from "./Components/EventDescription.jsx";
+import Eloquence from "./Components/EventDescriptions/Eloquence.jsx";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -33,6 +34,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/events",
         element: <EventContainer />,
+      },
+      {
+        path: "/eloquence",
+        element: <Eloquence />,
       },
       {
         path: "/circuit",
