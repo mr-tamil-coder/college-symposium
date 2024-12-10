@@ -26,7 +26,8 @@ const NonCircuitTec = () => {
       imageSrc: Image, // Replace with actual image path
       altText: "Wizzup",
       label: "Wizzup",
-      onClick: () => alert("Wizzup clicked"),
+      path: "/wizzup",
+      // onClick: () => alert("Wizzup clicked"),
     },
     {
       id: 3,
@@ -40,7 +41,8 @@ const NonCircuitTec = () => {
       imageSrc: Image, // Replace with actual image path
       altText: "Viz Your Way",
       label: "Viz Your Way",
-      onClick: () => alert("Viz Your Way clicked"),
+      path: "/vizyourway",
+      // onClick: () => alert("Viz Your Way clicked"),
     },
     {
       id: 5,
