@@ -18,21 +18,21 @@ const Eloquence = () => {
   }, []);
 
   return (
-    <div className="flex flex-col lg:flex-row lg:items-start md:items-center justify-between max-w-7xl mx-auto p-6 gap-10">
-      {/* Left: Event Image */}
-      <motion.div
-        ref={tiltRef}
-        className="lg:w-1/2 w-full flex justify-center"
-        initial={{ opacity: 0, x: -50 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.8 }}
-      >
-        <img
-          src={EventImage}
-          alt="Eloquence Event"
-          className="w-3/4 lg:w-2/3 object-cover rounded-lg shadow-lg"
-        />
-      </motion.div>
+    <div className="flex flex-col lg:flex-row items-center lg:items-middle justify-between max-w-7xl mx-auto p-6 gap-10">
+  {/* Left: Event Image */}
+  <motion.div
+    ref={tiltRef}
+    className="lg:w-1/2 w-full flex justify-center items-center"
+    initial={{ opacity: 0, x: -50 }}
+    animate={{ opacity: 1, x: 0 }}
+    transition={{ duration: 0.8 }}
+  >
+    <img
+      src={EventImage}
+      alt="Eloquence Event"
+      className="w-3/4 md:w-2/3 lg:w-2/3 object-cover rounded-lg shadow-lg"
+    />
+  </motion.div>
 
       {/* Right: Event Details */}
       <motion.div
