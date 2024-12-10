@@ -42,8 +42,8 @@ const Eloquence = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h1 className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-          ✨ Eloquence: Paper Presentation Competition
+        <h1 >
+          ✨<span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">Eloquence: Paper Presentation Competition</span>
         </h1>
 
         {/* Objective Section */}
@@ -59,7 +59,7 @@ const Eloquence = () => {
 
         {/* Rounds Section */}
         <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">📌 Rounds</h2>
+          <h2 >📌 <span className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">Rounds</span></h2>
 
           <h3 className="text-xl md:text-2xl lg:text-1xl font-bold mb-2 gradient-text">
             Round 1: Abstract Submission

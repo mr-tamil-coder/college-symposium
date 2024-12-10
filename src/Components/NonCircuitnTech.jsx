@@ -3,6 +3,7 @@ import randomColor from "randomcolor";
 import "../text.css";
 import Card from "./Card";
 import Image from "../utils/Img/TechLogo.jpg";
+import bgmi from "../assets/symposium/BGMIposter.jpg";
 const NonCircuitnTech = () => {
   const color = randomColor();
 
@@ -38,7 +39,7 @@ const NonCircuitnTech = () => {
     },
     {
       id: 5,
-      imageSrc: Image, // Replace with actual image path
+      imageSrc: bgmi, // Replace with actual image path
       altText: "BGMI",
       label: "BGMI",
       onClick: () => alert("BGMI clicked"),

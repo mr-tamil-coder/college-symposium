@@ -19,8 +19,15 @@
     background: #1f2833; /* Dark Grey for the track */
   }
 
-  .gradient-text {
+  /* .gradient-text {
     background: linear-gradient(90deg, #ff00cc, #333399);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  } */
+
+  .gradient-text {
+    background: linear-gradient(280deg, #fc00ff, #00dbde);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
