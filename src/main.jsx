@@ -25,6 +25,8 @@ import VizYourWay from "./Components/EventDescriptions/Track1/VizYourWay.jsx";
 import EnergiaNova from "./Components/EventDescriptions/Track2/EnergiaNova.jsx";
 import GhostOps from "./Components/EventDescriptions/Track1/GhostOps.jsx";
 import FF from "./Components/EventDescriptions/NonTech/FF.jsx";
+import Wizzup from "./Components/EventDescriptions/Track1/Wizzup.jsx";
+
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -108,6 +110,10 @@ const appRouter = createBrowserRouter([
         path: "/home",
         element: <Home />,
       },
+      {
+        path:"/wizzup",
+        element:<Wizzup/>
+      }
     ],
   },
 ]);
