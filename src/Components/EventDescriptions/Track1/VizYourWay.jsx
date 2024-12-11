@@ -19,7 +19,7 @@ const VizYourWay = () => {
   }, []);
 
   return (
-    <div className="flex flex-col lg:flex-row items-center lg:items-middle justify-between max-w-7xl mx-auto p-6 gap-10">
+    <div className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto p-6 gap-10">
       {/* Left: Event Image */}
       <motion.div
         ref={tiltRef}
@@ -37,7 +37,7 @@ const VizYourWay = () => {
 
       {/* Right: Event Details */}
       <motion.div
-        className="lg:w-1/2 w-full text-white flex flex-col gap-6 overflow-auto bg-transparent custom-scrollbar"
+        className="lg:w-3/4 w-full text-white flex flex-col gap-6 overflow-auto bg-transparent custom-scrollbar"
         style={{ maxHeight: "calc(100vh - 100px)" }}
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}

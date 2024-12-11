@@ -25,7 +25,7 @@ const Body = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false); // Hide loader after 2 seconds
-    }, 2500);
+    }, 1000);
 
     return () => clearTimeout(timer);
   }, []);

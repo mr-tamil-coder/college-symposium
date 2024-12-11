@@ -22,6 +22,7 @@ import Tracks from "./Components/Tracks.jsx";
 import EventDescription from "./Components/EventDescription.jsx";
 import Eloquence from "./Components/EventDescriptions/Track1/Eloquence.jsx";
 import VizYourWay from "./Components/EventDescriptions/Track1/VizYourWay.jsx";
+import EnergiaNova from "./Components/EventDescriptions/Track2/EnergiaNova.jsx";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -43,6 +44,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/vizyourway",
         element: <VizYourWay />,
+      },
+      {
+        path: "/energianova",
+        element: <EnergiaNova />,
       },
       {
         path: "/circuit",

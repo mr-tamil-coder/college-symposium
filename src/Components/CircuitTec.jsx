@@ -3,7 +3,9 @@ import randomColor from "randomcolor";
 import "../text.css";
 import Card from "./Card";
 import Image from '../utils/Img/TechLogo.jpg';
+import energia from "../assets/symposium/EnergiaNova.jpg";
 import RandomEvents from "./RandomEvents";
+import { Link } from "react-router-dom";
 
 const CircuitTec = () => {
   const color = randomColor();
@@ -13,10 +15,11 @@ const CircuitTec = () => {
   const circuittechnicalEvents = [
     {
       id: 1,
-      imageSrc: Image, 
+      imageSrc: energia, 
       altText: "Energia Nova",
       label: "Energia Nova",
-      onClick: () => alert("Energia Nova clicked"),
+      path: "/energianova",
+      // onClick: () => alert("Energia Nova clicked"),
     },
     {
       id: 2,
@@ -63,13 +66,14 @@ const CircuitTec = () => {
         <main className="card-container gap-10 relative flex flex-wrap justify-center w-full">
           {/* Loop through each event and render a Card */}
           {circuittechnicalEvents.map((card) => (
+            <Link to={card.path} key={card.id}>
             <Card
-              key={card.id}
               imageSrc={card.imageSrc}
               altText={card.altText}
-              label={card.label}
-              onClick={card.onClick}
+              // label={card.label}
+              // onClick={card.onClick}
             />
+          </Link>
           ))}
         </main>
       </div>

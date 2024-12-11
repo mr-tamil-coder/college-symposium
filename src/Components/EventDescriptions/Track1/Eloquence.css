@@ -1,35 +1,34 @@
 .custom-scrollbar {
-    padding-right: 14px; /* Creates space between the content and scrollbar */
-  }
-  
-  .custom-scrollbar::-webkit-scrollbar {
-    width: 8px; /* Width of the scrollbar */
-  }
-  
-  .custom-scrollbar::-webkit-scrollbar-thumb {
-    background: #ffffff; /* Neon Blue */
-    border-radius: 4px; /* Rounded corners */
-  }
-  
-  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-    background: #e893f7; /* Green Blue for hover effect */
-  }
-  
-  .custom-scrollbar::-webkit-scrollbar-track {
-    background: #1f2833; /* Dark Grey for the track */
-  }
+  padding-right: 14px; /* Creates space between the content and scrollbar */
+}
 
-  /* .gradient-text {
-    background: linear-gradient(90deg, #ff00cc, #333399);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  } */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
 
-  .gradient-text {
-    background: linear-gradient(280deg, #fc00ff, #00dbde);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ff00cc, #333399); /* Neon Blue */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background:  linear-gradient(180deg, #ff00cc, #333399); /* Green Blue for hover effect */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #1f2833; /* Dark Grey for the track */
+}
+
+.gradient-text-sub {
+  background: linear-gradient(90deg, #ff00cc, #333399);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text {
+  background: linear-gradient(280deg, #fc00ff, #00dbde);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

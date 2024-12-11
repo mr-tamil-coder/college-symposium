@@ -1,10 +1,10 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
-import EventImage from "../../../assets/symposium/Paperpresentation.png"; // Replace with your actual image
-import "./Eloquence.css";
+import EventImage from "../../../assets/symposium/EnergiaNova.jpg"; // Replace with your actual image
+import "./MysteryVault.css";
 
-const Eloquence = () => {
+const EnergiaNova = () => {
   const tiltRef = useRef(null);
 
   useEffect(() => {
@@ -18,7 +18,7 @@ const Eloquence = () => {
   }, []);
 
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto p-6 gap-10">
+    <div className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto p-6 gap-10 text-justify">
   {/* Left: Event Image */}
   <motion.div
     ref={tiltRef}
@@ -43,14 +43,14 @@ const Eloquence = () => {
         transition={{ duration: 0.8 }}
       >
         <h1 >
-          ✨<span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">Eloquence: Paper Presentation Competition</span>
+          ✨<span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">Energia Nova: Paper Presentation Competition</span>
         </h1>
 
         {/* Objective Section */}
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">Objective</h2>
           <p>
-            "Eloquence" is a platform for participants to showcase their ability
+            "Energia Nova" is a platform for participants to showcase their ability
             to present ideas effectively through structured and impactful paper
             presentations. The event emphasizes critical thinking, innovative
             approaches, and persuasive communication.
@@ -114,22 +114,62 @@ const Eloquence = () => {
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             Themes for Paper Submission
           </h2>
-          <ul className="list-disc list-inside">
-            <li>1. Artificial Intelligence & Generative AI</li>
-            <li>2. Quantum Computing</li>
-            <li>3. Big Data & Data Analytics</li>
-            <li>4. Cloud Computing</li>
-            <li>5. Internet of Things</li>
-            <li>6. Cyber Security & Ethical Hacking</li>
-            <li>7. Machine Learning & Data Mining</li>
-            <li>8. AR/VR</li>
-            <li>9. Computer Vision</li>
-            <li>10. Wireless Technology</li>
-          </ul>
+          <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">CIVIL</h3>
+    <ul className="list-disc list-inside">
+        <li>Building Information Modeling (BIM) in construction</li>
+        <li>Advanced Traffic Management Systems</li>
+        <li>Natural Disaster Resistant Infrastructure</li>
+        <li>Modular Construction Techniques</li>
+        <li>Artificial Intelligence in Structural Engineering</li>
+    </ul>
+
+    <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">BME</h3>
+    <ul className="list-disc list-inside">
+        <li>Biosignal and Image processing</li>
+        <li>Artificial Intelligence and Machine Learning in Healthcare</li>
+        <li>Rehabilitation Engineering and Biomedical Robotics</li>
+        <li>Biomaterials & Regenerative Medicine</li>
+        <li>Clinical Engineering and Health Systems</li>
+        <li>Biomaterials & Regenerative Medicine</li>
+    </ul>
+
+    <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">ECE</h3>
+    <ul className="list-disc list-inside">
+        <li>Green communication</li>
+        <li>Sensors, Cloud computing and IoT</li>
+        <li>Underwater communication</li>
+        <li>Mobile and wearable applications</li>
+        <li>Signal processing and applications</li>
+        <li>Advanced Communication networks, 5G/6G and beyond</li>
+    </ul>
+
+    <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">EEE</h3>
+    <ul className="list-disc list-inside">
+        <li>Smart grids and Renewable energy integration</li>
+        <li>AI and Robotics in Electrical Engineering</li>
+        <li>Role of Electric vehicle in Green Transportation</li>
+        <li>HVDC and FACTS</li>
+        <li>Batter Management Systems</li>
+        <li>MEMS and Nanotechnology</li>
+    </ul>
+
+    <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">MBA</h3>
+    <ul className="list-disc list-inside"> 
+        <li>AI interventions in HR technology</li>
+        <li>Green Marketing and E-commerce</li>
+        <li>Entrepreneurial Ecosystem</li>
+        <li>Impact of Technology on Healthcare Delivery</li>
+        <li>Financial Sustainability in Digital Era</li>
+        <li>Green Financing Components</li>
+        <li>Innovation and World of Entrepreneurship</li>
+        <li>Environmental Economics and Empowerment</li>
+        <li>Marketing through Digital Era</li>
+        <li>Optimizing Supply Chain through Management</li>
+    </ul>
         </section>
       </motion.div>
     </div>
   );
 };
 
-export default Eloquence;
+export default EnergiaNova;

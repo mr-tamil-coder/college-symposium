@@ -18,7 +18,7 @@ const MysteryVault = () => {
   }, []);
 
   return (
-    <div className="flex flex-col lg:flex-row items-center lg:items-middle justify-between max-w-7xl mx-auto p-6 gap-10">
+    <div className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto p-6 gap-10">
       {/* Left: Event Image */}
       <motion.div
         ref={tiltRef}

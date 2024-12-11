@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./animation.css"; // Import the CSS for the cubes animation
 import VanillaTilt from "vanilla-tilt";
-import Image from "../utils/Img/TechLogo.jpg";
+import Image from "../assets/symposium/SymLogo.png";
 
 const NewAbout = () => {
   const tiltRef = useRef(null);
@@ -27,7 +27,7 @@ const NewAbout = () => {
         </h1>
 
         {/* Title */}
-        <h2 className="text-3xl md:text-5xl font-aboutfont text-green-blue tracking-widest mb-8 text-left">
+        <h2 className="text-3xl md:text-5xl font-aboutfont tracking-widest text-left">
           TECHNOVANZA '24
         </h2>
 
@@ -51,13 +51,13 @@ const NewAbout = () => {
 
           {/* Image Section */}
           <div
-            ref={tiltRef}
+            // ref={tiltRef}
             className="md:w-[40%] w-full mt-6 md:mt-0 flex justify-center"
           >
             <img
               src={Image}
               alt="Technovenza Logo"
-              className="max-w-full md:max-w-[80%] rounded-lg shadow-lg"
+              className="max-w-full md:max-w-[80%] rounded-lg"
             />
           </div>
         </div>
