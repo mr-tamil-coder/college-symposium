@@ -5,6 +5,7 @@ import Card from "./Card";
 import Image from "../utils/Img/TechLogo.jpg";
 import elo from "../assets/symposium/Paperpresentation.png";
 import viz from "../assets/symposium/Vizyourway.jpeg";
+import wiz from "../assets/symposium/Wizzup.jpg";
 import ghost from "../assets/symposium/GhostOps.jpg";
 import RandomEvents from "./RandomEvents";
 import { Link } from "react-router-dom";
@@ -24,7 +25,7 @@ const NonCircuitTec = () => {
     },
     {
       id: 2,
-      imageSrc: Image,
+      imageSrc: wiz,
       altText: "Wizzup",
       label: "Wizzup",
       path: "/wizzup",
