@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import VanillaTilt from "vanilla-tilt";
-import eventPoster from "../assets/symposium/EventPoster.jpg";
+import eventPoster from "../assets/symposium/EventPoster.jpeg";
 import EventButton from "./EventButton";
 
 const EventContainer = () => {
