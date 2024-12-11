@@ -11,7 +11,7 @@ const Faq = () => {
 
       {questions.map((question) => (
         <div key={question.id}>
-          <details className="glassmorphic-container bg-transparent rounded p-4 mb-4 font-faqfont border border-darkgrey transition duration-300 ease-in-out">
+          <details className="glassmorphic-container bg-transparent rounded p-4 mb-4 font-sans border border-darkgrey transition duration-300 ease-in-out">
             <summary className="cursor-pointer font-bold text-lg text-white flex items-center justify-between hover:text-[#DA0C81] focus:text-[#d303fc] transition-all duration-200">
             <span>{question.question}</span>
               <span className="text-xl">&#x2699;</span>

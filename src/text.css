@@ -5,6 +5,7 @@
   src: url('/fonts/Moderniz.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 
@@ -14,25 +15,29 @@
          url('/fonts/Game Of Squids.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
   font-family: 'timerfont';
   src: url('/fonts/digital-7.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'aboutfont';
   src: url('/fonts/Revamped.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
-@font-face {
+/* @font-face {
   font-family: 'faqfont';
   src: url('/fonts/Roboto-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
-}
+  font-display: swap;
+} */
 
 
 /* .college-font {
