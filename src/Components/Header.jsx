@@ -3,7 +3,6 @@ import { Link, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faCalendarDays, faPhone, faHouse } from "@fortawesome/free-solid-svg-icons";
 import TechLogo from '../utils/Img/TechLogo.jpg';
-import logo from "../assets/symposium/SymLogo.png";
 
 const Header = () => {
   // State to manage the menu toggle
@@ -30,7 +29,7 @@ const Header = () => {
           <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
             <div className="flex items-center">
               <img
-                src={logo}
+                src={TechLogo}
                 alt="Technovanza Logo"
                 className="h-10 w-10 rounded-full mr-2 object-cover"
               />
