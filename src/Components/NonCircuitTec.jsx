@@ -4,6 +4,8 @@ import "../text.css";
 import Card from "./Card";
 import Image from "../utils/Img/TechLogo.jpg";
 import elo from "../assets/symposium/Paperpresentation.png";
+import viz from "../assets/symposium/Vizyourway.jpeg";
+import ghost from "../assets/symposium/GhostOps.jpg";
 import RandomEvents from "./RandomEvents";
 import { Link } from "react-router-dom";
 
@@ -38,7 +40,7 @@ const NonCircuitTec = () => {
     },
     {
       id: 4,
-      imageSrc: Image, // Replace with actual image path
+      imageSrc: viz, // Replace with actual image path
       altText: "Viz Your Way",
       label: "Viz Your Way",
       path: "/vizyourway",
@@ -46,10 +48,11 @@ const NonCircuitTec = () => {
     },
     {
       id: 5,
-      imageSrc: Image, // Replace with actual image path
+      imageSrc: ghost, // Replace with actual image path
       altText: "GhostOps-CTF",
       label: "GhostOps-CTF",
-      onClick: () => alert("GhostOps-CTF clicked"),
+      path: "/ghostops",
+      // onClick: () => alert("GhostOps-CTF clicked"),
     },
     {
       id: 6,

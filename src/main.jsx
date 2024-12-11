@@ -23,6 +23,8 @@ import EventDescription from "./Components/EventDescription.jsx";
 import Eloquence from "./Components/EventDescriptions/Track1/Eloquence.jsx";
 import VizYourWay from "./Components/EventDescriptions/Track1/VizYourWay.jsx";
 import EnergiaNova from "./Components/EventDescriptions/Track2/EnergiaNova.jsx";
+import GhostOps from "./Components/EventDescriptions/Track1/GhostOps.jsx";
+import FF from "./Components/EventDescriptions/NonTech/FF.jsx";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -50,6 +52,14 @@ const appRouter = createBrowserRouter([
         element: <EnergiaNova />,
       },
       {
+        path: "/ghostops",
+        element: <GhostOps />,
+      },
+      {
+        path: "/ff",
+        element: <FF />,
+      },
+      {
         path: "/circuit",
         element: <Circuit />,
       },
@@ -63,7 +73,7 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/events/circuit-non-tech",
-        element: <CircuitnTech />,
+        element: <NonCircuitnTech />,
       },
       {
         path: "/events/non-circuit",

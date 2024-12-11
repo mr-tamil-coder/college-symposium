@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
 // import EventImage from "../../assets/symposium/VizYourWay.png"; // Replace with your actual image
-import EventImage from "../../../utils/Img/TechLogo.jpg";
+import EventImage from "../../../assets/symposium/Vizyourway.jpeg";
 import "./VizYourWay.css"; // Using the same CSS file as Eloquence
 
 const VizYourWay = () => {

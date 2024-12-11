@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import VanillaTilt from "vanilla-tilt";
-import eventPoster from "../assets/symposium/EventPoster.jpeg";
+import eventPoster from "../assets/symposium/EventPoster.jpg";
 import EventButton from "./EventButton";
 
 const EventContainer = () => {
@@ -19,7 +19,7 @@ const EventContainer = () => {
 
   return (
     <div className="px-5"> {/* Added padding on both sides */}
-      <div className="flex justify-center mt-11 mb-20">
+      <div className="flex justify-center mt-11 mb-10">
         <div
           ref={tiltRef}
           className="tilt-container rounded-lg border border-gray-300 overflow-hidden shadow-md"

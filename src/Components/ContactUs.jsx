@@ -32,7 +32,7 @@ const ContactUs = () => {
   ];
 
   return (
-    <section className="bg-transparent text-white p-6 rounded-md max-w-lg mx-auto">
+    <section className="bg-transparent text-gray p-6 rounded-md max-w-lg mx-auto">
       <h2 className="text-2xl text-center text-[#ff00cc] font-semibold mb-4">
         Reach Out
       </h2>
@@ -72,7 +72,7 @@ const ContactUs = () => {
         <div key={idx} className="flex items-center gap-x-4 mb-4">
         <PhoneIcon />
         <p className="text-lg">
-          {`${contact.name}: `}
+          {`${contact.name} : `}
           <a href={`tel:${contact.phone}`} className="hover:underline">
             {contact.phone}
           </a>

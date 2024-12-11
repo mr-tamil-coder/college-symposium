@@ -4,6 +4,8 @@ import "../text.css";
 import Card from "./Card";
 import Image from "../utils/Img/TechLogo.jpg";
 import bgmi from "../assets/symposium/BGMIposter.jpg";
+import ff from "../assets/symposium/FreeFireEvent.jpg";
+import { Link } from "react-router-dom";
 const NonCircuitnTech = () => {
   const color = randomColor();
 
@@ -42,14 +44,16 @@ const NonCircuitnTech = () => {
       imageSrc: bgmi, // Replace with actual image path
       altText: "BGMI",
       label: "BGMI",
-      onClick: () => alert("BGMI clicked"),
+      path: "/bgmi",
+      // onClick: () => alert("BGMI clicked"),
     },
     {
       id: 6,
-      imageSrc: Image, // Replace with actual image path
+      imageSrc: ff, // Replace with actual image path
       altText: "Free Fire",
       label: "Free Fire",
-      onClick: () => alert("Free Fire clicked"),
+      path: "/ff",
+      // onClick: () => alert("Free Fire clicked"),
     },
     
 
@@ -70,13 +74,14 @@ const NonCircuitnTech = () => {
         <main className="card-container gap-10 relative flex flex-wrap justify-center w-full">
           {/* Loop through each event and render a Card */}
           {circuittechnicalEvents.map((card) => (
+            <Link to={card.path} key={card.id}>
             <Card
-              key={card.id}
               imageSrc={card.imageSrc}
               altText={card.altText}
-              label={card.label}
-              onClick={card.onClick}
+              // label={card.label}
+              // onClick={card.onClick}
             />
+          </Link>
           ))}
         </main>
       </div>

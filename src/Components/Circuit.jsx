@@ -1,11 +1,11 @@
 import React from 'react'
-import CircuitnTech from './CircuitnTech'
+import NonCircuitnTech from './NonCircuitnTech'
 import CircuitTec from "./CircuitTec"
 const Circuit = () => {
   return (
     <div>
       <CircuitTec />
-      <CircuitnTech />
+      <NonCircuitnTech />
     </div>
   )
 }
