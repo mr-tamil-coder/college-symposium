@@ -28,7 +28,7 @@ const NewAbout = () => {
 
         {/* Title */}
         <h2 className="text-3xl md:text-5xl font-aboutfont tracking-widest text-left">
-          TECHNOVANZA '24
+          TECHNOVANZA 2024-'25
         </h2>
 
         {/* Content Section */}

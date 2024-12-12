@@ -21,6 +21,7 @@ const Circuit = () => {
           <EventButton label="Register" />
         </Link>
       </div>
+      <br />
     </div>
   )
 }

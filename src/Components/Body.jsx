@@ -20,19 +20,19 @@ import "animate.css";
 import { Link } from "react-router-dom";
 
 const Body = () => {
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false); // Hide loader after 2 seconds
-    }, 1000);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setLoading(false); // Hide loader after 2 seconds
+  //   }, 1000);
 
-    return () => clearTimeout(timer);
-  }, []);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
-  if (loading) {
-    return <Loading />; // Display loader while loading is true
-  }
+  // if (loading) {
+  //   return <Loading />; // Display loader while loading is true
+  // }
 
   return (
     <div>

@@ -65,7 +65,7 @@ const ContactUs = () => {
   const contacts = track === "TRACK 1" ? contacts1 : contacts2; // Choose the correct contacts array
   return (
     <div key={index} className="mt-6">
-      <h3 className="text-lg text-[#ff00cc] font-semibold mb-2">
+      <h3 className="text-lg text-[#ff00cc] text-center font-semibold mb-2">
         {track}
       </h3>
       {contacts.map((contact, idx) => (

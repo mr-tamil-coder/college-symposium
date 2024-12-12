@@ -36,7 +36,7 @@ const Wizzup = () => {
 
       {/* Right: Event Details */}
       <motion.div
-        className="lg:w-3/4 w-full text-white flex flex-col gap-6 overflow-auto bg-transparent custom-scrollbar"
+        className="lg:w-[80%] w-full text-white flex flex-col gap-6 overflow-auto bg-transparent custom-scrollbar"
         style={{ maxHeight: "calc(100vh - 100px)" }}
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
@@ -61,16 +61,14 @@ const Wizzup = () => {
             General Rules
           </h2>
           <ul className="list-disc list-inside">
-            <li>⭐ Teams must consist of exactly 2 members.</li>
-            <li>
-              ⭐ Electronic devices such as mobile phones or laptops are not
+            <li>Teams must consist of exactly 2 members.</li>
+            <li>Electronic devices such as mobile phones or laptops are not
               allowed, except for the provided systems.
             </li>
-            <li>
-              ⭐ All teams must arrive for registration and briefing 15 minutes
+            <li>All teams must arrive for registration and briefing 15 minutes
               before the event starts.
             </li>
-            <li>⭐ Decisions made by the organizers and judges are final.</li>
+            <li>Decisions made by the organizers and judges are final.</li>
           </ul>
         </section>
 
@@ -86,26 +84,22 @@ const Wizzup = () => {
             <b>Language:</b> C
           </p>
           <ul className="list-disc list-inside">
-            <li>
-              ⭐ Teams will be provided with jumbled lines of a code snippet
+            <li>Teams will be provided with jumbled lines of a code snippet
               with a set of questions.
             </li>
-            <li>
-              ⭐ The task is to arrange the jumbled lines to form a working
+            <li>The task is to arrange the jumbled lines to form a working
               code.
             </li>
-            <li>
-              ⭐ Teams must code it on the provided system and verify the
+            <li>Teams must code it on the provided system and verify the
               output.
             </li>
-            <li>
-              ⭐ Points will be awarded for:
+            <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">Points will be awarded for:</h3>
               <ul className="list-disc ml-6">
                 <li>Correct arrangement of code.</li>
                 <li>Successful compilation and execution.</li>
                 <li>Time taken to complete the task.</li>
               </ul>
-            </li>
+            
           </ul>
         </section>
 
@@ -133,10 +127,10 @@ const Wizzup = () => {
           </h3>
           <ul className="list-disc list-inside">
             <li>
-              ⭐ <b>Member 1 (Performer):</b> Acts out the clues.
+              <b>Member 1 (Performer):</b> Acts out the clues.
             </li>
             <li>
-              ⭐ <b>Member 2 (Coder):</b> Works on coding tasks during the
+              <b>Member 2 (Coder):</b> Works on coding tasks during the
               coding time.
             </li>
           </ul>
@@ -144,33 +138,35 @@ const Wizzup = () => {
           <h3 className="text-lg md:text-xl lg:text-2xl font-bold mt-4 gradient-text">
             Rounds:
           </h3>
-          <h4 className="font-semibold text-lg mt-2">
+          <h4 className="text-lg md:text-xl lg:text-1xl font-bold mt-4 gradient-text">
             a) Dumb Charades Round:
           </h4>
           <ul className="list-disc list-inside">
             <li>
-              ⭐ Dumb Charades are played in each round to earn coding time.
+              Dumb Charades are played in each round to earn coding time.
             </li>
             <li>
-              ⭐ The performer will act out a word, phrase, or object (without
+              The performer will act out a word, phrase, or object (without
               speaking) while the coder tries to guess it within 1 minute time
               limit for guessing.
             </li>
             <li>
-              ⭐ If the team guesses correctly within 1 minute, they earn 4
+              If the team guesses correctly within 1 minute, they earn 4
               minutes of coding time for the next task; otherwise, they earn
               only 2 minutes of coding time for the next round
             </li>
           </ul>
 
-          <h4 className="font-semibold text-lg mt-2">b) Coding Time:</h4>
+          <h4 className="text-lg md:text-xl lg:text-1xl font-bold mt-4 gradient-text">
+            b) Coding Time:
+            </h4>
           <ul className="list-disc list-inside">
             <li>
-              ⭐ After each charade round, the coder uses the earned coding time
+              After each charade round, the coder uses the earned coding time
               (4 or 2 minutes) to work on a coding task.
             </li>
             <li>
-              ⭐ The coding task could be a simple programming problem (like a
+              The coding task could be a simple programming problem (like a
               basic algorithm or data structure problem).
             </li>
           </ul>

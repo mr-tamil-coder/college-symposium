@@ -21,6 +21,7 @@ const NonCircuit = () => {
           <EventButton label="Register" />
         </Link>
       </div>
+      <br />
     </div>
   )
 }
