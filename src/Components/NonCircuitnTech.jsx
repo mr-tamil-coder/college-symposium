@@ -1,62 +1,53 @@
 import React from "react";
-import randomColor from "randomcolor";
-import "../text.css";
+import "../text.css"; // Ensure this file contains any other necessary styling
 import Card from "./Card";
 import Image from "../utils/Img/TechLogo.jpg";
 import bgmi from "../assets/symposium/BGMIposter.jpg";
 import ff from "../assets/symposium/FreeFireEvent.jpg";
+import RandomEvents from "./RandomEvents";
+import randomColor from "randomcolor";
 import { Link } from "react-router-dom";
+// import "./NonCircuitnTech.css";
+
 const NonCircuitnTech = () => {
   const color = randomColor();
-
-  // Events data
   const circuittechnicalEvents = [
     {
       id: 1,
-      imageSrc: Image, // Replace with actual image path
+      imageSrc: Image,
       altText: "Cinephilia",
-      label: "Cinephilia",
-      onClick: () => alert("Cinephilia clicked "),
+      path: "/cinephilia",
     },
     {
       id: 2,
-      imageSrc: Image, // Replace with actual image path
+      imageSrc: Image,
       altText: "Mystery Vault",
-      label: "Mystery Vault",
-      onClick: () => alert("Mystery Vault clicked"),
+      path: "/mystery-vault",
     },
     {
       id: 3,
-      imageSrc: Image, // Replace with actual image path
+      imageSrc: Image,
       altText: "Deadly Deeds",
-      label: "Deadly Deeds",
-      onClick: () => alert("Deadly Deeds clicked"),
+      path: "/deadly-deeds",
     },
     {
       id: 4,
-      imageSrc: Image, // Replace with actual image path
+      imageSrc: Image,
       altText: "IPL Auction",
-      label: "IPL Auction",
-      onClick: () => alert("IPL Auction clicked"),
+      path: "/ipl-auction",
     },
     {
       id: 5,
-      imageSrc: bgmi, // Replace with actual image path
+      imageSrc: bgmi,
       altText: "BGMI",
-      label: "BGMI",
       path: "/bgmi",
-      // onClick: () => alert("BGMI clicked"),
     },
     {
       id: 6,
-      imageSrc: ff, // Replace with actual image path
+      imageSrc: ff,
       altText: "Free Fire",
-      label: "Free Fire",
       path: "/ff",
-      // onClick: () => alert("Free Fire clicked"),
     },
-    
-
   ];
 
   return (
@@ -67,21 +58,16 @@ const NonCircuitnTech = () => {
           textShadow: `2px 2px 15px ${color}`,
         }}
       >
-        Non-Technical Events
+        Non Technical Events
       </h3>
 
       <div>
-        <main className="card-container gap-10 relative flex flex-wrap justify-center w-full">
+        <main className="card-container gap-10 flex flex-wrap justify-center w-full">
           {/* Loop through each event and render a Card */}
           {circuittechnicalEvents.map((card) => (
             <Link to={card.path} key={card.id}>
-            <Card
-              imageSrc={card.imageSrc}
-              altText={card.altText}
-              // label={card.label}
-              // onClick={card.onClick}
-            />
-          </Link>
+              <Card imageSrc={card.imageSrc} altText={card.altText} />
+            </Link>
           ))}
         </main>
       </div>

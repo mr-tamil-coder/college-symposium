@@ -27,8 +27,8 @@ const ContactUs = () => {
     { name: "Gowtham T", phone: "+91 9025896912" },
   ];
   const contacts2 = [
-    { name: "Name1", phone: "+91 1234567890" },
-    { name: "Name2", phone: "+91 1234567890" },
+    { name: "Abdul Hameed EV", phone: "+91 8056747791" },
+    { name: "Chandra Shekhar K", phone: "+91 8122116830" },
   ];
 
   return (
