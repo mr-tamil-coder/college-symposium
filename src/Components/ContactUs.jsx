@@ -27,46 +27,75 @@ const ContactUs = () => {
     { name: "Gowtham T", phone: "+91 9025896912" },
   ];
   const contacts2 = [
-    { name: "Abdul Hameed EV", phone: "+91 8056747791" },
-    { name: "Chandra Shekhar K", phone: "+91 8122116830" },
+    { name: "Abdul Hameed EH", phone: "+91 8056747791" },
+    { name: "Chandra Sekar K", phone: "+91 8122116830" },
   ];
 
   return (
     <section className="bg-transparent text-gray p-4 md:p-6 rounded-md max-w-md md:max-w-lg mx-auto">
       {/* Reduced Reach Out Heading Size */}
       <h2 className="text-lg md:text-xl text-center text-[#ff00cc] font-semibold mb-4">
-        Reach Out
-      </h2>
-      <div className="flex items-center gap-x-3 md:gap-x-4 mb-4">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          height="28"
-          width="28"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          strokeWidth={2}
-          className="flex-shrink-0"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            stroke="#fff"
-            d="M3 8l7.894 5.308c.63.424 1.648.424 2.278 0L21 8M5 19h14c1.657 0 3-1.343 3-3V7c0-1.657-1.343-3-3-3H5C3.343 4 2 5.343 2 7v9c0 1.657 1.343 3 3 3z"
-          />
-        </svg>
-        <a
-          href="mailto:symposium2024@jerusalemengg.ac.in"
-          className="text-sm md:text-lg hover:underline"
-        >
-          symposium2024@jerusalemengg.ac.in
-        </a>
-      </div>
-      {["TRACK 1", "TRACK 2"].map((track, index) => {
+  Reach Out
+</h2>
+
+<div className="flex flex-col md:flex-col items-left gap-x-3 md:gap-x-4 mb-0">
+  {/* Location Icon and Text */}
+  <div className="flex items-left gap-x-3 mb-5">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      height="28"
+      width="28"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      strokeWidth="2"
+      className="flex-shrink-0"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        stroke="#fff"
+        d="M12 2C8.134 2 5 5.134 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.866-3.134-7-7-7zM12 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"
+      />
+    </svg>
+    <a className="text-sm md:text-lg">
+      Jerusalem College Of Engineering, Pallikaranai
+    </a>
+  </div>
+
+  {/* Email Icon and Text */}
+  <div className="flex items-left gap-x-3">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      height="28"
+      width="28"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      strokeWidth="2"
+      className="flex-shrink-0"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        stroke="#fff"
+        d="M3 8l7.894 5.308c.63.424 1.648.424 2.278 0L21 8M5 19h14c1.657 0 3-1.343 3-3V7c0-1.657-1.343-3-3-3H5C3.343 4 2 5.343 2 7v9c0 1.657 1.343 3 3 3z"
+      />
+    </svg>
+    <a
+      href="mailto:symposium2024@jerusalemengg.ac.in"
+      className="text-sm md:text-lg hover:underline"
+    >
+      symposium2024@jerusalemengg.ac.in
+    </a>
+  </div>
+</div>
+
+      {/* {["TRACK 1", "TRACK 2"].map((track, index) => {
         const contacts = track === "TRACK 1" ? contacts1 : contacts2; // Choose the correct contacts array
         return (
           <div key={index} className="mt-6">
-            {/* Reduced Track Heading Size */}
+            {/* Reduced Track Heading Size }
             <h3 className="text-base md:text-lg text-[#ff00cc] text-center font-semibold mb-2">
               {track}
             </h3>
@@ -87,8 +116,8 @@ const ContactUs = () => {
               ))}
             </div>
           </div>
-        );
-      })}
+        ); 
+      })} */}
     </section>
   );
 };

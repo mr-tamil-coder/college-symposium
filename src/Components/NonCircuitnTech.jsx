@@ -3,7 +3,7 @@ import "../text.css"; // Ensure this file contains any other necessary styling
 import Card from "./Card";
 import Image from "../utils/Img/TechLogo.jpg";
 import bgmi from "../assets/symposium/BGMIposter.jpg";
-import ff from "../assets/symposium/FreeFireEvent.jpg";
+import ff from "../assets/symposium/FreeFire.jpg";
 import RandomEvents from "./RandomEvents";
 import randomColor from "randomcolor";
 import { Link } from "react-router-dom";

@@ -27,6 +27,7 @@ import GhostOps from "./Components/EventDescriptions/Track1/GhostOps.jsx";
 import FF from "./Components/EventDescriptions/NonTech/FF.jsx";
 import BGMI from "./Components/EventDescriptions/NonTech/BGMI.jsx";
 import Wizzup from "./Components/EventDescriptions/Track1/Wizzup.jsx";
+import Contact from "./Components/Contact.jsx";
 
 const appRouter = createBrowserRouter([
   {
@@ -114,6 +115,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/home",
         element: <Home />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
       },
       {
         path:"/wizzup",

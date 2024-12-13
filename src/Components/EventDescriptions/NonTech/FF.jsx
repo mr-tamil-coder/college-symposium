@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
-import EventImage from "../../../assets/symposium/FreeFireEvent.jpg"; // Replace with your actual image
+import EventImage from "../../../assets/symposium/FreeFire.jpg"; // Replace with your actual image
 import "./MysteryVault.css";
 
 const FF = () => {
