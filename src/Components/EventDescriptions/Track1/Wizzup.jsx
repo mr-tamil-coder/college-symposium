@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
 import "./VizYourWay.css";
-import EventImage from "../../../assets/symposium/Wizzup.jpg";
+import EventImage from "../../../assets/symposium/Wizzup_Debugging.jpeg";
 
 const Wizzup = () => {
   const tiltRef = useRef(null);
@@ -43,6 +43,7 @@ const Wizzup = () => {
         transition={{ duration: 0.8 }}
       >
         <h1>
+        ✨
           <span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
             Wizzup – Debugging Event
           </span>

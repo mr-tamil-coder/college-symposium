@@ -32,16 +32,17 @@ const ContactUs = () => {
   ];
 
   return (
-    <section className="bg-transparent text-gray p-6 rounded-md max-w-lg mx-auto">
-      <h2 className="text-2xl text-center text-[#ff00cc] font-semibold mb-4">
+    <section className="bg-transparent text-gray p-4 md:p-6 rounded-md max-w-md md:max-w-lg mx-auto">
+      {/* Reduced Reach Out Heading Size */}
+      <h2 className="text-lg md:text-xl text-center text-[#ff00cc] font-semibold mb-4">
         Reach Out
       </h2>
-      <div className="flex items-center gap-x-4 mb-4">
+      <div className="flex items-center gap-x-3 md:gap-x-4 mb-4">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
-          height="33"
-          width="33"
+          height="28"
+          width="28"
           viewBox="0 0 24 24"
           stroke="currentColor"
           strokeWidth={2}
@@ -56,32 +57,38 @@ const ContactUs = () => {
         </svg>
         <a
           href="mailto:symposium2024@jerusalemengg.ac.in"
-          className="text-lg hover:underline"
+          className="text-sm md:text-lg hover:underline"
         >
           symposium2024@jerusalemengg.ac.in
         </a>
       </div>
       {["TRACK 1", "TRACK 2"].map((track, index) => {
-  const contacts = track === "TRACK 1" ? contacts1 : contacts2; // Choose the correct contacts array
-  return (
-    <div key={index} className="mt-6">
-      <h3 className="text-lg text-[#ff00cc] text-center font-semibold mb-2">
-        {track}
-      </h3>
-      {contacts.map((contact, idx) => (
-        <div key={idx} className="flex items-center gap-x-4 mb-4">
-        <PhoneIcon />
-        <p className="text-lg">
-          {`${contact.name} : `}
-          <a href={`tel:${contact.phone}`} className="hover:underline">
-            {contact.phone}
-          </a>
-        </p>
-      </div>      
-      ))}
-    </div>
-  );
-})}
+        const contacts = track === "TRACK 1" ? contacts1 : contacts2; // Choose the correct contacts array
+        return (
+          <div key={index} className="mt-6">
+            {/* Reduced Track Heading Size */}
+            <h3 className="text-base md:text-lg text-[#ff00cc] text-center font-semibold mb-2">
+              {track}
+            </h3>
+            <div className="grid gap-4 md:gap-6 grid-cols-1 md:grid-cols-2">
+              {contacts.map((contact, idx) => (
+                <div
+                  key={idx}
+                  className="flex items-center gap-x-3 md:gap-x-4 mb-2"
+                >
+                  <PhoneIcon />
+                  <p className="text-sm md:text-lg">
+                    {`${contact.name} : `}
+                    <a href={`tel:${contact.phone}`} className="hover:underline">
+                      {contact.phone}
+                    </a>
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        );
+      })}
     </section>
   );
 };

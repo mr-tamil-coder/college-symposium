@@ -5,7 +5,7 @@ import Card from "./Card";
 import Image from "../utils/Img/TechLogo.jpg";
 import elo from "../assets/symposium/Paperpresentation.png";
 import viz from "../assets/symposium/Vizyourway.jpeg";
-import wiz from "../assets/symposium/Wizzup.jpg";
+import wiz from "../assets/symposium/Wizzup_Debugging.jpeg";
 import ghost from "../assets/symposium/GhostOps.jpg";
 import RandomEvents from "./RandomEvents";
 import { Link } from "react-router-dom";

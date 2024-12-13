@@ -25,6 +25,7 @@ import VizYourWay from "./Components/EventDescriptions/Track1/VizYourWay.jsx";
 import EnergiaNova from "./Components/EventDescriptions/Track2/EnergiaNova.jsx";
 import GhostOps from "./Components/EventDescriptions/Track1/GhostOps.jsx";
 import FF from "./Components/EventDescriptions/NonTech/FF.jsx";
+import BGMI from "./Components/EventDescriptions/NonTech/BGMI.jsx";
 import Wizzup from "./Components/EventDescriptions/Track1/Wizzup.jsx";
 
 const appRouter = createBrowserRouter([
@@ -60,6 +61,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/ff",
         element: <FF />,
+      },
+      {
+        path: "/bgmi",
+        element: <BGMI />,
       },
       {
         path: "/circuit",

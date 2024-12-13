@@ -18,7 +18,7 @@ const FF = () => {
   }, []);
 
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto p-6 gap-10 text-justify">
+    <div className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto p-6 gap-10">
       {/* Left: Event Image */}
       <motion.div
         ref={tiltRef}
@@ -43,6 +43,7 @@ const FF = () => {
         transition={{ duration: 0.8 }}
       >
         <h1>
+        ✨
           <span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
             Gaming is not just a hobby, it's a passion.
           </span>
@@ -53,7 +54,7 @@ const FF = () => {
         </h2>
 
         {/* Event Details */}
-        <section className="text-gray-300">
+        <section className="text-gray-300 text-justify">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             Rules & Regulations
           </h2>

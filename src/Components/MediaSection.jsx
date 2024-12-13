@@ -8,7 +8,7 @@ const MediaSection = () => {
 
   return (
     <div className="flex flex-col items-start">
-      <h1 className="media-header text-xl sm:text-1xl md:text-2xl lg:text-2xl xl:text-2xl text-center text-[#ff00cc] font-sans font-semibold py-4 px-4">
+      <h1 className="text-xl sm:text-1xl md:text-2xl lg:text-2xl xl:text-2xl text-center text-[#ff00cc] font-sans font-semibold py-4 px-4">
         Connect with us online.
       </h1>
       <div className="media-container">
