@@ -41,7 +41,10 @@ const Contact = () => {
 
   return (
     <div className="contact-container bg-transparent text-white py-10 px-10">
-      <h1 className="text-3xl font-extrabold text-center mb-8">Contact Details</h1>
+      <h1 className="text-3xl font-extrabold text-center font-otherfont mb-8 bg-clip-text text-transparent bg-gradient-to-r from-[#fc00ff] to-[#00dbde]">
+    CONTACT DETAILS
+</h1>
+
       <div className="tracks-container flex flex-col gap-10">
         {tracks.map((track, index) => (
           <div key={index} className="track">

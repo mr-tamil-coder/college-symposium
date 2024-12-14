@@ -6,17 +6,15 @@ const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-
 const particlesArray = [];
 const numberOfParticles = 15;
 
 // Particle Class
 class Particle {
-  constructor(x, y, size, speedX, speedY) {
+  constructor(x, y, size, speedY) {
     this.x = x;
     this.y = y;
     this.size = size;
-    this.speedX = speedX;
     this.speedY = speedY;
   }
 
@@ -31,29 +29,47 @@ class Particle {
     ctx.fill();
     ctx.globalCompositeOperation = 'source-over'; // Reset to default after drawing
   }
-  
-  
 
   // Update particle position
   update() {
-    this.x += this.speedX;
-    this.y += this.speedY;
-
-    // Bounce particles off edges
-    if (this.x < 0 || this.x > canvas.width) this.speedX *= -1;
-    if (this.y < 0 || this.y > canvas.height) this.speedY *= -1;
+    this.y -= this.speedY; // Move upward
+    if (this.y + this.size < 0) { // If particle goes above the canvas
+      this.y = canvas.height + this.size; // Reappear at the bottom
+      this.x = Math.random() * canvas.width; // Random x position
+    }
   }
 }
 
-// Initialize particles
+// Check if particles overlap
+function isOverlapping(particle, particles) {
+  for (const existing of particles) {
+    const dx = particle.x - existing.x;
+    const dy = particle.y - existing.y;
+    const distance = Math.sqrt(dx * dx + dy * dy);
+    if (distance < particle.size + existing.size) {
+      return true; // Overlapping detected
+    }
+  }
+  return false;
+}
+
+// Initialize particles with spacing logic
 function initParticles() {
+  let attempts = 0; // To prevent infinite loops
   for (let i = 0; i < numberOfParticles; i++) {
-    const size = Math.random() * 15 + 10; // Particle size
-    const x = Math.random() * canvas.width;
-    const y = Math.random() * canvas.height;
-    const speedX = (Math.random() - 0.5) * 2; // Speed in x
-    const speedY = (Math.random() - 0.5) * 2; // Speed in y
-    particlesArray.push(new Particle(x, y, size, speedX, speedY));
+    let size = Math.random() * 15 + 10; // Particle size
+    let x, y, speedY = 0.7; // Fixed upward speed
+    let particle;
+
+    do {
+      x = Math.random() * canvas.width;
+      y = Math.random() * canvas.height;
+      particle = new Particle(x, y, size, speedY);
+      attempts++;
+      if (attempts > 1000) break; // Break if too many attempts
+    } while (isOverlapping(particle, particlesArray));
+
+    particlesArray.push(particle);
   }
 }
 
