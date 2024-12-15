@@ -55,7 +55,7 @@ const Contact = () => {
               {track.coordinators.map((coordinator, idx) => (
                 <div key={idx} className="anim-container w-full sm:w-1/2 lg:w-1/3">
                   <div className="anim-card bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-                  <h3 className="text-xl font-bold mb-2 text-white">
+                  <h3 className="text-xl font-bold mb-2 bg-clip-text bg-gradient-to-r from-[#fc00ff] to-[#00dbde]">
                     {coordinator.name}
                     </h3>
                     <p className="text-sm text-white mb-2">
@@ -66,7 +66,7 @@ const Contact = () => {
                         className="glass-button ml-0"
                         onClick={() => window.location.href = `tel:${coordinator.phone}`}
                             >
-                        Message
+                        Contact
                         </button>
                         </p>
 

@@ -12,9 +12,9 @@ const Faq = () => {
       {questions.map((question) => (
         <div key={question.id}>
           <details className="glassmorphic-container bg-transparent rounded p-4 mb-4 font-sans border border-darkgrey transition duration-300 ease-in-out">
-            <summary className="cursor-pointer font-bold text-lg text-white flex items-center justify-between hover:text-[#DA0C81] focus:text-[#d303fc] transition-all duration-200">
+            <summary className="cursor-pointer font-bold text-lg text-white flex items-center justify-between hover:bg-gradient-to-br hover:from-[#fc03e3] hover:to-[#a6033c] hover:bg-clip-text hover:text-transparent focus:bg-gradient-to-br focus:from-[#fc03e3] focus:to-[#a6033c] focus:bg-clip-text focus:text-transparent transition-all duration-200">
             <span>{question.question}</span>
-              <span className="text-xl">&#x2699;</span>
+              <span className="text-xl text-white">&#x2699;</span>
             </summary>
             <p className="p-2 text-lg text-gray-300 transition-all duration-300 ease-in-out">
               {question.answer}

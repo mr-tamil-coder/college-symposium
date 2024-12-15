@@ -36,7 +36,7 @@ const NewAbout = () => {
           {/* Text Section */}
           <div className="md:w-[60%] w-full text-lg leading-relaxed text-justify px-4">
             <p>
-              Technovenza is the epitome of innovation and collaboration,
+              Technovanza is the epitome of innovation and collaboration,
               designed to foster creativity, ignite ideas, and push the
               boundaries of technology. With a focus on modern advancements, it
               stands as a beacon for tech enthusiasts, paving the way for a

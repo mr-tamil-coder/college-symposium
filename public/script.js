@@ -75,6 +75,7 @@ window.addEventListener('resize', () => {
   initParticles();
 });
 
+
 // Initialize and animate
 initParticles();
 animate();

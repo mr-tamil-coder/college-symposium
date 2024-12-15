@@ -39,10 +39,10 @@ const TrackInfo = ({label,Image,Description}) => {
         <div className="mt-12 flex justify-center">
           
           <img
-            ref={tiltRef}
+            // ref={tiltRef}
             src={Image}
             alt="Technovenza Poster"
-            className="max-w-full md:max-w-[80%] rounded-lg"
+            className="max-w-full md:max-w-[100%]"
           />
         </div>
       </div>

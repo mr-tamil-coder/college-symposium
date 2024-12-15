@@ -41,7 +41,7 @@ const CountdownTimer = () => {
   }, []);
 
   return (
-    <div className="flex flex-col justify-center items-center text-white animate__animated animate__fadeInUp">
+    <div className="flex flex-col justify-center items-center text-white animate__animated animate__fadeInUp duration-500">
       <br />
       <h1 className="text-xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-otherfont font-extrabold py-2 sm:py-3 lg:py-4 animate-pulse text-center">
       THE BIG MOMENT IS COMING...
