@@ -57,6 +57,17 @@ const Eloquence = () => {
             approaches, and persuasive communication.
           </p>
         </section>
+        <section className="text-gray-300 text-justify">
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+            Major Domains
+          </h2>
+          <ul className="list-disc list-inside mt-4">
+            <li>CSE/ CS&BS</li>
+            <li>IT</li>
+            <li>AI&DS / Cyber Security</li>
+            <li>AI&ML</li>
+          </ul>
+        </section>
 
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">

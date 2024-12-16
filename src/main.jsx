@@ -72,7 +72,7 @@ const appRouter = createBrowserRouter([
         element: <Circuit />,
       },
       {
-        path: "/events/circuit",
+        path: "/track2",
         element: <Circuit />,
       },
       {
@@ -84,7 +84,7 @@ const appRouter = createBrowserRouter([
         element: <NonCircuitnTech />,
       },
       {
-        path: "/events/non-circuit",
+        path: "/track1",
         element: <NonCircuit />,
       },
       {
