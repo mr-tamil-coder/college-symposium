@@ -62,14 +62,14 @@ const appRouter = createBrowserRouter([
         path: "/ghostops",
         element: <GhostOps />,
       },
-      // {
-      //   path: "/codesprint",
-      //   element: <CodeSprint />,
-      // },
-      // {
-      //   path: "/mattermind",
-      //   element: <MatterMind />,
-      // },
+      {
+        path: "/codesprint",
+        element: <CodeSprint />,
+      },
+      {
+        path: "/mattermind",
+        element: <MatterMind />,
+      },
       {
         path: "/ff",
         element: <FF />,
@@ -82,10 +82,10 @@ const appRouter = createBrowserRouter([
         path: "/circuit",
         element: <Circuit />,
       },
-      // {
-      //   path: "/cinephilia",
-      //   element: <Ciniphilia />,
-      // },
+      {
+        path: "/cinephilia",
+        element: <Ciniphilia />,
+      },
       {
         path: "/track2",
         element: <Circuit />,
