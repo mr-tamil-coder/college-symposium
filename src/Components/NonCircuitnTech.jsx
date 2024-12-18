@@ -4,7 +4,6 @@ import Card from "./Card";
 import Image from "../utils/Img/TechLogo.jpg";
 import bgmi from "../assets/symposium/bgmi.jpg";
 import ff from "../assets/symposium/FreeFire.jpg";
-import RandomEvents from "./RandomEvents";
 import cini from "../assets/symposium/Cinephilia.jpeg";
 import randomColor from "randomcolor";
 import { Link } from "react-router-dom";

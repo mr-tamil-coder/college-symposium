@@ -30,6 +30,7 @@ import Wizzup from "./Components/EventDescriptions/Track1/Wizzup.jsx";
 import Contact from "./Components/Contact.jsx";
 import CodeSprint from "./Components/EventDescriptions/Track1/CodeSprint.jsx";
 import MatterMind from "./Components/EventDescriptions/Track1/MatterMind.jsx";
+import Ciniphilia from "./Components/EventDescriptions/NonTech/Ciniphilia.jsx";
 
 const appRouter = createBrowserRouter([
   {
@@ -80,6 +81,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/circuit",
         element: <Circuit />,
+      },
+      {
+        path: "/cinephilia",
+        element: <Ciniphilia />,
       },
       {
         path: "/track2",
