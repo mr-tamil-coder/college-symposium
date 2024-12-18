@@ -5,6 +5,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontSize : {
+        body: '18px',
+        head: '28px',
+        subhead: '18px',
+
+      },
       colors: {
         black: '#0B0C10',
         darkgrey: '#1F2833',

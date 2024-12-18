@@ -18,7 +18,7 @@ const EventContainer = () => {
   }, []);
 
   return (
-    <div className="px-5"> {/* Added padding on both sides */}
+    <div className="px-5 min-h-screen flex flex-col justify-start items-center"> {/* Added padding on both sides */}
       <div className="flex justify-center mt-11 mb-10">
         <div
           // ref={tiltRef}

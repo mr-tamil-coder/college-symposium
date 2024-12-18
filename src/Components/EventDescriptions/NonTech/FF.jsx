@@ -59,12 +59,12 @@ const FF = () => {
             Rules & Regulations
           </h2>
           <ul className="list-disc list-inside">
-            <li>⭐ Each team must consist of 4 members. (A Squad)</li>
-            <li>⭐ Team should have a team name for their squad.</li>
-            <li>⭐ Game mode will be Clash Squad & Classic (Bermuda).</li>
-            <li>⭐ Mobile players only; PC players are not allowed.</li>
-            <li>⭐ Hacking or cheating will lead to team disqualification.</li>
-            <li>⭐ No gun skins, no character skills allowed.</li>
+            <li>Each team must consist of 4 members. (A Squad)</li>
+            <li>Team should have a team name for their squad.</li>
+            <li>Game mode will be Clash Squad & Classic (Bermuda).</li>
+            <li>Mobile players only; PC players are not allowed.</li>
+            <li>Hacking or cheating will lead to team disqualification.</li>
+            <li>No gun skins, no character skills allowed.</li>
           </ul>
         </section>
 

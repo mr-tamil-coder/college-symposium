@@ -6,9 +6,9 @@ import Image from "../utils/Img/TechLogo.jpg";
 import elo from "../assets/symposium/eloquence.jpg";
 import viz from "../assets/symposium/vizyour.jpeg";
 import wiz from "../assets/symposium/Wizzup_Debug.jpeg";
-import ghost from "../assets/symposium/Ghostops.jpeg";
+import ghost from "../assets/symposium/Ghost.png";
 import matter from "../assets/symposium/mattermind.jpg";
-import codesprint from "../assets/symposium/codenew.jpg";
+import codesprint from "../assets/symposium/Code Sprint.jpeg";
 
 import RandomEvents from "./RandomEvents";
 

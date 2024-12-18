@@ -44,24 +44,24 @@ const Wizzup = () => {
       >
         <h1>
         ✨
-          <span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
+          <span className="text-head lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
             Wizzup – Debugging Event
           </span>
         </h1>
 
         <h2>
-          <span className="text-xl lg:text-2xl font-bold mb-2 gradient-text">
+          <span className="text-head lg:text-2xl font-bold mb-2 gradient-text">
             Description:
           </span>
         </h2>
-        <p className="text-gray-300">It is a code cum game-based event.</p>
+        <p className="text-gray-300 text-body lg:text-2xl">It is a code cum game-based event.</p>
 
         {/* General Rules */}
         <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+          <h2 className="text-head md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             General Rules
           </h2>
-          <ul className="list-disc list-inside">
+          <ul className="list-disc list-inside text-body lg:text-2xl">
             <li>Teams must consist of exactly 2 members.</li>
             <li>Electronic devices such as mobile phones or laptops are not
               allowed, except for the provided systems.
@@ -75,16 +75,16 @@ const Wizzup = () => {
 
         {/* Round 1 */}
         <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+          <h2 className="text-head md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             Round 1: Debugging Round
           </h2>
-          <p>
+          <p className="text-subhead lg:text-2xl">
             <b>Total Time:</b> 30 minutes
           </p>
-          <p>
+          <p className="text-subhead lg:text-2xl">
             <b>Language:</b> C
           </p>
-          <ul className="list-disc list-inside">
+          <ul className="list-disc list-inside text-body lg:text-2xl">
             <li>Teams will be provided with jumbled lines of a code snippet
               with a set of questions.
             </li>
@@ -106,16 +106,16 @@ const Wizzup = () => {
 
         {/* Round 2 */}
         <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+          <h2 className="text-head md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             Round 2: Coding Charades Challenge
           </h2>
-          <p>
+          <p className="text-subhead lg:text-2xl">
             <b>Total Time:</b> 40 minutes
           </p>
-          <p>
+          <p className="text-subhead lg:text-2xl">
             <b>Language:</b> C / Python
           </p>
-          <p>
+          <p className="text-body lg:text-2xl">
             <b>Objective:</b> The game is based on Coding and Dumb Charades,
             with team members taking turns between acting and coding.The team
             plays several rounds of Dumb Charades and earns coding time for each
@@ -126,7 +126,7 @@ const Wizzup = () => {
           <h3 className="text-lg md:text-xl lg:text-2xl font-bold mt-4 gradient-text">
             Game Setup:
           </h3>
-          <ul className="list-disc list-inside">
+          <ul className="list-disc list-inside text-body lg:text-2xl">
             <li>
               <b>Member 1 (Performer):</b> Acts out the clues.
             </li>
@@ -142,7 +142,7 @@ const Wizzup = () => {
           <h4 className="text-lg md:text-xl lg:text-1xl font-bold mt-4 gradient-text">
             a) Dumb Charades Round:
           </h4>
-          <ul className="list-disc list-inside">
+          <ul className="list-disc list-inside text-body lg:text-2xl">
             <li>
               Dumb Charades are played in each round to earn coding time.
             </li>
@@ -161,7 +161,7 @@ const Wizzup = () => {
           <h4 className="text-lg md:text-xl lg:text-1xl font-bold mt-4 gradient-text">
             b) Coding Time:
             </h4>
-          <ul className="list-disc list-inside">
+          <ul className="list-disc list-inside text-body lg:text-2xl">
             <li>
               After each charade round, the coder uses the earned coding time
               (4 or 2 minutes) to work on a coding task.

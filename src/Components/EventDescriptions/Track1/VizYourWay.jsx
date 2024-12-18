@@ -132,7 +132,11 @@ const VizYourWay = () => {
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             For Enquiry:
           </h2>
-          <p>Contact us for further details!</p>
+          <p className="text-body lg:text-2xl">
+            Contact: <br />
+            <strong>Vishalini R :</strong> +91 70101 11064<br />
+            <strong>Kavinya P :</strong>+91 63828 92263 
+          </p>
         </section>
       </motion.div>
     </div>

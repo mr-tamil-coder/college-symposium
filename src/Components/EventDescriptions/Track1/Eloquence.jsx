@@ -1,8 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
-import EventImage from "../../../assets/symposium/eloquence.jpg"; // Replace with your actual image
-import "./Eloquence.css";
+import EventImage from "../../../assets/symposium/eloquence.jpg";
 
 const Eloquence = () => {
   const tiltRef = useRef(null);
@@ -44,13 +43,13 @@ const Eloquence = () => {
       >
         <h1>
           ✨
-          <span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
+          <span className="text-head lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
             Eloquence: Paper Presentation Competition
           </span>
         </h1>
 
         <section className="text-gray-300 text-justify">
-          <p>
+          <p className="text-body lg:text-2xl">
             "Eloquence" is a platform for participants to showcase their ability
             to present ideas effectively through structured and impactful paper
             presentations. The event emphasizes critical thinking, innovative
@@ -58,10 +57,10 @@ const Eloquence = () => {
           </p>
         </section>
         <section className="text-gray-300 text-justify">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+          <h2 className="text-head lg:text-4xl font-bold mb-2 gradient-text">
             Major Domains
           </h2>
-          <ul className="list-disc list-inside mt-4">
+          <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
             <li>CSE/ CS&BS</li>
             <li>IT</li>
             <li>AI&DS / Cyber Security</li>
@@ -70,11 +69,11 @@ const Eloquence = () => {
         </section>
 
         <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+          <h2 className="text-head md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             Themes for Paper Submission
           </h2>
-          <p>Participants can choose below topics but are not limited to:</p>
-          <ul className="list-disc list-inside mt-4">
+          <p className="text-body lg:text-2xl">Participants can choose below topics but are not limited to:</p>
+          <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
             <li>Artificial Intelligence & Generative AI</li>
             <li>Quantum Computing</li>
             <li>Big Data & Data Analytics</li>
@@ -89,10 +88,10 @@ const Eloquence = () => {
         </section>
 
         <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+          <h2 className="text-head md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             Paper Presentation Deadlines
           </h2>
-          <ul className="list-disc list-inside">
+          <ul className="list-disc list-inside text-body lg:text-2xl">
             <li>Abstract Submission: 23.12.2024</li>
             <li>Notification of Acceptance: 27.12.2024</li>
             <li>Full Paper Submission: 08.01.2025</li>
@@ -101,14 +100,14 @@ const Eloquence = () => {
         </section>
 
         <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+          <h2 className="text-head md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             Instructions to Authors
           </h2>
           <div>
-            <h3 className="text-lg md:text-xl lg:text-2xl font-semibold gradient-text">
+            <h3 className="text-subhead md:text-xl lg:text-2xl font-semibold gradient-text">
               Abstract Format
             </h3>
-            <ul className="list-disc list-inside">
+            <ul className="list-disc list-inside text-body lg:text-2xl">
               <li>Title of the paper - Times New Roman, Size: 16, Bold</li>
               <li>Author name (Max. three) - Times New Roman, Size: 9</li>
               <li>Affiliation - Times New Roman, Size: 8</li>
@@ -134,8 +133,8 @@ const Eloquence = () => {
             <h3 className="text-lg md:text-xl lg:text-2xl font-semibold gradient-text">
               Full Paper Format
             </h3>
-            <p>Maximum number of pages – 6</p>
-            <ul className="list-disc list-inside">
+            <p className="text-body lg:text-2xl">Maximum number of pages – 6</p>
+            <ul className="list-disc list-inside text-body lg:text-2xl">
               <li>Introduction</li>
               <li>Existing Work</li>
               <li>Methodology</li>
@@ -143,7 +142,7 @@ const Eloquence = () => {
               <li>Conclusion</li>
               <li>References</li>
             </ul>
-            <p>
+            <p className="text-body lg:text-2xl">
               Submit your full paper to:{" "}
               <a
                 href="https://forms.gle/Fk7QTgXbBHrWcEZ56"
@@ -157,15 +156,15 @@ const Eloquence = () => {
           </div>
 
           <div>
-            <h3 className="text-lg md:text-xl lg:text-2xl font-semibold gradient-text">
+            <h3 className="text-head md:text-xl lg:text-2xl font-semibold gradient-text">
               Paper Presentation Guidelines
             </h3>
-            <p>
+            <p className="text-body lg:text-2xl">
               Prepare your presentation using Microsoft PowerPoint (PPT). No
               other format will be accepted. The presentation duration is 8–10
               minutes and the Q&A session is 2–3 minutes.
             </p>
-            <p>
+            <p className="text-body lg:text-2xl">
               Submit your presentation to:{" "}
               <a
                 href="https://forms.gle/T9GBbbq3wNWfHbSe6"
@@ -180,10 +179,10 @@ const Eloquence = () => {
         </section>
 
         <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+          <h2 className="text-head md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             For More Information
           </h2>
-          <p>
+          <p className="text-body lg:text-2xl">
             Contact: <br />
             <strong>Theophila Murphy:</strong> +91 8610388629 <br />
             <strong>Sharan S:</strong> +91 8248782437
