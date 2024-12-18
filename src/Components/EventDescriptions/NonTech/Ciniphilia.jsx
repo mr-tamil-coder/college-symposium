@@ -1,10 +1,10 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
-import EventImage from "../../../assets/symposium/bgmi.jpg"; // Replace with your actual image
+// import EventImage from "../../../assets/symposium/bgmi.jpg";
 import "./MysteryVault.css";
 
-const BGMI = () => {
+const Ciniphilia = () => {
   const tiltRef = useRef(null);
 
   useEffect(() => {
@@ -100,4 +100,4 @@ const BGMI = () => {
   );
 };
 
-export default BGMI;
+export default Ciniphilia;

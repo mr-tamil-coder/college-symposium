@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faCalendarDays, faPhone, faHouse } from "@fortawesome/free-solid-svg-icons";
 import TechLogo from '../utils/Img/TechLogo.jpg';
-import logo from "../assets/symposium/VioLogo.png";
+import logo from "../assets/symposium/NewTechLOGO.png";
 import "animate.css";
 
 const Header = () => {
@@ -76,9 +76,12 @@ const Header = () => {
         to="/"
         className={`font-collegefont block py-2 px-3 rounded md:bg-transparent md:p-0 ${
           currentPath === "/" ? "text-[#fc03e3] bg-gradient-to-br from-[#fc03e3] to-[#a6033c] bg-clip-text text-transparent" : "text-white"
-        } hover:bg-gradient-to-br hover:from-[#fc03e3] hover:to-[#a6033c] hover:bg-clip-text hover:text-transparent`}
+        } hover:bg-gradient-to-br hover:from-[#fc03e3] hover:to-[#a6033c] hover:bg-clip-text hover:text-transparent `}
         aria-current={currentPath === "/" ? "page" : undefined}
-        onClick={closeMenu}
+        onClick={ () => {
+          closeMenu();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }}
       >
         HOME
       </Link>
@@ -100,7 +103,10 @@ const Header = () => {
         className={`font-collegefont block py-2 px-3 rounded md:bg-transparent md:p-0 ${
           currentPath === "/events" ? "text-[#fc03e3] bg-gradient-to-br from-[#fc03e3] to-[#a6033c] bg-clip-text text-transparent" : "text-white"
         } hover:bg-gradient-to-br hover:from-[#fc03e3] hover:to-[#a6033c] hover:bg-clip-text hover:text-transparent`}
-        onClick={closeMenu}
+        onClick={() => {
+          closeMenu();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }}
       >
         EVENTS
       </Link>

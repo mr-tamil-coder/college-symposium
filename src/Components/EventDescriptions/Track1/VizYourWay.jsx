@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
 // import EventImage from "../../assets/symposium/VizYourWay.png"; // Replace with your actual image
-import EventImage from "../../../assets/symposium/Vizyourway.jpeg";
+import EventImage from "../../../assets/symposium/vizyour.jpeg";
 import "./VizYourWay.css"; // Using the same CSS file as Eloquence
 
 const VizYourWay = () => {
@@ -49,12 +49,12 @@ const VizYourWay = () => {
             Viz Your Way: Data Visualization Competition
           </span>
         </h1>
-        <p className="text-gray-300">
-          <strong>Date:</strong> _________<br />
+        {/* <p className="text-gray-300">
+          <strong>Date:</strong> <br />
           <strong>Time:</strong> _________<br />
           <strong>Venue:</strong> _________<br />
           <strong>Team Size:</strong> 2 members per team
-        </p>
+        </p> */}
 
         {/* Description Section */}
         <section className="text-gray-300">

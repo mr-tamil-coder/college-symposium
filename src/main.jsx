@@ -28,6 +28,8 @@ import FF from "./Components/EventDescriptions/NonTech/FF.jsx";
 import BGMI from "./Components/EventDescriptions/NonTech/BGMI.jsx";
 import Wizzup from "./Components/EventDescriptions/Track1/Wizzup.jsx";
 import Contact from "./Components/Contact.jsx";
+import CodeSprint from "./Components/EventDescriptions/Track1/CodeSprint.jsx";
+import MatterMind from "./Components/EventDescriptions/Track1/MatterMind.jsx";
 
 const appRouter = createBrowserRouter([
   {
@@ -58,6 +60,14 @@ const appRouter = createBrowserRouter([
       {
         path: "/ghostops",
         element: <GhostOps />,
+      },
+      {
+        path: "/codesprint",
+        element: <CodeSprint />,
+      },
+      {
+        path: "/mattermind",
+        element: <MatterMind />,
       },
       {
         path: "/ff",

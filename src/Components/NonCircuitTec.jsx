@@ -3,11 +3,15 @@ import randomColor from "randomcolor";
 import "../text.css";
 import Card from "./Card";
 import Image from "../utils/Img/TechLogo.jpg";
-import elo from "../assets/symposium/Paperpresentation.png";
-import viz from "../assets/symposium/Vizyourway.jpeg";
-import wiz from "../assets/symposium/Wizzup_Debugging.jpeg";
-import ghost from "../assets/symposium/GhostOps.jpg";
+import elo from "../assets/symposium/eloquence.jpg";
+import viz from "../assets/symposium/vizyour.jpeg";
+import wiz from "../assets/symposium/Wizzup_Debug.jpeg";
+import ghost from "../assets/symposium/Ghostops.jpeg";
+import matter from "../assets/symposium/mattermind.jpg";
+import codesprint from "../assets/symposium/codenew.jpg";
+
 import RandomEvents from "./RandomEvents";
+
 import { Link } from "react-router-dom";
 
 const NonCircuitTec = () => {
@@ -32,9 +36,10 @@ const NonCircuitTec = () => {
     },
     {
       id: 3,
-      imageSrc: Image,
+      imageSrc: matter,
       altText: "MatterMind",
       label: "MatterMind",
+      path: "/mattermind",
     },
     {
       id: 4,
@@ -52,9 +57,10 @@ const NonCircuitTec = () => {
     },
     {
       id: 6,
-      imageSrc: Image, // Replace with actual image path
+      imageSrc: codesprint,
       altText: "Code Sprint",
       label: "Code Sprint",
+      path: "/codesprint",
     },
   ];
 

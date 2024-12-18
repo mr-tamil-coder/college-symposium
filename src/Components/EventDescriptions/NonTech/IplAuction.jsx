@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
-import EventImage from "../../../assets/symposium/bgmi.jpg"; // Replace with your actual image
+// import EventImage from "../../../assets/symposium/bgmi.jpg"; 
 import "./MysteryVault.css";
 
 const BGMI = () => {

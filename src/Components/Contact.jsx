@@ -9,12 +9,12 @@ const Contact = () => {
       coordinators: [
         {
           name: "Keerthi Vaasan SJ",
-          designation: "Coordinator",
+          designation: "Student Coordinator",
           phone: "9952647749",
         },
         {
           name: "Gowtham T",
-          designation: "Coordinator",
+          designation: "Student Coordinator",
           phone: "9025896912",
         //   email: "jane@example.com",
         },
@@ -25,13 +25,13 @@ const Contact = () => {
       coordinators: [
         {
           name: "Abdul Hameed E H",
-          designation: "Coordinator",
+          designation: "Student Coordinator",
           phone: "8056747791",
         //   email: "alice@example.com",
         },
         {
           name: "Chandra Sekar K",
-          designation: "Coordinator",
+          designation: "Student Coordinator",
           phone: "8122116830",
         //   email: "bob@example.com",
         },
@@ -61,7 +61,7 @@ const Contact = () => {
                     <p className="text-sm text-white mb-2">
                       {coordinator.designation}
                     </p>
-                    <p className="text-sm text-white mb-2 flex items-left">
+                    <p className="text-sm text-white mb-2 flex">
                         <button
                         className="glass-button ml-0"
                         onClick={() => window.location.href = `tel:${coordinator.phone}`}
