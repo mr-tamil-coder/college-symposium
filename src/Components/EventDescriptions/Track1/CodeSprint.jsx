@@ -29,7 +29,7 @@ const CodeSprint = () => {
       >
         <img
           src={EventImage}
-          alt="BGMI Tournament"
+          alt="Code Sprint Event"
           className="w-3/4 md:w-2/3 lg:w-2/3 object-cover rounded-lg shadow-lg"
         />
       </motion.div>
@@ -43,58 +43,45 @@ const CodeSprint = () => {
         transition={{ duration: 0.8 }}
       >
         <h1>
-          ✨
+          ✧･ﾟ: ✦✨
           <span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-            BGMI Tournament
+            CODE SPRINT ✨✦:･ﾟ✧
           </span>
         </h1>
 
         <section className="text-gray-300 text-justify">
           <p>
-            Get ready to unleash your gaming prowess at the BGMI Game Tournament, a thrilling part of our college symposium! Compete against the best in an electrifying Battlegrounds Mobile India showdown, where strategy, teamwork, and precision are key. With exciting prizes, fierce battles, and an unforgettable experience, this tournament promises adrenaline-packed entertainment for gamers and spectators alike. Assemble your squad, gear up, and claim the ultimate victory!
+            Greetings from the Department of Information Technology!
+          </p>
+          <p>
+            We are excited to welcome you to a national-level technical event
+            that will challenge your creativity, problem-solving prowess, and technical expertise. Get ready to showcase your skills, compete with the best minds, and emerge victorious!
           </p>
         </section>
 
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Event Rules
+            Rules & Regulations
           </h2>
           <ul className="list-disc list-inside mt-4">
-            <li>Battle Royale mode - ERANGLE</li>
-            <li>4 members as a squad only allowed</li>
-            <li>Fair Play is fundamental</li>
-            <li>Any type of cheating, hacking or bug-exploiting will lead to instant disqualification</li>
+            <li>🍂 Participants can register individually or in teams of two.</li>
+            <li>🍂 Adhere to the timelines and instructions for each round.</li>
+            <li>🍂 Maintain fairness—unethical practices will lead to disqualification.</li>
+            <li>🍂 Winners of each round will progress to the next stage.</li>
+            <li>🍂 The judges' decisions will be final and binding.</li>
           </ul>
         </section>
 
-        <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Rounds
-          </h2>
-          <p>Total matches conducted will be 3 matches</p>
-          <ul className="list-disc list-inside">
-            <li>1st place – 10 points</li>
-            <li>2nd place – 6 points</li>
-            <li>3rd place – 5 points</li>
-            <li>4th place – 4 points</li>
-            <li>5th place – 3 points</li>
-            <li>6th place – 2 points</li>
-            <li>7th and 8th place – 1 point</li>
-            <li>9th to 16th place – 0 points</li>
-            <li>Per kill: 1 point</li>
-          </ul>
+        <section className="text-gray-300 text-justify">
+          <p>
+            Step into the world of innovation and technical excellence, and let the sprint begin!
+          </p>
         </section>
 
-        <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Contact Details
-          </h2>
-          <ul className="list-disc list-inside">
-            <li>S. John Wesley - 8778666311</li>
-            <li>Larson David - 9384353707</li>
-            <li>R. Karthik Raj - 7305925366</li>
-          </ul>
-        </section>
+        <footer className="text-gray-300 mt-4">
+          <p className="text-center">Best Regards,</p>
+          <p className="text-center font-bold">Department of Information Technology</p>
+        </footer>
       </motion.div>
     </div>
   );

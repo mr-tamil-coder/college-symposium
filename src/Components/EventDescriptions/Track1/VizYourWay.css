@@ -1,14 +1,14 @@
 .custom-scrollbar {
-  padding: 14px;/* Creates space between the content and scrollbar */
+  padding: 14px;
 }
 
 .custom-scrollbar::-webkit-scrollbar {
-  width: 8px; /* Width of the scrollbar */
+  scrollbar-width: thin;
+  width: 4px; 
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background: linear-gradient(180deg, #ff00cc, #333399); /* Neon Blue */
-  border-radius: 4px; /* Rounded corners */
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {

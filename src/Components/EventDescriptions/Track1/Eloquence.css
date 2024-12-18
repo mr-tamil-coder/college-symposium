@@ -1,21 +1,17 @@
-.custom-scrollbar {
-  padding-right: 14px; /* Creates space between the content and scrollbar */
+::-webkit-scrollbar {
+  width: 4px; 
 }
 
-.custom-scrollbar::-webkit-scrollbar {
-  width: 8px; /* Width of the scrollbar */
-}
-
-.custom-scrollbar::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
+  scrollbar-width: thin;
   background: linear-gradient(180deg, #ff00cc, #333399); /* Neon Blue */
-  border-radius: 4px; /* Rounded corners */
 }
 
-.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
   background:  linear-gradient(180deg, #ff00cc, #333399); /* Green Blue for hover effect */
 }
 
-.custom-scrollbar::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   background: #1f2833; /* Dark Grey for the track */
 }
 

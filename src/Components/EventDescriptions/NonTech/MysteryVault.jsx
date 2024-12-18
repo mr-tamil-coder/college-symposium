@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
-import EventImage from "../../assets/symposium/MysteryVault.png";
-import "./MysteryVault.css"; // Using the same CSS file for consistency
+import MysteryVaultImage from "../../../assets/symposium/MysteryVault.jpeg";
+import "./MysteryVault.css";
 
 const MysteryVault = () => {
   const tiltRef = useRef(null);
@@ -28,7 +28,7 @@ const MysteryVault = () => {
         transition={{ duration: 0.8 }}
       >
         <img
-          src={EventImage}
+          src={MysteryVaultImage}
           alt="Mystery Vault Event"
           className="w-3/4 md:w-2/3 lg:w-2/3 object-cover rounded-lg shadow-lg"
         />
@@ -36,80 +36,94 @@ const MysteryVault = () => {
 
       {/* Right: Event Details */}
       <motion.div
-        className="lg:w-1/2 w-full text-white flex flex-col gap-6 overflow-auto bg-transparent custom-scrollbar"
+        className="lg:w-3/4 w-full text-white flex flex-col gap-6 overflow-auto bg-transparent custom-scrollbar"
         style={{ maxHeight: "calc(100vh - 100px)" }}
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
       >
         <h1>
-          ✨
+          🕵️  
           <span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
             Mystery Vault
           </span>
         </h1>
-        <p className="text-gray-300">
-          <strong>Date:</strong> _________<br />
-          <strong>Time:</strong> _________<br />
-          <strong>Venue:</strong> _________<br />
-          <strong>Team Size:</strong> _________
-        </p>
-
-        {/* Description Section */}
-        <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Description
-          </h2>
+        <section className="text-gray-300 text-justify">
           <p>
-            Mystery Vault is an intriguing two-round event that combines
-            problem-solving, creativity, and sensory skills. Participants engage
-            in unique challenges to uncover answers through fun and engaging
-            activities:
+            <strong>"Decode the mystery, unlock the future!"</strong>  
+            <br /> Greetings from the Department of Information Technology!  
           </p>
-          <ul className="list-disc list-inside">
-            <li>
-              <strong>Round 1: Pick the Ball & Arrange the Puzzle</strong> -
-              Teams use a pen to pick up balls with letters, numbers, or symbols
-              and arrange them to solve a puzzle.
-            </li>
-            <li>
-              <strong>Round 2: Taste & Tell the Tech Word</strong> - Blindfolded
-              participants taste different food items and identify tech-related
-              words as clues for their teammates.
-            </li>
+          <p>
+            We are excited to welcome you to  
+            <strong> ✧･ﾟ: ✦✨ MYSTERY VAULT ✨✦:･ﾟ✧ </strong>,  
+            a national-level non-technical event designed to test your ingenuity, collaboration, and technical acumen.
+          </p>
+          <p>
+            Gear up to dive into a series of exciting rounds, solve mysteries, and prove your mettle against the brightest minds!
+          </p>
+        </section>
+
+        <section className="text-gray-300">
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+            Rules & Regulations:
+          </h2>
+          <ul className="list-disc list-inside mt-4">
+            <li>🍂 Participants can register individually or in teams of two.</li>
+            <li>🍂 Follow the rules and adhere to the instructions for each round.</li>
+            <li>🍂 Fair play is paramount—unethical behavior will lead to disqualification.</li>
+            <li>🍂 Winners of each round advance to the next stage.</li>
+            <li>🍂 Judges' decisions will be final and binding.</li>
           </ul>
         </section>
 
-        {/* Rules and Regulations Section */}
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Rules and Regulations
+            🍂 Round 1: Pick the Ball & Arrange the Puzzle
           </h2>
-          <h3 className="text-lg md:text-xl lg:text-2xl font-bold mb-2 gradient-text">
-            Round 1: Pick the Ball & Arrange the Puzzle
-          </h3>
-          <ul className="list-disc list-inside">
-            <li>Teams must use a pen to pick up balls, with no direct hand contact.</li>
-            <li>A time limit of 1 minute is given to complete the task.</li>
-            <li>Dropping the ball more than three times will result in disqualification.</li>
+          <p><strong>Task:</strong></p>
+          <ul className="list-disc list-inside mt-2">
+            <li>Use a pen to pick up balls (one at a time) from a container.</li>
+            <li>Each ball has a letter, number, or symbol.</li>
+            <li>Arrange the balls to begin puzzle solving.</li>
           </ul>
-          <h3 className="text-lg md:text-xl lg:text-2xl font-bold mb-2 gradient-text">
-            Round 2: Taste & Tell the Tech Word
-          </h3>
+          <p className="mt-4"><strong>✅ Rules:</strong></p>
           <ul className="list-disc list-inside">
-            <li>Participants will be blindfolded during the task.</li>
-            <li>Guess the tech word within 30 seconds for each item.</li>
+            <li>No direct hand contact with the balls; only pens should be used.</li>
+            <li>A time limit of 1 minute is given to participants.</li>
+            <li>You should not drop the ball more than three times.</li>
+          </ul>
+        </section>
+
+        <section className="text-gray-300">
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+            🍂 Round 2: Taste & Tell the Tech Word
+          </h2>
+          <p><strong>Task:</strong></p>
+          <ul className="list-disc list-inside mt-2">
+            <li>Participants will be blindfolded.</li>
+            <li>You are given different food items to taste.</li>
+            <li>Based on the taste and clues, you should say a tech-related word to your teammate.</li>
+            <li>Your teammate should find the food item.</li>
+          </ul>
+          <p className="mt-4"><strong>✅ Rules:</strong></p>
+          <ul className="list-disc list-inside">
+            <li>You must guess the tech word within 30 seconds per item.</li>
             <li>No touching or smelling the food; only tasting is allowed.</li>
-            <li>Incorrect guesses more than twice for a food item will move the team to the next item.</li>
+            <li>Guessing wrongly more than twice will lead to finding the next food item.</li>
           </ul>
         </section>
 
-        {/* Enquiry Section */}
+        <section className="text-gray-300 text-justify">
+          <p>
+            Let the <strong>MYSTERY VAULT</strong> unveil the genius within you!  
+          </p>
+        </section>
+
         <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            For Enquiry:
-          </h2>
-          <p>Contact us for further details!</p>
+          <p className="text-center font-bold">
+            Best Regards,  
+            <br /> Department of Information Technology  
+          </p>
         </section>
       </motion.div>
     </div>

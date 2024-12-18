@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
-import EventImage from "../../../assets/symposium/Ghost.png"; // Replace with your actual image
+import GhostOpsImage from "../../../assets/symposium/Ghost.png";
 import "./Eloquence.css";
 
 const GhostOps = () => {
@@ -18,7 +18,7 @@ const GhostOps = () => {
   }, []);
 
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-between max-w-7xl text-justify mx-auto p-6 gap-10">
+    <div className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto p-6 gap-10">
       {/* Left: Event Image */}
       <motion.div
         ref={tiltRef}
@@ -28,8 +28,8 @@ const GhostOps = () => {
         transition={{ duration: 0.8 }}
       >
         <img
-          src={EventImage}
-          alt="Ghost-Ops Event"
+          src={GhostOpsImage}
+          alt="GhostOps Event"
           className="w-3/4 md:w-2/3 lg:w-2/3 object-cover rounded-lg shadow-lg"
         />
       </motion.div>
@@ -43,101 +43,87 @@ const GhostOps = () => {
         transition={{ duration: 0.8 }}
       >
         <h1>
-          ✨
           <span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-            Ghost-Ops: The CTF Solving Event
+            GhostOps: The Ultimate CTF Showdown
           </span>
         </h1>
-
-        <section className="text-gray-300">
+        <section className="text-gray-300 text-justify">
           <p>
-            Get ready for the ultimate challenge at Ghost-Ops: The CTF Solving
-            Event! Step into the world of covert operations and unravel digital
-            mysteries in this high-stakes competition. As a participant, you’ll
-            dive deep into four thrilling domains:
+            <strong>"Crack the Code, Rule the Shadows!"</strong>  
+            <br /> 🔒 Greetings from the Department of Cybersecurity! 🔒  
           </p>
+          <p>
+            Welcome to <strong>🔥 GhostOps: The Ultimate CTF Showdown! 🔥</strong>  
+            Step into the realm of digital mysteries and prove your mettle in this high-stakes national-level event.  
+            From breaking codes to uncovering hidden secrets, this is your chance to shine and dominate the leaderboard.
+          </p>
+        </section>
+
+        <section className="text-gray-300">
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+            💻 Event Details:
+          </h2>
           <ul className="list-disc list-inside mt-4">
-            <li>
-              <strong>Cryptography:</strong> Crack encrypted messages and
-              decipher hidden codes.
-            </li>
-            <li>
-              <strong>Forensics:</strong> Become a digital detective, analyzing
-              traces of data to solve complex cases.
-            </li>
-            <li>
-              <strong>OSINT:</strong> Gather open-source intelligence from
-              across the web to piece together vital clues.
-            </li>
-            <li>
-              <strong>Steganography:</strong> Unmask hidden messages within
-              images, audio, and files.
-            </li>
+            <li>🌐 <strong>Platform:</strong> CTFd</li>
+            <li>🎯 <strong>Challenge Type:</strong> Jeopardy-style CTF</li>
+            <li>👥 <strong>Team Size:</strong> 2 Members</li>
+            <li>⏳ <strong>Duration:</strong> 1 Hour</li>
           </ul>
         </section>
 
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Round 
+            🌟 Mission Challenges:
           </h2>
-          <ul className="list-disc list-inside">
-            <li>
-              <strong>Platform:</strong> CTFd
-            </li>
-            <li>
-              <strong>CTF Type:</strong> Jeopardy
-            </li>
-            <li>
-              <strong>Team Size:</strong> 2 Members
-            </li>
-            <li>
-              <strong>Duration:</strong> 1 Hour
-            </li>
-            <li>
-            In Ghost-Ops, participants will engage in a series of challenges spanning Cryptography, Forensics, OSINT, and Steganography.
-            </li>
-            <li>
-            Each team will be given a limited timeframe of 1 hour to solve the challenges and accumulate points. 
-            </li>
+          <ul className="list-disc list-inside mt-4">
+            <li>🔐 <strong>Cryptography:</strong> Decode the unbreakable and uncover hidden truths behind encrypted walls.</li>
+            <li>🧩 <strong>Forensics:</strong> Analyze digital traces, recover evidence, and solve the puzzle.</li>
+            <li>🔎 <strong>OSINT:</strong> Use your investigative skills to extract crucial data from the web.</li>
+            <li>🎨 <strong>Steganography:</strong> Spot the hidden messages buried deep in files, images, and audio.</li>
           </ul>
         </section>
 
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Event Rules
+            ⚡ Rules of the Arena:
           </h2>
-          <ul className="list-disc list-inside">
-            <li>
-              Disrupting the competition through DoS/DDoS attacks is strictly
-              forbidden.
-            </li>
-            <li>
-              Flag sharing is strictly prohibited; teams caught sharing flags
-              will be disqualified.
-            </li>
-            <li>
-              The winner will be determined by the number of challenges solved
-              and who solved them first.
-            </li>
-            <li>
-              The winner will be decided by the judges, and no arguments will be
-              entertained.
-            </li>
+          <ul className="list-disc list-inside mt-4">
+            <li>🔸 Teams of two—team up wisely!</li>
+            <li>🔸 Ethical play is key—no disruptive actions like DoS/DDoS attacks.</li>
+            <li>🔸 Keep your flags secure—flag sharing will result in disqualification.</li>
+            <li>🔸 Solve fast, solve smart—the highest points and quickest solves win the day.</li>
           </ul>
         </section>
 
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Contact Details
+            💀 About GhostOps:
           </h2>
-          <ul>
-            <li>
-              <strong>Subadevan:</strong> 8637607481
-            </li>
-            <li>
-              <strong>Jayasuriya:</strong> 8667223747
-            </li>
-          </ul>
+          <p className="mt-4">
+            This isn’t just a competition; it’s your ultimate chance to dive into the world of covert digital operations.  
+            GhostOps is designed to test your skills, push your limits, and crown the fastest problem-solvers.  
+            Whether it’s cracking the toughest codes or uncovering hidden messages, every second counts.
+          </p>
+          <p className="mt-4">
+            Are you ready to rise above and claim your spot as a <strong>GhostOps champion?</strong>
+          </p>
+        </section>
+
+        <section className="text-gray-300">
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+            📞 Contact Us:
+          </h2>
+          <p className="mt-4">
+            Subadevan: <strong>+91 8637607481</strong>  
+            <br /> Jayasuriya: <strong>+91 8667223747</strong>
+          </p>
+        </section>
+
+        <section className="text-gray-300">
+          <p className="text-center font-bold">
+            Best Wishes,  
+            <br /> 💻 Department of Cybersecurity 💻
+          </p>
         </section>
       </motion.div>
     </div>
