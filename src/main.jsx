@@ -68,7 +68,7 @@ const appRouter = createBrowserRouter([
         element: <CodeSprint />,
       },
       {
-        path: "/MysteryVault",
+        path: "/mysteryvault",
         element: <MysteryVault />,
       },
       {

@@ -5,6 +5,7 @@ import Image from "../utils/Img/TechLogo.jpg";
 import bgmi from "../assets/symposium/bgmi.jpg";
 import ff from "../assets/symposium/FreeFire.jpg";
 import cini from "../assets/symposium/Cinephilia.jpeg";
+import vault from "../assets/symposium/MysteryVault.jpeg";
 import randomColor from "randomcolor";
 import { Link } from "react-router-dom";
 // import "./NonCircuitnTech.css";
@@ -20,7 +21,7 @@ const NonCircuitnTech = () => {
     },
     {
       id: 2,
-      imageSrc: Image,
+      imageSrc: vault,
       altText: "Mystery Vault",
       path: "/mysteryvault",
     },
