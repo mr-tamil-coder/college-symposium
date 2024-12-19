@@ -47,7 +47,7 @@ const GhostOps = () => {
             GhostOps: The Ultimate CTF Showdown
           </span>
         </h1>
-        <section className="text-gray-300 text-justify">
+        <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
             <strong>"Crack the Code, Rule the Shadows!"</strong>  
             <br /> 🔒 Greetings from the Department of Cybersecurity! 🔒  
@@ -63,7 +63,7 @@ const GhostOps = () => {
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             💻 Event Details:
           </h2>
-          <ul className="list-disc list-inside mt-4">
+          <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
             <li>🌐 <strong>Platform:</strong> CTFd</li>
             <li>🎯 <strong>Challenge Type:</strong> Jeopardy-style CTF</li>
             <li>👥 <strong>Team Size:</strong> 2 Members</li>
@@ -75,7 +75,7 @@ const GhostOps = () => {
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             🌟 Mission Challenges:
           </h2>
-          <ul className="list-disc list-inside mt-4">
+          <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
             <li>🔐 <strong>Cryptography:</strong> Decode the unbreakable and uncover hidden truths behind encrypted walls.</li>
             <li>🧩 <strong>Forensics:</strong> Analyze digital traces, recover evidence, and solve the puzzle.</li>
             <li>🔎 <strong>OSINT:</strong> Use your investigative skills to extract crucial data from the web.</li>
@@ -87,7 +87,7 @@ const GhostOps = () => {
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             ⚡ Rules of the Arena:
           </h2>
-          <ul className="list-disc list-inside mt-4">
+          <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
             <li>🔸 Teams of two—team up wisely!</li>
             <li>🔸 Ethical play is key—no disruptive actions like DoS/DDoS attacks.</li>
             <li>🔸 Keep your flags secure—flag sharing will result in disqualification.</li>
@@ -99,12 +99,12 @@ const GhostOps = () => {
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             💀 About GhostOps:
           </h2>
-          <p className="mt-4">
+          <p className="mt-4 text-body lg:text-2xl">
             This isn’t just a competition; it’s your ultimate chance to dive into the world of covert digital operations.  
             GhostOps is designed to test your skills, push your limits, and crown the fastest problem-solvers.  
             Whether it’s cracking the toughest codes or uncovering hidden messages, every second counts.
           </p>
-          <p className="mt-4">
+          <p className="mt-4 text-body lg:text-2xl">
             Are you ready to rise above and claim your spot as a <strong>GhostOps champion?</strong>
           </p>
         </section>
@@ -113,7 +113,7 @@ const GhostOps = () => {
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             📞 Contact Us:
           </h2>
-          <p className="mt-4">
+          <p className="mt-4 text-body lg:text-2xl">
             Subadevan: <strong>+91 8637607481</strong>  
             <br /> Jayasuriya: <strong>+91 8667223747</strong>
           </p>

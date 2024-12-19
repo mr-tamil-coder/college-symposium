@@ -119,3 +119,8 @@
 .glow-neon {
   box-shadow: 0 0 20px rgba(99, 102, 241, 0.7), 0 0 30px rgba(99, 102, 241, 0.5);
 }
+
+@media (max-width: 640px) {
+  .mt-small {
+    margin-top: 20px; /* Change this value as needed */
+  }}

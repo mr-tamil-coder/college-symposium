@@ -44,12 +44,12 @@ const MatterMind = () => {
       >
         <h1>
           💡✨
-          <span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
+          <span className="text-head lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
             MATTERMIND
           </span>
         </h1>
 
-        <section className="text-gray-300 text-justify">
+        <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
             Creativity meets logic in the art of prompt engineering. Are you ready to think outside the box and inside the code? Join us at <strong>MatterMind</strong>, where innovation and ingenuity collide in an unforgettable challenge.
           </p>
@@ -59,7 +59,7 @@ const MatterMind = () => {
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             Event Rounds
           </h2>
-          <ul className="list-disc list-inside mt-4">
+          <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
             <li>
               <strong>Round 1 – Trick 'O Tick:</strong> An offline quiz on computer basics and algorithms.
             </li>
@@ -77,7 +77,7 @@ const MatterMind = () => {
           </ul>
         </section>
 
-        <section className="text-gray-300 text-justify">
+        <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
             Teams that excel in each round will move to the next stage. In the world of prompts, every word is a key. Unlock the possibilities—one line at a time!
           </p>

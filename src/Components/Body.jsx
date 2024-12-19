@@ -36,6 +36,7 @@ const Body = () => {
 
   return (
     <div>
+      <div className="mt-small">
       <CollegeName />
       <div className="flex flex-wrap justify-center gap-5 my-5 animate__animated animate__fadeInUp duration-500">
         <Link to="/events">
@@ -44,6 +45,8 @@ const Body = () => {
       </div>
 
       <CountdownTimer />
+      </div>
+      
       <hr className="border-t-2 border-gray-400 w-3/4 mx-auto my-10" />
       <NewAbout />
       <hr className="border-t-2 border-gray-400 w-3/4 mx-auto my-10" />

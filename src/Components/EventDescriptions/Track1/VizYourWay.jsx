@@ -61,12 +61,12 @@ const VizYourWay = () => {
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             Description
           </h2>
-          <p>
+          <p className="text-body lg:text-2xl">
             Viz Your Way is an engaging two-round competition that tests
             participants' knowledge and creativity in data analysis and
             visualization:
           </p>
-          <ul className="list-disc list-inside">
+          <ul className="list-disc list-inside text-body lg:text-2xl">
             <li>
               <strong>Round 1: Quiz Quest</strong> - A rapid-fire quiz session
               where teams answer a series of questions to earn points. The top
@@ -88,7 +88,7 @@ const VizYourWay = () => {
           <h3 className="text-lg md:text-xl lg:text-2xl font-bold mb-2 gradient-text">
             Round 1: Quiz Quest
           </h3>
-          <ul className="list-disc list-inside">
+          <ul className="list-disc list-inside text-body lg:text-2xl">
             <li>Participants will be presented with a series of questions.</li>
             <li>A strict time limit will be enforced for answering.</li>
             <li>Points are awarded for correct answers.</li>
@@ -97,7 +97,7 @@ const VizYourWay = () => {
           <h3 className="text-lg md:text-xl lg:text-2xl font-bold mb-2 gradient-text">
             Round 2: Data Visualization
           </h3>
-          <ul className="list-disc list-inside">
+          <ul className="list-disc list-inside text-body lg:text-2xl">
             <li>A dataset will be provided at the start of the round.</li>
             <li>
               Participants must create visuals analyzing the dataset using tools
@@ -120,7 +120,7 @@ const VizYourWay = () => {
           <h3 className="text-lg md:text-xl lg:text-2xl font-bold mb-2 gradient-text">
             General Rules
           </h3>
-          <ul className="list-disc list-inside">
+          <ul className="list-disc list-inside text-body lg:text-2xl">
             <li>Each team should comprise 2 members.</li>
             <li>Gadget usage is strictly prohibited.</li>
             <li>Each round is strictly time-bound.</li>

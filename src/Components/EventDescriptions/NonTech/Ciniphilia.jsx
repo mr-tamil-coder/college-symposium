@@ -49,7 +49,7 @@ const Ciniphilia = () => {
           </span>
         </h1>
 
-        <section className="text-gray-300 text-justify">
+        <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
             Get ready for an exciting event where your love for movies will be put to the ultimate test! Whether you're a fan of classics or blockbusters, <strong>Cinephilia</strong> is the perfect challenge for movie enthusiasts.
           </p>
@@ -59,7 +59,7 @@ const Ciniphilia = () => {
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             Rules and Regulations
           </h2>
-          <ul className="list-disc list-inside mt-4">
+          <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
             <li>
               <strong>Team Formation:</strong> Each team can have 2 or 3 members. Choose your movie buffs wisely!
             </li>
@@ -70,8 +70,8 @@ const Ciniphilia = () => {
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             Event Structure
           </h2>
-          <p>The game consists of three thrilling rounds:</p>
-          <ul className="list-decimal list-inside mt-4">
+          <p className="text-body lg:text-2xl">The game consists of three thrilling rounds:</p>
+          <ul className="list-decimal list-inside mt-4 text-body lg:text-2xl">
             <li>
               <strong>Round 1:</strong> Test your memory of iconic movie moments.
             </li>
@@ -82,7 +82,7 @@ const Ciniphilia = () => {
               <strong>Round 3:</strong> Identify the Movie Snippet – Can you name the movie from a short scene or clip?
             </li>
           </ul>
-          <p className="mt-4">
+          <p className="mt-4 text-body lg:text-2xl">
             Teams that excel in each round will move to the next stage.
           </p>
         </section>
@@ -91,12 +91,12 @@ const Ciniphilia = () => {
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             Judging
           </h2>
-          <p>
+          <p className="text-body lg:text-2xl">
             All decisions made by the judges will be final and conclusive. Just play... no rewinds or replays!
           </p>
         </section>
 
-        <section className="text-gray-300 text-justify">
+        <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
             "Bring your A-game and movie enthusiasm! This event is all about fun and camaraderie."
           </p>

@@ -48,7 +48,7 @@ const FreeFire = () => {
             FREE FIRE: Battle for Glory
           </span>
         </h1>
-        <section className="text-gray-300 text-justify">
+        <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
             <strong>"Gaming is not just a hobby, it's a passion."</strong>  
             <br /> We proudly invite you to join us for an exciting gaming event:  
@@ -60,7 +60,7 @@ const FreeFire = () => {
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             Rules & Regulations:
           </h2>
-          <ul className="list-disc list-inside mt-4">
+          <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
             <li> Each team must consist of 4 members. (A Squad)</li>
             <li> Teams should have a unique team name for their squad.</li>
             <li> Game mode will be <strong>Clash Squad</strong> & <strong>Classic (Bermuda)</strong>.</li>
@@ -77,18 +77,18 @@ const FreeFire = () => {
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             ✨ Mark Your Calendar ✨
           </h2>
-          <ul className="list-none mt-4">
+          <ul className="list-none mt-4 text-body lg:text-2xl">
             <li>📅 <strong>Date:</strong> 02.02.2025</li>
             <li>⏰ <strong>Time:</strong> 3 PM to 8 PM</li>
             <li>🌐 <strong>Mode:</strong> Online</li>
           </ul>
-          <p className="mt-4">
+          <p className="mt-4 text-body lg:text-2xl">
             Excited to join? What are you waiting for? 🤔  
             💫 Reserve your spot for this fantastic gaming event!
           </p>
         </section>
 
-        <section className="text-gray-300 text-justify">
+        <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
             ✨ Get ready, and don’t miss this awesome opportunity to showcase that you're a pro in Free Fire! ✨  
           </p>
@@ -98,7 +98,7 @@ const FreeFire = () => {
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             For More Details, Contact:
           </h2>
-          <ul className="list-none mt-4">
+          <ul className="list-none mt-4 text-body lg:text-2xl">
             <li>📞 <strong>Job Aoushadan N:</strong> 7358195381</li>
             <li>📞 <strong>Vishall R:</strong> 93618 91754</li>
           </ul>

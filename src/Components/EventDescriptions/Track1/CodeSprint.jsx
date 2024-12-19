@@ -45,11 +45,11 @@ const CodeSprint = () => {
         <h1>
           ✧･ﾟ: ✦✨
           <span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-            CODE SPRINT ✨✦:･ﾟ✧
-          </span>
+            CODE SPRINT  
+          </span>✨✦:･ﾟ✧
         </h1>
 
-        <section className="text-gray-300 text-justify">
+        <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
             Greetings from the Department of Information Technology!
           </p>
@@ -63,7 +63,7 @@ const CodeSprint = () => {
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             Rules & Regulations
           </h2>
-          <ul className="list-disc list-inside mt-4">
+          <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
             <li>🍂 Participants can register individually or in teams of two.</li>
             <li>🍂 Adhere to the timelines and instructions for each round.</li>
             <li>🍂 Maintain fairness—unethical practices will lead to disqualification.</li>
@@ -72,7 +72,7 @@ const CodeSprint = () => {
           </ul>
         </section>
 
-        <section className="text-gray-300 text-justify">
+        <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
             Step into the world of innovation and technical excellence, and let the sprint begin!
           </p>

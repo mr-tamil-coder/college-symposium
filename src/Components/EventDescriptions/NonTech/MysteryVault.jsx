@@ -48,7 +48,7 @@ const MysteryVault = () => {
             Mystery Vault
           </span>
         </h1>
-        <section className="text-gray-300 text-justify">
+        <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
             <strong>"Decode the mystery, unlock the future!"</strong>  
             <br /> Greetings from the Department of Information Technology!  
@@ -67,7 +67,7 @@ const MysteryVault = () => {
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             Rules & Regulations:
           </h2>
-          <ul className="list-disc list-inside mt-4">
+          <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
             <li>🍂 Participants can register individually or in teams of two.</li>
             <li>🍂 Follow the rules and adhere to the instructions for each round.</li>
             <li>🍂 Fair play is paramount—unethical behavior will lead to disqualification.</li>
@@ -80,14 +80,14 @@ const MysteryVault = () => {
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             🍂 Round 1: Pick the Ball & Arrange the Puzzle
           </h2>
-          <p><strong>Task:</strong></p>
-          <ul className="list-disc list-inside mt-2">
+          <p className="text-body lg:text-2xl"><strong>Task:</strong></p>
+          <ul className="list-disc list-inside mt-2 text-body lg:text-2xl">
             <li>Use a pen to pick up balls (one at a time) from a container.</li>
             <li>Each ball has a letter, number, or symbol.</li>
             <li>Arrange the balls to begin puzzle solving.</li>
           </ul>
-          <p className="mt-4"><strong>✅ Rules:</strong></p>
-          <ul className="list-disc list-inside">
+          <p className="mt-4 text-body lg:text-2xl"><strong>✅ Rules:</strong></p>
+          <ul className="list-disc list-inside text-body lg:text-2xl">
             <li>No direct hand contact with the balls; only pens should be used.</li>
             <li>A time limit of 1 minute is given to participants.</li>
             <li>You should not drop the ball more than three times.</li>
@@ -98,22 +98,22 @@ const MysteryVault = () => {
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             🍂 Round 2: Taste & Tell the Tech Word
           </h2>
-          <p><strong>Task:</strong></p>
-          <ul className="list-disc list-inside mt-2">
+          <p className="text-body lg:text-2xl"><strong>Task:</strong></p>
+          <ul className="list-disc list-inside mt-2 text-body lg:text-2xl">
             <li>Participants will be blindfolded.</li>
             <li>You are given different food items to taste.</li>
             <li>Based on the taste and clues, you should say a tech-related word to your teammate.</li>
             <li>Your teammate should find the food item.</li>
           </ul>
-          <p className="mt-4"><strong>✅ Rules:</strong></p>
-          <ul className="list-disc list-inside">
+          <p className="mt-4 text-body lg:text-2xl"><strong>✅ Rules:</strong></p>
+          <ul className="list-disc list-inside text-body lg:text-2xl">
             <li>You must guess the tech word within 30 seconds per item.</li>
             <li>No touching or smelling the food; only tasting is allowed.</li>
             <li>Guessing wrongly more than twice will lead to finding the next food item.</li>
           </ul>
         </section>
 
-        <section className="text-gray-300 text-justify">
+        <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
             Let the <strong>MYSTERY VAULT</strong> unveil the genius within you!  
           </p>

@@ -2,7 +2,7 @@ import React from "react";
 import "../text.css"; // Ensure this file contains any other necessary styling
 import Card from "./Card";
 import Image from "../utils/Img/TechLogo.jpg";
-import bgmi from "../assets/symposium/bgmi.jpg";
+import bgmi from "../assets/symposium/BGMI_Final.jpeg";
 import ff from "../assets/symposium/FreeFire.jpg";
 import cini from "../assets/symposium/Cinephilia.jpeg";
 import vault from "../assets/symposium/MysteryVault.jpeg";
