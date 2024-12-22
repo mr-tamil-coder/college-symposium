@@ -32,7 +32,7 @@ import CodeSprint from "./Components/EventDescriptions/Track1/CodeSprint.jsx";
 import MatterMind from "./Components/EventDescriptions/Track1/MatterMind.jsx";
 import Ciniphilia from "./Components/EventDescriptions/NonTech/Ciniphilia.jsx";
 import MysteryVault from "./Components/EventDescriptions/NonTech/MysteryVault.jsx";
-
+import DeadlyDeeds from "./Components/EventDescriptions/NonTech/DeadlyDeeds.jsx";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -70,6 +70,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/mysteryvault",
         element: <MysteryVault />,
+      },
+      {
+        path:"/deadlydeeds",
+        element:<DeadlyDeeds />
       },
       {
         path: "/mattermind",

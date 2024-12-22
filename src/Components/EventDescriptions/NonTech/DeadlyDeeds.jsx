@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
-import EventImage from "../../../assets/symposium/bgmi.jpg"; // Replace with your actual image
+import deadly from "../../../assets/symposium/deadly.png"; // Replace with your actual image
 import "./MysteryVault.css";
 
 const DeadlyDeeds = () => {
@@ -28,8 +28,8 @@ const DeadlyDeeds = () => {
         transition={{ duration: 0.8 }}
       >
         <img
-          src={EventImage}
-          alt="BGMI Tournament"
+          src={deadly}
+          alt="Deadly Deeds"
           className="w-3/4 md:w-2/3 lg:w-2/3 object-cover rounded-lg shadow-lg"
         />
       </motion.div>
@@ -45,56 +45,38 @@ const DeadlyDeeds = () => {
         <h1>
           ✨
           <span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-            BGMI Tournament
+            Deadly Deeds: Mystery Unveiled
           </span>
         </h1>
 
         <section className="text-gray-300 text-justify">
           <p>
-            Get ready to unleash your gaming prowess at the BGMI Game Tournament, a thrilling part of our college symposium! Compete against the best in an electrifying Battlegrounds Mobile India showdown, where strategy, teamwork, and precision are key. With exciting prizes, fierce battles, and an unforgettable experience, this tournament promises adrenaline-packed entertainment for gamers and spectators alike. Assemble your squad, gear up, and claim the ultimate victory!
+            Join us for the Deadly Deeds: Mystery Unveiled, an engaging and interactive event where participants become detectives to solve a thrilling crime. Each participant receives a character profile, complete with secrets and motives, and must investigate the crime scene, gather clues, and question suspects. The goal is to piece together the evidence and identify the culprit before time runs out. This immersive experience combines role-playing, critical thinking, and teamwork, making it a memorable and exciting challenge for all involved.
           </p>
         </section>
 
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Event Rules
+            Rules and Regulations
           </h2>
           <ul className="list-disc list-inside mt-4">
-            <li>Battle Royale mode - ERANGLE</li>
-            <li>4 members as a squad only allowed</li>
-            <li>Fair Play is fundamental</li>
-            <li>Any type of cheating, hacking or bug-exploiting will lead to instant disqualification</li>
+            <li>The event will last for a set duration. Participants must complete the investigation and identify the culprit before time runs out.</li>
+            <li>Participants must remain in character for the entire duration of the event. This enhances the immersive experience and helps the story unfold naturally.</li>
+            <li>All clues and evidence are accessible to everyone, but participants must be observant and ask questions to discover hidden details.</li>
+            <li>Participants are encouraged to interact with other characters to gather information. However, physical confrontation or aggressive behavior is strictly prohibited.</li>
           </ul>
         </section>
 
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Rounds
+            Event Flow
           </h2>
-          <p>Total matches conducted will be 3 matches</p>
-          <ul className="list-disc list-inside">
-            <li>1st place – 10 points</li>
-            <li>2nd place – 6 points</li>
-            <li>3rd place – 5 points</li>
-            <li>4th place – 4 points</li>
-            <li>5th place – 3 points</li>
-            <li>6th place – 2 points</li>
-            <li>7th and 8th place – 1 point</li>
-            <li>9th to 16th place – 0 points</li>
-            <li>Per kill: 1 point</li>
-          </ul>
+          <p>
+            At first, the introduction and character briefing takes place. Next, the detective starts to hunt the clues and begin the investigation. Then, the detective can question the suspects and verify the alibis. At last, the detective can make a final accusation and present the theories. The host will reveal the real culprit and explain how the clues led to the identification of the murderer.
+          </p>
         </section>
 
-        <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Contact Details
-          </h2>
-          <ul className="list-disc list-inside">
-            <li>S. John Wesley - 8778666311</li>
-            <li>Larson David - 9384353707</li>
-            <li>R. Karthik Raj - 7305925366</li>
-          </ul>
-        </section>
+        
       </motion.div>
     </div>
   );
