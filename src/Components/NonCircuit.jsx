@@ -4,7 +4,7 @@ import NonCircuitTec from "./NonCircuitTec"
 import EventButton from "./EventButton"
 import { Link } from 'react-router-dom'
 import TrackInfo from './TrackInfo'
-import img from "../assets/symposium/OverallPoster.jpeg"
+import img from "../assets/symposium/track1.jpg"
 const NonCircuit = () => {
   return (
     <div>

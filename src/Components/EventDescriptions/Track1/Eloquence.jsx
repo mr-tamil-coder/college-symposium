@@ -58,6 +58,16 @@ const Eloquence = () => {
         </section>
         <section className="text-gray-300 text-justify">
           <h2 className="text-head lg:text-4xl font-bold mb-2 gradient-text">
+            Team Size 
+          </h2>
+          <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
+            <li>Minimum : 2 Members</li>
+            <li>Maximum : 5 Members</li>
+            
+          </ul>
+        </section>
+        <section className="text-gray-300 text-justify">
+          <h2 className="text-head lg:text-4xl font-bold mb-2 gradient-text">
             Major Domains
           </h2>
           <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">

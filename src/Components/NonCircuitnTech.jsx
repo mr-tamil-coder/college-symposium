@@ -6,6 +6,7 @@ import bgmi from "../assets/symposium/BGMI_Final.jpeg";
 import ff from "../assets/symposium/FreeFire.jpg";
 import cini from "../assets/symposium/Cinephilia.jpeg";
 import vault from "../assets/symposium/MysteryVault.jpeg";
+import deadly from "../assets/symposium/deadly.png";
 import randomColor from "randomcolor";
 import { Link } from "react-router-dom";
 // import "./NonCircuitnTech.css";
@@ -27,7 +28,7 @@ const NonCircuitnTech = () => {
     },
     {
       id: 3,
-      imageSrc: Image,
+      imageSrc: deadly,
       altText: "Deadly Deeds",
       path: "/deadlydeeds",
     },

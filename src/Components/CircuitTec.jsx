@@ -4,6 +4,8 @@ import "../text.css";
 import Card from "./Card";
 import Image from '../utils/Img/TechLogo.jpg';
 import energia from "../assets/symposium/EnergiaNova.jpg";
+import batallia from "../assets/symposium/robots.png";
+
 import RandomEvents from "./RandomEvents";
 import { Link } from "react-router-dom";
 
@@ -30,7 +32,7 @@ const CircuitTec = () => {
     },
     {
       id: 3,
-      imageSrc: Image, 
+      imageSrc: batallia, 
       altText: "Batallia de Robots",
       label: "Batallia de Robots",
       onClick: () => alert("Batallia de Robots clicked"),
