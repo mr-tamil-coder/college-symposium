@@ -33,6 +33,7 @@ import MatterMind from "./Components/EventDescriptions/Track1/MatterMind.jsx";
 import Ciniphilia from "./Components/EventDescriptions/NonTech/Ciniphilia.jsx";
 import MysteryVault from "./Components/EventDescriptions/NonTech/MysteryVault.jsx";
 import DeadlyDeeds from "./Components/EventDescriptions/NonTech/DeadlyDeeds.jsx";
+import Bizqueset from "./Components/EventDescriptions/Track2/Bizqueset.jsx";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -86,6 +87,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/bgmi",
         element: <BGMI />,
+      },
+      {
+        path: "/bizqueset",
+        element: <Bizqueset />,
       },
       {
         path: "/circuit",

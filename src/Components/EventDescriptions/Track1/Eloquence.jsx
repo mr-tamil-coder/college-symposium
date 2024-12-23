@@ -61,8 +61,8 @@ const Eloquence = () => {
             Team Size 
           </h2>
           <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
-            <li>Minimum : 2 Members</li>
-            <li>Maximum : 5 Members</li>
+            <li>Minimum : 1 Members</li>
+            <li>Maximum : 3 Members</li>
             
           </ul>
         </section>
@@ -102,9 +102,9 @@ const Eloquence = () => {
             Paper Presentation Deadlines
           </h2>
           <ul className="list-disc list-inside text-body lg:text-2xl">
-            <li>Abstract Submission: 23.12.2024</li>
-            <li>Notification of Acceptance: 27.12.2024</li>
-            <li>Full Paper Submission: 08.01.2025</li>
+            <li>Abstract Submission: 27.12.2024</li>
+            <li>Notification of Acceptance: 31.12.2024</li>
+            <li>Full Paper Submission: 10.01.2025</li>
             <li>Presentation Submission: 27.01.2025</li>
           </ul>
         </section>

@@ -8,7 +8,7 @@ export const questions = [
   {
     id: 2,
     question: "Do I need to pay to participate?",
-    answer: "Some events are free, but others may require a registration fee. Check the event details.",
+    answer: "Individual Registration for all events: Rs.200 and for Group Registration(10-12 members from the same institute): Rs.2000",
   },
   {
     id: 3,

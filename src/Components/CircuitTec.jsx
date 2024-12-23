@@ -3,8 +3,9 @@ import randomColor from "randomcolor";
 import "../text.css";
 import Card from "./Card";
 import Image from '../utils/Img/TechLogo.jpg';
-import energia from "../assets/symposium/EnergiaNova.jpg";
+import energia from "../assets/symposium/EnergiaNova.png";
 import batallia from "../assets/symposium/robots.png";
+import bizqueset from "../assets/symposium/Biquest.png"
 
 import RandomEvents from "./RandomEvents";
 import { Link } from "react-router-dom";
@@ -46,10 +47,10 @@ const CircuitTec = () => {
     },
     {
       id: 5,
-      imageSrc: Image, 
+      imageSrc: bizqueset, 
       altText: "BizQuest",
       label: "BizQueset",
-      onClick: () => alert("BizQuest clicked"),
+      path: "/bizqueset",
     },
   ];
 

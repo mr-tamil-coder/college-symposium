@@ -13,7 +13,7 @@ const Contact = () => {
           phone: "9952647749",
         },
         {
-          name: "Gowtham T",
+          name: "Gowtham S",
           designation: "Student Coordinator",
           phone: "9025896912",
         //   email: "jane@example.com",
