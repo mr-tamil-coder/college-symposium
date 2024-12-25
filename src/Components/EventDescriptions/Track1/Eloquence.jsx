@@ -61,7 +61,7 @@ const Eloquence = () => {
             Team Size 
           </h2>
           <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
-            <li>Minimum : 1 Members</li>
+            <li>Minimum : 1 Member</li>
             <li>Maximum : 3 Members</li>
             
           </ul>

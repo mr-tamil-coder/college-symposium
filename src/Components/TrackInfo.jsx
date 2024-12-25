@@ -42,7 +42,7 @@ const TrackInfo = ({label,Image,Description}) => {
           <img
             // ref={tiltRef}
             src={Image}
-            alt="Technovenza Poster"
+            alt="Technovanza Poster"
             className="max-w-full md:max-w-[100%]"
           />
         </div>

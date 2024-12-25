@@ -12,7 +12,7 @@ const Circuit = () => {
       <TrackInfo
         label="TRACK II"
         Image={img}
-        Description="Registration for Technovenza is now open! Secure your spot today and
+        Description="Registration for Technovanza is now open! Secure your spot today and
             be part of an event that celebrates innovation and collaboration.
             Don’t miss the opportunity to engage with tech enthusiasts and experts."
       />

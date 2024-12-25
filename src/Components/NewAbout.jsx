@@ -44,7 +44,7 @@ const NewAbout = () => {
             </p>
             <p className="mt-4">
               Join us in this journey where vision meets reality, and together,
-              we shape the technology of tomorrow. Technovenza is not just an
+              we shape the technology of tomorrow. Technovanza is not just an
               event; it's an experience that leaves a lasting impression.
             </p>
           </div>
@@ -56,7 +56,7 @@ const NewAbout = () => {
           >
             <img
               src={Image}
-              alt="Technovenza Logo"
+              alt="Technovanza Logo"
               className="max-w-full md:max-w-[80%] rounded-lg"
             />
           </div>
