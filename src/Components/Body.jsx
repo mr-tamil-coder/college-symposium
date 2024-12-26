@@ -16,6 +16,7 @@ import Card from "./Card";
 import MediaSection from "./MediaSection";
 import ContactUs from "./ContactUs";
 import LocateMap from "./LocateMap";
+import Teams from "./Teams";
 import "animate.css";
 import { Link } from "react-router-dom";
 
@@ -58,6 +59,7 @@ const Body = () => {
       <ContactUs />
       <LocateMap /> */}
       <Footer />
+      {/* <Teams /> */}
     </div>
   );
 };

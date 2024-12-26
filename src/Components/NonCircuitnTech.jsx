@@ -4,7 +4,7 @@ import Card from "./Card";
 import Image from "../utils/Img/TechLogo.jpg";
 import bgmi from "../assets/symposium/BGMI_Final.jpeg";
 import ff from "../assets/symposium/FreeFire.jpg";
-import cini from "../assets/symposium/Cinephilia.jpeg";
+import cini from "../assets/symposium/Cinephilia.jpg";
 import vault from "../assets/symposium/MysteryVault.jpeg";
 import deadly from "../assets/symposium/deadly.png";
 import randomColor from "randomcolor";

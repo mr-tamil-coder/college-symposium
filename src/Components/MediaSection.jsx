@@ -15,7 +15,7 @@ const MediaSection = () => {
         {/* Instagram Button */}
         <button
           className="media"
-          onClick={() => redirectTo('https://www.instagram.com')}
+          onClick={() => redirectTo('https://www.instagram.com/jerusalem_chn/')}
         >
           <svg
             viewBox="0 0 24 24"
@@ -35,10 +35,10 @@ const MediaSection = () => {
           </svg>
         </button>
 
-        {/* whatsapp Button */}
+        {/* Linkedin Button */}
         <button
           className="media"
-          onClick={() => redirectTo('https://www.linkedin.com')}
+          onClick={() => redirectTo('https://www.linkedin.com/in/jce-jerusalem-college-of-engineering-19681522b/')}
         >
           <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@ const MediaSection = () => {
         {/* Twitter Button */}
         <button
           className="media"
-          onClick={() => redirectTo('https://www.twitter.com')}
+          onClick={() => redirectTo('https://www.x.com/jerusalem_chn/')}
         >
           <svg
             viewBox="0 0 512 512"
@@ -72,7 +72,7 @@ const MediaSection = () => {
         {/* Facebook Button */}
         <button
           className="media"
-          onClick={() => redirectTo('https://www.facebook.com')}
+          onClick={() => redirectTo('https://www.facebook.com/jerusalem.chn')}
         >
           <svg
             height="24"

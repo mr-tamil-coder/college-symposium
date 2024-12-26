@@ -10,12 +10,12 @@ const Contact = () => {
         {
           name: "Keerthi Vaasan SJ",
           designation: "Student Coordinator",
-          phone: "9952647749",
+          phone: "+919952647749",
         },
         {
           name: "Gowtham S",
           designation: "Student Coordinator",
-          phone: "9025896912",
+          phone: "+919025896912",
         //   email: "jane@example.com",
         },
       ],
@@ -26,13 +26,13 @@ const Contact = () => {
         {
           name: "Abdul Hameed E H",
           designation: "Student Coordinator",
-          phone: "8056747791",
+          phone: "+918056747791",
         //   email: "alice@example.com",
         },
         {
           name: "Chandra Sekar K",
           designation: "Student Coordinator",
-          phone: "8122116830",
+          phone: "+918122116830",
         //   email: "bob@example.com",
         },
       ],

@@ -36,7 +36,7 @@ const CircuitTec = () => {
       imageSrc: batallia, 
       altText: "Batallia de Robots",
       label: "Batallia de Robots",
-      onClick: () => alert("Batallia de Robots clicked"),
+      path: "/batallia",
     },
     {
       id: 4,
