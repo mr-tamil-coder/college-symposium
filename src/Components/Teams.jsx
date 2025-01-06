@@ -1,26 +1,25 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Teams = () => {
   return (
-    <footer className="bg-custom-gradient text-white px-36 py-4">
-      <div className="container mx-auto flex justify-between items-center space-x-4">
+    <footer className="bg-transparent text-white px-8 sm:px-36 py-4">
+      <div className="container mx-auto flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
         {/* Left Section */}
-        <div className="text-sm">
-          &copy; {new Date().getFullYear()} Technovanza<sup>TM</sup> All rights reserved.
+        <div className="text-sm text-center sm:text-left px-2 sm:px-10">
+          &copy; {new Date().getFullYear()} Technovanza<sup className="text-sup">TM</sup> All rights reserved.
         </div>
 
-        {/* Center Section */}
-        <div className="text-sm">
+        {/* <div className="text-sm">
           Powered by <span className="font-bold">React JS</span>
-        </div>
+        </div> */}
 
-        {/* Right Section */}
-        <div className="text-sm">
-          Developed by <span className="font-bold">Technovanza Team</span>
+        <div className="text-sm text-center sm:text-left">
+          Developed by <Link to="/about"><span className="font-bold">Technovanza Team</span></Link>
         </div>
       </div>
     </footer>
   );
-};  
+};
 
 export default Teams;

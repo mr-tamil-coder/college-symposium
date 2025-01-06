@@ -9,6 +9,7 @@ module.exports = {
         body: '18px',
         head: '28px',
         subhead: '18px',
+        sup: '10px',
 
       },
       colors: {

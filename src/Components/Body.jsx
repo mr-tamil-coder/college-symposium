@@ -59,6 +59,7 @@ const Body = () => {
       <ContactUs />
       <LocateMap /> */}
       <Footer />
+      <Teams />
       {/* <Teams /> */}
     </div>
   );
