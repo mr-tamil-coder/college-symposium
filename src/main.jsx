@@ -12,8 +12,8 @@ import EventDetails from "./Components/EventDetails.jsx";
 import Home from "./Components/Home.jsx";
 import About from "./Components/About.jsx";
 import Circuit from "./Components/Circuit.jsx";
-import CircuitTec from "./Components/CircuitTec.jsx"
-import CircuitnTech from "./Components/CircuitnTech.jsx"
+import CircuitTec from "./Components/CircuitTec.jsx";
+import CircuitnTech from "./Components/CircuitnTech.jsx";
 import NonCircuitTec from "./Components/NonCircuitTec.jsx";
 import NonCircuitnTech from "./Components/NonCircuitnTech.jsx";
 import NonCircuit from "./Components/NonCircuit.jsx";
@@ -35,6 +35,7 @@ import MysteryVault from "./Components/EventDescriptions/NonTech/MysteryVault.js
 import DeadlyDeeds from "./Components/EventDescriptions/NonTech/DeadlyDeeds.jsx";
 import Bizqueset from "./Components/EventDescriptions/Track2/Bizqueset.jsx";
 import Batallia from "./Components/EventDescriptions/Track2/Batallia.jsx";
+import TescaFlow from "./Components/EventDescriptions/Track2/TescaFlow.jsx";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -66,6 +67,10 @@ const appRouter = createBrowserRouter([
         element: <Batallia />,
       },
       {
+        path: "/tescaflow",
+        element: <TescaFlow />,
+      },
+      {
         path: "/ghostops",
         element: <GhostOps />,
       },
@@ -78,8 +83,8 @@ const appRouter = createBrowserRouter([
         element: <MysteryVault />,
       },
       {
-        path:"/deadlydeeds",
-        element:<DeadlyDeeds />
+        path: "/deadlydeeds",
+        element: <DeadlyDeeds />,
       },
       {
         path: "/mattermind",
@@ -123,7 +128,7 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/events/non-circuit-tech",
-        element:<NonCircuitTec />,
+        element: <NonCircuitTec />,
       },
       {
         path: "/events/non-circuit-non-tech",
@@ -136,7 +141,7 @@ const appRouter = createBrowserRouter([
 
       {
         path: "/about",
-        element: <NewAbout />
+        element: <NewAbout />,
       },
       {
         path: "/events/tech",
@@ -155,9 +160,9 @@ const appRouter = createBrowserRouter([
         element: <Contact />,
       },
       {
-        path:"/wizzup",
-        element:<Wizzup/>
-      }
+        path: "/wizzup",
+        element: <Wizzup />,
+      },
     ],
   },
 ]);

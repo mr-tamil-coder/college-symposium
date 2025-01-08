@@ -43,7 +43,7 @@ const CircuitTec = () => {
       imageSrc: Image, 
       altText: "Tescaflow",
       label: "Tescaflow",
-      onClick: () => alert("Tescaflow clicked"),
+      path: "/tescaflow",
     },
     {
       id: 5,
