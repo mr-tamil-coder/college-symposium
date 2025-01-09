@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import "./EnergiaNova.css";
 import RobotImage from "../../../assets/symposium/robots.png";
+import tescaflow from "../../../assets/symposium/Tescaflow.jpg"
 import { useRef, useEffect } from "react";
 const Tescaflow = () => {
   const tiltRef = useRef(null);
@@ -26,7 +27,7 @@ const Tescaflow = () => {
         transition={{ duration: 0.8 }}
       >
         <img
-          src={RobotImage}
+          src={tescaflow}
           alt="Batallia de Robots"
           className="w-3/4 md:w-2/3 lg:w-2/3 object-cover rounded-lg shadow-lg"
         />
