@@ -6,6 +6,7 @@ import Image from '../utils/Img/TechLogo.jpg';
 import energia from "../assets/symposium/EnergiaNova.png";
 import batallia from "../assets/symposium/robots.png";
 import bizqueset from "../assets/symposium/Biquest.png"
+import tescaflow from "../assets/symposium/Tescaflow.jpg"
 
 import RandomEvents from "./RandomEvents";
 import { Link } from "react-router-dom";
@@ -40,7 +41,7 @@ const CircuitTec = () => {
     },
     {
       id: 4,
-      imageSrc: Image, 
+      imageSrc: tescaflow, 
       altText: "Tescaflow",
       label: "Tescaflow",
       path: "/tescaflow",
