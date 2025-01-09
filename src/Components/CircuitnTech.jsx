@@ -4,6 +4,8 @@ import "../text.css";
 import Logo from "../utils/Img/TechLogo.jpg";
 import Card from "./Card";
 import RandomEvents from "./RandomEvents";
+import iplauction from "../assets/symposium/iplauction.jpg"
+
 
 const CircuitnTech = () => {
   const color = randomColor();

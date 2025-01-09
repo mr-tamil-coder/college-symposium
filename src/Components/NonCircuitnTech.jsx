@@ -8,6 +8,8 @@ import cini from "../assets/symposium/Cinephilia.jpg";
 import vault from "../assets/symposium/MysteryVault.jpeg";
 import deadly from "../assets/symposium/deadly.png";
 import randomColor from "randomcolor";
+import iplauction from "../assets/symposium/iplauction.jpg"
+
 import { Link } from "react-router-dom";
 // import "./NonCircuitnTech.css";
 
@@ -34,7 +36,7 @@ const NonCircuitnTech = () => {
     },
     {
       id: 4,
-      imageSrc: Image,
+      imageSrc: iplauction,
       altText: "IPL Auction",
       path: "/iplauction",
     },
