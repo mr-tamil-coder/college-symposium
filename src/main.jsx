@@ -36,6 +36,7 @@ import DeadlyDeeds from "./Components/EventDescriptions/NonTech/DeadlyDeeds.jsx"
 import Bizqueset from "./Components/EventDescriptions/Track2/Bizqueset.jsx";
 import Batallia from "./Components/EventDescriptions/Track2/Batallia.jsx";
 import TescaFlow from "./Components/EventDescriptions/Track2/TescaFlow.jsx";
+import IPL from "./Components/EventDescriptions/NonTech/IplAuction.jsx";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -97,6 +98,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/bgmi",
         element: <BGMI />,
+      },
+      {
+        path:"/iplauction",
+        element: <IPL/>,
       },
       {
         path: "/bizqueset",

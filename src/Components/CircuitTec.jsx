@@ -7,6 +7,7 @@ import energia from "../assets/symposium/energiaNova.jpg";
 import batallia from "../assets/symposium/robots.png";
 import bizqueset from "../assets/symposium/Biquest.png"
 import tescaflow from "../assets/symposium/Tescaflow.jpg"
+import cassedete from "../assets/symposium/cassedete.jpg"
 
 import RandomEvents from "./RandomEvents";
 import { Link } from "react-router-dom";
@@ -27,7 +28,7 @@ const CircuitTec = () => {
     },
     {
       id: 2,
-      imageSrc: Image, 
+      imageSrc: cassedete, 
       altText: "Casse-dete",
       label: "Casse-dete",
       onClick: () => alert("Casse-dete clicked"),
