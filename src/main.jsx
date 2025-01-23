@@ -37,6 +37,7 @@ import Bizqueset from "./Components/EventDescriptions/Track2/Bizqueset.jsx";
 import Batallia from "./Components/EventDescriptions/Track2/Batallia.jsx";
 import TescaFlow from "./Components/EventDescriptions/Track2/TescaFlow.jsx";
 import IPL from "./Components/EventDescriptions/NonTech/IplAuction.jsx";
+import Cassedete from "./Components/EventDescriptions/Track1/Cassedete.jsx";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -100,8 +101,8 @@ const appRouter = createBrowserRouter([
         element: <BGMI />,
       },
       {
-        path:"/iplauction",
-        element: <IPL/>,
+        path: "/iplauction",
+        element: <IPL />,
       },
       {
         path: "/bizqueset",
@@ -114,6 +115,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/cinephilia",
         element: <Ciniphilia />,
+      },
+      {
+        path: "/cassedete",
+        element: <Cassedete />,
       },
       {
         path: "/track2",
