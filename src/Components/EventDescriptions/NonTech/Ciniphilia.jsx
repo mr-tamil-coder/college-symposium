@@ -51,7 +51,10 @@ const Ciniphilia = () => {
 
         <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
-            Get ready for an exciting event where your love for movies will be put to the ultimate test! Whether you're a fan of classics or blockbusters, <strong>Cinephilia</strong> is the perfect challenge for movie enthusiasts.
+            Get ready for an exciting event where your love for movies will be
+            put to the ultimate test! Whether you're a fan of classics or
+            blockbusters, <strong>Cinephilia</strong> is the perfect challenge
+            for movie enthusiasts.
           </p>
         </section>
 
@@ -61,7 +64,8 @@ const Ciniphilia = () => {
           </h2>
           <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
             <li>
-              <strong>Team Formation:</strong> Each team can have 2 or 3 members. Choose your movie buffs wisely!
+              <strong>Team Formation:</strong> Each team can have 2 or 3
+              members. Choose your movie buffs wisely!
             </li>
           </ul>
         </section>
@@ -70,16 +74,21 @@ const Ciniphilia = () => {
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             Event Structure
           </h2>
-          <p className="text-body lg:text-2xl">The game consists of three thrilling rounds:</p>
+          <p className="text-body lg:text-2xl">
+            The game consists of three thrilling rounds:
+          </p>
           <ul className="list-decimal list-inside mt-4 text-body lg:text-2xl">
             <li>
-              <strong>Round 1:</strong> Test your memory of iconic movie moments.
+              <strong>Round 1:</strong> Test your memory of iconic movie
+              moments.
             </li>
             <li>
-              <strong>Round 2:</strong> A rapid-fire movie quiz to challenge your knowledge.
+              <strong>Round 2:</strong> A rapid-fire movie quiz to challenge
+              your knowledge.
             </li>
             <li>
-              <strong>Round 3:</strong> Identify the Movie Snippet – Can you name the movie from a short scene or clip?
+              <strong>Round 3:</strong> Identify the Movie Snippet – Can you
+              name the movie from a short scene or clip?
             </li>
           </ul>
           <p className="mt-4 text-body lg:text-2xl">
@@ -92,16 +101,28 @@ const Ciniphilia = () => {
             Judging
           </h2>
           <p className="text-body lg:text-2xl">
-            All decisions made by the judges will be final and conclusive. Just play... no rewinds or replays!
+            All decisions made by the judges will be final and conclusive. Just
+            play... no rewinds or replays!
           </p>
         </section>
 
         <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
-            "Bring your A-game and movie enthusiasm! This event is all about fun and camaraderie."
+            "Bring your A-game and movie enthusiasm! This event is all about fun
+            and camaraderie."
           </p>
         </section>
-
+        {/* Enquiry Section */}
+        <section className="text-gray-300">
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+            For Enquiry:
+          </h2>
+          <p className="text-body lg:text-2xl">
+            Contact: <br />
+            <strong>Samuel matthew :</strong> +919943084464
+            <br />
+          </p>
+        </section>
         <footer className="text-gray-300 mt-4">
           <p className="text-center font-bold">Have Fun!</p>
         </footer>

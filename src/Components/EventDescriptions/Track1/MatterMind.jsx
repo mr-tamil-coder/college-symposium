@@ -51,7 +51,10 @@ const MatterMind = () => {
 
         <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
-            Creativity meets logic in the art of prompt engineering. Are you ready to think outside the box and inside the code? Join us at <strong>MatterMind</strong>, where innovation and ingenuity collide in an unforgettable challenge.
+            Creativity meets logic in the art of prompt engineering. Are you
+            ready to think outside the box and inside the code? Join us at{" "}
+            <strong>MatterMind</strong>, where innovation and ingenuity collide
+            in an unforgettable challenge.
           </p>
         </section>
 
@@ -61,28 +64,51 @@ const MatterMind = () => {
           </h2>
           <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
             <li>
-              <strong>Round 1 – Trick 'O Tick:</strong> An offline quiz on computer basics and algorithms.
+              <strong>Round 1 – Trick 'O Tick:</strong> An offline quiz on
+              computer basics and algorithms.
             </li>
             <li>
-              <strong>Round 2 – Pixel Craft:</strong> 
+              <strong>Round 2 – Pixel Craft:</strong>
               <ul className="mt-2 ml-6 list-disc list-inside">
-                <li>Each team will pick a set of keywords to use as prompts.</li>
-                <li>Teams will utilize platforms like DALL·E and Pilot to generate an image based on the given keywords.</li>
-                <li>Teams must craft a creative and accurate image using the appropriate prompts.</li>
+                <li>
+                  Each team will pick a set of keywords to use as prompts.
+                </li>
+                <li>
+                  Teams will utilize platforms like DALL·E and Pilot to generate
+                  an image based on the given keywords.
+                </li>
+                <li>
+                  Teams must craft a creative and accurate image using the
+                  appropriate prompts.
+                </li>
               </ul>
             </li>
             <li>
-              <strong>Round 3 – Unwrap the Code:</strong> Using few hints, participant teams must reverse-engineer the code or deduce the correct input that generates the output within a time limit.
+              <strong>Round 3 – Unwrap the Code:</strong> Using few hints,
+              participant teams must reverse-engineer the code or deduce the
+              correct input that generates the output within a time limit.
             </li>
           </ul>
         </section>
 
         <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
-            Teams that excel in each round will move to the next stage. In the world of prompts, every word is a key. Unlock the possibilities—one line at a time!
+            Teams that excel in each round will move to the next stage. In the
+            world of prompts, every word is a key. Unlock the possibilities—one
+            line at a time!
           </p>
         </section>
-
+        {/* Enquiry Section */}
+        <section className="text-gray-300">
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+            For Enquiry:
+          </h2>
+          <p className="text-body lg:text-2xl">
+            Contact: <br />
+            <strong>Prakash Rai :</strong> +919150509625
+            <br />
+          </p>
+        </section>
         <footer className="text-gray-300 mt-4">
           <p className="text-center">Let the challenge begin!</p>
         </footer>

@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
 import EventImage from "../../../assets/symposium/iplauction.jpg"; 
-import "./MysteryVault.css";
+// import "./IPL.css";
 
 const IPL = () => {
   const tiltRef = useRef(null);
@@ -29,7 +29,7 @@ const IPL = () => {
       >
         <img
           src={EventImage}
-          alt="BGMI Tournament"
+          alt="IPL Auction"
           className="w-3/4 md:w-2/3 lg:w-2/3 object-cover rounded-lg shadow-lg"
         />
       </motion.div>
@@ -45,56 +45,64 @@ const IPL = () => {
         <h1>
           ✨
           <span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-            BGMI Tournament
+            IPL AUCTION - BME
           </span>
         </h1>
 
         <section className="text-gray-300 text-justify">
           <p>
-            Get ready to unleash your gaming prowess at the BGMI Game Tournament, a thrilling part of our college symposium! Compete against the best in an electrifying Battlegrounds Mobile India showdown, where strategy, teamwork, and precision are key. With exciting prizes, fierce battles, and an unforgettable experience, this tournament promises adrenaline-packed entertainment for gamers and spectators alike. Assemble your squad, gear up, and claim the ultimate victory!
+            Get ready to experience the excitement of the IPL Auction at our college symposium! Compete individually or in teams, demonstrate your cricket knowledge, and strategically build your franchise in a thrilling two-round event.
           </p>
         </section>
 
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Event Rules
+            Round 1
           </h2>
           <ul className="list-disc list-inside mt-4">
-            <li>Battle Royale mode - ERANGLE</li>
-            <li>4 members as a squad only allowed</li>
-            <li>Fair Play is fundamental</li>
-            <li>Any type of cheating, hacking or bug-exploiting will lead to instant disqualification</li>
+            <li>Participants can compete individually or in teams.</li>
+            <li>
+              A set of IPL-related questions will test knowledge about:
+              <ul className="list-disc list-inside pl-6">
+                <li>IPL history</li>
+                <li>Players and teams</li>
+                <li>Matches and records</li>
+                <li>Game strategies</li>
+              </ul>
+            </li>
+            <li>Scoring will be based on accuracy and speed.</li>
+            <li>The top 10 teams with the highest scores will advance to Round 2.</li>
           </ul>
         </section>
 
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Rounds
+            Round 2
           </h2>
-          <p>Total matches conducted will be 3 matches</p>
-          <ul className="list-disc list-inside">
-            <li>1st place – 10 points</li>
-            <li>2nd place – 6 points</li>
-            <li>3rd place – 5 points</li>
-            <li>4th place – 4 points</li>
-            <li>5th place – 3 points</li>
-            <li>6th place – 2 points</li>
-            <li>7th and 8th place – 1 point</li>
-            <li>9th to 16th place – 0 points</li>
-            <li>Per kill: 1 point</li>
+          <ul className="list-disc list-inside mt-4">
+            <li>
+              Teams will act as franchises with a budget of 100 crore virtual currency.
+            </li>
+            <li>
+              The objective is to bid for 25 players, with each player having:
+              <ul className="list-disc list-inside pl-6">
+                <li>
+                  Points assigned based on IPL performance, skills, and reputation.
+                </li>
+              </ul>
+            </li>
+            <li>Teams must use strategic planning to:</li>
+            <ul className="list-disc list-inside pl-6">
+              <li>Manage the budget wisely</li>
+              <li>Build the strongest squad possible</li>
+            </ul>
+            <li>
+              Final scores will be calculated based on the cumulative points of the players acquired by each team.
+            </li>
           </ul>
         </section>
 
-        <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Contact Details
-          </h2>
-          <ul className="list-disc list-inside">
-            <li>S. John Wesley - 8778666311</li>
-            <li>Larson David - 9384353707</li>
-            <li>R. Karthik Raj - 7305925366</li>
-          </ul>
-        </section>
+       
       </motion.div>
     </div>
   );

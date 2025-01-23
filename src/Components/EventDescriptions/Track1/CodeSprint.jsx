@@ -45,17 +45,18 @@ const CodeSprint = () => {
         <h1>
           ✧･ﾟ: ✦✨
           <span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-            CODE SPRINT  
-          </span>✨✦:･ﾟ✧
+            CODE SPRINT
+          </span>
+          ✨✦:･ﾟ✧
         </h1>
 
         <section className="text-gray-300 text-justify text-body lg:text-2xl">
-          <p>
-            Greetings from the Department of Information Technology!
-          </p>
+          <p>Greetings from the Department of Information Technology!</p>
           <p>
             We are excited to welcome you to a national-level technical event
-            that will challenge your creativity, problem-solving prowess, and technical expertise. Get ready to showcase your skills, compete with the best minds, and emerge victorious!
+            that will challenge your creativity, problem-solving prowess, and
+            technical expertise. Get ready to showcase your skills, compete with
+            the best minds, and emerge victorious!
           </p>
         </section>
 
@@ -64,9 +65,14 @@ const CodeSprint = () => {
             Rules & Regulations
           </h2>
           <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
-            <li>🍂 Participants can register individually or in teams of two.</li>
+            <li>
+              🍂 Participants can register individually or in teams of two.
+            </li>
             <li>🍂 Adhere to the timelines and instructions for each round.</li>
-            <li>🍂 Maintain fairness—unethical practices will lead to disqualification.</li>
+            <li>
+              🍂 Maintain fairness—unethical practices will lead to
+              disqualification.
+            </li>
             <li>🍂 Winners of each round will progress to the next stage.</li>
             <li>🍂 The judges' decisions will be final and binding.</li>
           </ul>
@@ -74,13 +80,28 @@ const CodeSprint = () => {
 
         <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
-            Step into the world of innovation and technical excellence, and let the sprint begin!
+            Step into the world of innovation and technical excellence, and let
+            the sprint begin!
+          </p>
+        </section>
+
+        {/* Enquiry Section */}
+        <section className="text-gray-300">
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+            For Enquiry:
+          </h2>
+          <p className="text-body lg:text-2xl">
+            Contact: <br />
+            <strong>Manoj siddarth :</strong> +917305627728
+            <br />
           </p>
         </section>
 
         <footer className="text-gray-300 mt-4">
           <p className="text-center">Best Regards,</p>
-          <p className="text-center font-bold">Department of Information Technology</p>
+          <p className="text-center font-bold">
+            Department of Information Technology
+          </p>
         </footer>
       </motion.div>
     </div>
