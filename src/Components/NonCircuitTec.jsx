@@ -7,7 +7,7 @@ import elo from "../assets/symposium/eloquence.jpg";
 import viz from "../assets/symposium/vizyour.jpeg";
 import wiz from "../assets/symposium/Wizzup_Debug.jpeg";
 import ghost from "../assets/symposium/Ghost.png";
-import matter from "../assets/symposium/MatterMind.jpg";
+import matter from "../assets/symposium/MatterMindNew.jpg";
 import codesprint from "../assets/symposium/CodeSprint.jpeg";
 
 import RandomEvents from "./RandomEvents";

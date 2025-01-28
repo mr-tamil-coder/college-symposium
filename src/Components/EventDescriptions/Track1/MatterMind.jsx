@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
-import EventImage from "../../../assets/symposium/MatterMind.jpg";
+import EventImage from "../../../assets/symposium/MatterMindNew.jpg";
 import "./Eloquence.css";
 
 const MatterMind = () => {
@@ -45,60 +45,60 @@ const MatterMind = () => {
         <h1>
           💡✨
           <span className="text-head lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-            MATTERMIND
+            ⚜️ MATTERMIND ⚜️
           </span>
         </h1>
 
         <section className="text-gray-300 text-justify text-body lg:text-2xl">
-          <p>
-            Creativity meets logic in the art of prompt engineering. Are you
-            ready to think outside the box and inside the code? Join us at{" "}
-            <strong>MatterMind</strong>, where innovation and ingenuity collide
-            in an unforgettable challenge.
-          </p>
+          <h2>Round 1 - Trick 'O Tick ✅</h2>
+          <p>An quiz on computer basics and algorithms</p>
         </section>
 
-        <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Event Rounds
-          </h2>
-          <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
+        <section className="text-gray-300 text-justify text-body lg:text-2xl">
+          <h2>Round 2 - 📸 Pixel Craft 🏜️</h2>
+          <p>
+            Objective: Participants must craft a prompt to generate an image
+            using an AI tool that matches the provided source image as closely
+            as possible.
+          </p>
+          <ul className="list-disc list-inside mt-4">
             <li>
-              <strong>Round 1 – Trick 'O Tick:</strong> An offline quiz on
-              computer basics and algorithms.
+              Tool: Only the specified AI tool provided by the organizers can
+              be used.
             </li>
             <li>
-              <strong>Round 2 – Pixel Craft:</strong>
-              <ul className="mt-2 ml-6 list-disc list-inside">
-                <li>
-                  Each team will pick a set of keywords to use as prompts.
-                </li>
-                <li>
-                  Teams will utilize platforms like DALL·E and Pilot to generate
-                  an image based on the given keywords.
-                </li>
-                <li>
-                  Teams must craft a creative and accurate image using the
-                  appropriate prompts.
-                </li>
-              </ul>
+              📌 Use the given AI tool to craft prompts and generate an image
+              matching the source image.
             </li>
             <li>
-              <strong>Round 3 – Unwrap the Code:</strong> Using few hints,
-              participant teams must reverse-engineer the code or deduce the
-              correct input that generates the output within a time limit.
+              📌 Submit your prompt and generated image within the given time.
             </li>
+            <li>
+              📌 Judging is based on relevance, creativity, and accuracy.
+            </li>
+            <li>📌 No external edits or plagiarized prompts are allowed.</li>
           </ul>
         </section>
 
         <section className="text-gray-300 text-justify text-body lg:text-2xl">
-          <p>
-            Teams that excel in each round will move to the next stage. In the
-            world of prompts, every word is a key. Unlock the possibilities—one
-            line at a time!
-          </p>
+          <h2>Round 3 - Unwrap the code 👩‍💻</h2>
+          <ul className="list-disc list-inside mt-4">
+            <li>
+              🔸 Setup: We display a specific output along with some hints to
+              help to reconstruct the original input or code in a time
+              constraint.
+            </li>
+            <li>
+              🔸 Workflow: Using the hints, participants must logically
+              reverse-engineer the code or deduce the correct inputs that could
+              generate the given output.
+            </li>
+            <li>
+              📌 Target: The goal is to correctly identify the inputs or code
+              that produces the given output in the shortest time.
+            </li>
+          </ul>
         </section>
-        {/* Enquiry Section */}
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             For Enquiry:
@@ -110,7 +110,7 @@ const MatterMind = () => {
           </p>
         </section>
         <footer className="text-gray-300 mt-4">
-          <p className="text-center">Let the challenge begin!</p>
+          <p className="text-left">Let the challenge begin!</p>
         </footer>
       </motion.div>
     </div>

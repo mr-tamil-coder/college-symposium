@@ -261,6 +261,23 @@ const EnergiaNova = () => {
           </ul>
         </section>
 
+        <section className="text-gray-300">
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+            Abstract and Paper Submission
+          </h2>
+          <p>
+              Submit your work to:{" "}
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSc32a8zSq5dbEOrNksN3SbqHz6EnvRihNDpW7Up5Gb1EZtFdA/viewform?usp=dialog"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 underline"
+              >
+                Click here to submit
+              </a>
+            </p>
+        </section>
+
         {/* Enquiry Contact Section */}
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">

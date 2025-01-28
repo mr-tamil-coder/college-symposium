@@ -126,7 +126,8 @@ const Eloquence = () => {
                 Abstract - Times New Roman, Size: 10, Bold, Maximum 200 words
               </li>
             </ul>
-            <p>
+            
+            {/* <p>
               Submit your abstract to:{" "}
               <a
                 href="https://forms.gle/srceNuGh9ZXaLNzv6"
@@ -136,7 +137,7 @@ const Eloquence = () => {
               >
                 Click here to submit
               </a>
-            </p>
+            </p> */}
           </div>
 
           <div>
@@ -152,7 +153,7 @@ const Eloquence = () => {
               <li>Conclusion</li>
               <li>References</li>
             </ul>
-            <p className="text-body lg:text-2xl">
+            {/* <p className="text-body lg:text-2xl">
               Submit your full paper to:{" "}
               <a
                 href="https://forms.gle/Fk7QTgXbBHrWcEZ56"
@@ -162,7 +163,7 @@ const Eloquence = () => {
               >
                 Click here to submit
               </a>
-            </p>
+            </p> */}
           </div>
 
           <div>
@@ -174,7 +175,7 @@ const Eloquence = () => {
               other format will be accepted. The presentation duration is 8–10
               minutes and the Q&A session is 2–3 minutes.
             </p>
-            <p className="text-body lg:text-2xl">
+            {/* <p className="text-body lg:text-2xl">
               Submit your presentation to:{" "}
               <a
                 href="https://forms.gle/T9GBbbq3wNWfHbSe6"
@@ -184,9 +185,28 @@ const Eloquence = () => {
               >
                 Click here to submit
               </a>
-            </p>
+            </p> */}
           </div>
         </section>
+
+          <div>
+            <h3 className="text-head md:text-xl lg:text-2xl font-semibold gradient-text">
+              For Submission:
+            </h3>
+            <p className="text-body lg:text-2xl">
+              Submit your work to:{" "}
+              <a
+                href="https://forms.gle/Pz3g4aFGi96jEtvWA"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 underline"
+              >
+                Click here to submit
+              </a>
+            </p>
+          </div>
+
+        
 
         <section className="text-gray-300">
           <h2 className="text-head md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">

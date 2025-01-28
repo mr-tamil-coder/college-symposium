@@ -31,7 +31,7 @@ const CircuitTec = () => {
       imageSrc: cassedete, 
       altText: "Casse-dete",
       label: "Casse-dete",
-      onClick: () => alert("Casse-dete clicked"),
+      path: "/cassedete",
     },
     {
       id: 3,

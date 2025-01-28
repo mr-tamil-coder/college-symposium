@@ -65,6 +65,10 @@ const appRouter = createBrowserRouter([
         element: <EnergiaNova />,
       },
       {
+        path: "/cassedete",
+        element: <Cassedete />,
+      },
+      {
         path: "/batallia",
         element: <Batallia />,
       },
