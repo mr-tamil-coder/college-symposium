@@ -97,7 +97,7 @@ const Eloquence = () => {
           </ul>
         </section>
 
-        <section className="text-gray-300">
+        {/* <section className="text-gray-300">
           <h2 className="text-head md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             Paper Presentation Deadlines
           </h2>
@@ -107,7 +107,7 @@ const Eloquence = () => {
             <li>Full Paper Submission: 10.01.2025</li>
             <li>Presentation Submission: 27.01.2025</li>
           </ul>
-        </section>
+        </section> */}
 
         <section className="text-gray-300">
           <h2 className="text-head md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">

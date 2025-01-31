@@ -205,7 +205,7 @@ const EnergiaNova = () => {
         </section>
 
         {/* Paper Submission Deadlines Section */}
-        <section className="text-gray-300">
+        {/* <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             Paper Submission Deadlines
           </h2>
@@ -214,7 +214,7 @@ const EnergiaNova = () => {
             <li>Notification of Acceptance: 27.12.24</li>
             <li>Full Paper Submission: 31.12.24</li>
           </ul>
-        </section>
+        </section> */}
 
         {/* Presentation Rules Section */}
         <section className="text-gray-300">
