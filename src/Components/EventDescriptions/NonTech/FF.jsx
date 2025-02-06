@@ -74,14 +74,14 @@ const FreeFire = () => {
         </section>
 
         <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+          {/* <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             ✨ Mark Your Calendar ✨
-          </h2>
-          <ul className="list-none mt-4 text-body lg:text-2xl">
+          </h2> */}
+          {/* <ul className="list-none mt-4 text-body lg:text-2xl">
             <li>📅 <strong>Date:</strong> 02.02.2025</li>
             <li>⏰ <strong>Time:</strong> 3 PM to 8 PM</li>
             <li>🌐 <strong>Mode:</strong> Online</li>
-          </ul>
+          </ul> */}
           <p className="mt-4 text-body lg:text-2xl">
             Excited to join? What are you waiting for? 🤔  
             💫 Reserve your spot for this fantastic gaming event!
