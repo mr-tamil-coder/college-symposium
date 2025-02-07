@@ -8,7 +8,7 @@ const Contact = () => {
       trackName: "TRACK I",
       coordinators: [
         {
-          name: "Amritha Varshini S",
+          name: "Amrithavarshini S",
           designation: "Student Coordinator",
           phone: "+919150829797",
         },
