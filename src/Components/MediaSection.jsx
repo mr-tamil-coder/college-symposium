@@ -54,7 +54,7 @@ const MediaSection = () => {
         {/* Twitter Button */}
         <button
           className="media"
-          onClick={() => redirectTo('https://www.x.com/jerusalem_chn/')}
+          onClick={() => redirectTo('https://x.com/jerusalem_chn?s=21')}
         >
           <svg
             viewBox="0 0 512 512"
@@ -72,7 +72,7 @@ const MediaSection = () => {
         {/* Facebook Button */}
         <button
           className="media"
-          onClick={() => redirectTo('https://www.facebook.com/jerusalem.chn')}
+          onClick={() => redirectTo('https://m.facebook.com/jerusalem.chn/')}
         >
           <svg
             height="24"
