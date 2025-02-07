@@ -8,9 +8,9 @@ const Contact = () => {
       trackName: "TRACK I",
       coordinators: [
         {
-          name: "Keerthi Vaasan SJ",
+          name: "Amirtha Varshini S",
           designation: "Student Coordinator",
-          phone: "+919952647749",
+          phone: "+919150829797",
         },
         {
           name: "Gowtham S",

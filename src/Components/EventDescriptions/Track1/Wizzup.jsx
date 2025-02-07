@@ -62,7 +62,7 @@ const Wizzup = () => {
             General Rules
           </h2>
           <ul className="list-disc list-inside text-body lg:text-2xl">
-            <li>Teams must consist of exactly 2 members.</li>
+            <li>Teams must consist of exactly 2 members (Only Registered!).</li>
             <li>Electronic devices such as mobile phones or laptops are not
               allowed, except for the provided systems.
             </li>

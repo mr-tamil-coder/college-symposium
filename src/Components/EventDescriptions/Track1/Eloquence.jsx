@@ -62,21 +62,11 @@ const Eloquence = () => {
           </h2>
           <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
             <li>Minimum : 1 Member</li>
-            <li>Maximum : 3 Members</li>
+            <li>Maximum : 3 Members(Only Registered!)</li>
             
           </ul>
         </section>
-        <section className="text-gray-300 text-justify">
-          <h2 className="text-head lg:text-4xl font-bold mb-2 gradient-text">
-            Major Domains
-          </h2>
-          <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
-            <li>CSE/ CS&BS</li>
-            <li>IT</li>
-            <li>AI&DS / Cyber Security</li>
-            <li>AI&ML</li>
-          </ul>
-        </section>
+       
 
         <section className="text-gray-300">
           <h2 className="text-head md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
@@ -175,6 +165,8 @@ const Eloquence = () => {
               other format will be accepted. The presentation duration is 8–10
               minutes and the Q&A session is 2–3 minutes.
             </p>
+            <br/>
+            <p className="text-body lg:text-2xl">For teams of two or three, only one member needs to submit the abstract.</p>
             {/* <p className="text-body lg:text-2xl">
               Submit your presentation to:{" "}
               <a
