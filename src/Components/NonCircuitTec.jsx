@@ -3,7 +3,7 @@ import randomColor from "randomcolor";
 import "../text.css";
 import Card from "./Card";
 import Image from "../utils/Img/TechLogo.jpg";
-import elo from "../assets/symposium/eloquence.jpg";
+import elo from "../assets/symposium/eloquence1.jpg";
 import viz from "../assets/symposium/vizyour.jpeg";
 import wiz from "../assets/symposium/Wizzup_Debug.jpeg";
 import ghost from "../assets/symposium/Ghost.png";

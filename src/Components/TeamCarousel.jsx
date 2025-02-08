@@ -5,10 +5,11 @@ import "slick-carousel/slick/slick-theme.css";
 import "../text.css";
 import vinoth from "../utils/Img/vinoth.jpg";
 import shifan from "../utils/Img/shifan.jpg";
+import Damo from "../utils/Img/damo.jpg";
 const teamMembers = [
   {
     name: "Damodharan",
-    image: "john.jpg",
+    image: Damo,
     year: "4th Year",
     dept: "CSE",
     linkedIn: "https://www.linkedin.com/in/",
