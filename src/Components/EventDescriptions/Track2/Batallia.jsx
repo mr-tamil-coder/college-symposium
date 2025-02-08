@@ -66,35 +66,56 @@ const Batallia = () => {
               Rules and Regulations:
           </span></h2>
           <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
-            <li>🤖 A robot must be autonomous with pre-defined algorithms (no remote control allowed during the race).</li>
-            <li>🔍 Allowed sensors include infrared, ultrasonic, and optical sensors for line following and obstacle detection.</li>
+            <li>All type of robots(racing and non-racing) can participate.</li>
+            <li>Manually controlled an autonomous robots are allowed.</li>
+            <li>Performance-based qualification</li>
+            <li>Non-racing robot will be evaluated based on specific performance criteria
+              instead of race time.
+            </li>
+            <li>Racing robots will still compete in speed based rounds</li>
           </ul>
         </section>
 
         <section className="text-gray-300">
           <h2>🚦
           <span className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-             Round Details:
+             Round Details:[RACING]
           </span></h2>
-          <h3 className="font-semibold mt-4 text-body lg:text-2xl">Round 1: Qualifying Round</h3>
+          <h3 className="font-semibold mt-4 text-body lg:text-2xl">Qualifying Round:</h3>
           <ul className="list-disc list-inside mt-2 text-body lg:text-2xl">
-            <li>Each robot gets two attempts to complete the track.</li>
+            <li>Racing robots gets two attempts to complete the track. Best time is recorded, Based on performance,robot will be qualified for the next round.</li>
             <li>The best time out of two attempts is recorded.</li>
           </ul>
-          <h3 className="font-semibold mt-4 text-body lg:text-2xl">Round 2: Elimination Round</h3>
+          <h3 className="font-semibold mt-4 text-body lg:text-2xl">Elimination Round:</h3>
           <ul className="list-disc list-inside mt-2 text-body lg:text-2xl">
-            <li>Robots compete in pairs, with the winner advancing to the next round.</li>
+            <li>Racing robots compete in pairs, with the winner advancing.(It can be in track or in non-track based on robot)</li>
             <li>Pairings are based on qualifying times.</li>
           </ul>
-          <h3 className="font-semibold mt-4 text-body lg:text-2xl">Round 3: Semifinals</h3>
+          <h3 className="font-semibold mt-4 text-body lg:text-2xl">Finals:</h3>
           <ul className="list-disc list-inside mt-2 text-body lg:text-2xl">
-            <li>Remaining robots are paired or grouped based on their performance in the elimination round.</li>
-            <li>Winners of the semifinal round advance to the final round.</li>
+            <li>Categorized robot compete in respective categories.</li>
+          
           </ul>
-          <h3 className="font-semibold mt-4 text-body lg:text-2xl">Round 4: Finals</h3>
+        </section>
+        <section className="text-gray-300">
+          <h2>🚦
+          <span className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+             Round Details:[NON RACING]
+          </span></h2>
+          <h3 className="font-semibold mt-4 text-body lg:text-2xl">Qualifying Round:</h3>
           <ul className="list-disc list-inside mt-2 text-body lg:text-2xl">
-            <li>The top 4 robots compete in a final race.</li>
-            <li>The winner of the final race is declared the overall champion.</li>
+            <li>Non Racing robots are tested on specific challenges like obstacle navigation,precision tasks or innovation</li>
+            <li>Based on performance,robot will qualified for the next round.</li>
+          </ul>
+          <h3 className="font-semibold mt-4 text-body lg:text-2xl">Elimination Round:</h3>
+          <ul className="list-disc list-inside mt-2 text-body lg:text-2xl">
+            <li>Non-racing robots are judged based on innovation,functionality and technical execution.</li>
+            
+          </ul>
+          <h3 className="font-semibold mt-4 text-body lg:text-2xl">Finals:</h3>
+          <ul className="list-disc list-inside mt-2 text-body lg:text-2xl">
+            <li>The categorized robot compete in respective categories.</li>
+          
           </ul>
         </section>
       </motion.div>

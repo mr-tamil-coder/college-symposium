@@ -38,6 +38,8 @@ import Batallia from "./Components/EventDescriptions/Track2/Batallia.jsx";
 import TescaFlow from "./Components/EventDescriptions/Track2/TescaFlow.jsx";
 import IPL from "./Components/EventDescriptions/NonTech/IplAuction.jsx";
 import Cassedete from "./Components/EventDescriptions/Track1/Cassedete.jsx";
+import TeamCarousel from "./Components/TeamCarousel.jsx";
+
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -176,6 +178,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/wizzup",
         element: <Wizzup />,
+      },
+      {
+        path: "/team",
+        element: <TeamCarousel/>,
       },
     ],
   },
