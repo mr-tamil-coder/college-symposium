@@ -15,7 +15,7 @@ const MediaSection = () => {
         {/* Instagram Button */}
         <button
           className="media"
-          onClick={() => redirectTo('https://www.instagram.com/jerusalem_chn/')}
+          onClick={() => redirectTo('https://www.instagram.com/technovanza_2k_25')}
         >
           <svg
             viewBox="0 0 24 24"

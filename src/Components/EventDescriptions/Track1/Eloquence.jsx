@@ -206,7 +206,7 @@ const Eloquence = () => {
           </h2>
           <p className="text-body lg:text-2xl">
             Contact: <br />
-            <strong>Theophila Murphy:</strong> +91 8610388629 <br />
+            <strong>Janani M V:</strong> +91 8072147950 <br />
             <strong>Sharan S:</strong> +91 8248782437
           </p>
         </section>
