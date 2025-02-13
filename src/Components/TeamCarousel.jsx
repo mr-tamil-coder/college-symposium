@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "./Contact.css"; 
 import "../text.css";
 import vinoth from "../utils/Img/vinoth.jpg";
 import shifan from "../utils/Img/shifan.jpg";
@@ -111,16 +112,16 @@ const TeamCarousel = () => {
   };
 
   return (
-    <div className=" py-10 relative">
+    <div className="py-10 relative">
       <h2 className="text-center roboto-slab-500 text-3xl tracking-widest">Developers</h2>
       <Slider {...settings}>
         {teamMembers.map((member, index) => (
           <div key={index} className="p-4">
-            <div className="bg-transparent outline outline-white outline-1 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 mx-auto max-w-xs">
+            <div className="anim-card bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 p-6 mx-auto max-w-xs">
               <img
                 src={member.image}
                 alt={`${member.name}'s Avatar`}
-                className="w-32 h-32 rounded-full mx-auto mb-4 object-cover bg-cover border-4 border-gray-700"
+                className="w-36 h-36 mx-auto mb-4 object-cover bg-cover"
               />
               <h3 className="text-xl font-semibold text-center text-white">
                 {member.name}
