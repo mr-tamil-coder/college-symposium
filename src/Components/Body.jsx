@@ -19,6 +19,9 @@ import LocateMap from "./LocateMap";
 import Teams from "./Teams";
 import "animate.css";
 import { Link } from "react-router-dom";
+import Carousel from "./Carousel";
+import OverallGuest from "./OverallGuest";
+import Carousel1 from "./Carousel1";
 
 const Body = () => {
   // const [loading, setLoading] = useState(true);
@@ -54,6 +57,9 @@ const Body = () => {
       {/* <HomeEventDetails />
       <InfoSections />
       <TeamCarousel /> */}
+      <OverallGuest />
+      <Carousel1 />
+      <Carousel />
       <Faq />
       {/* <MediaSection />
       <ContactUs />
