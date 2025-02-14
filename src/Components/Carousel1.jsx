@@ -29,7 +29,7 @@ const Carousel1 = () => {
   };
 
   return (
-    <div className="relative w-full h-[900px] overflow-hidden flex justify-center items-center my-10 ">
+    <div className="relative w-full md:h-[900px] h-[600px] overflow-hidden flex justify-center items-center md:my-5 my-2">
       <AnimatePresence mode="wait">
         <motion.img
           key={currentIndex}
